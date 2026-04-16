@@ -1,0 +1,273 @@
+<!-- wp:html -->
+
+<div style="background:linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);border-radius:16px;padding:32px 36px;margin:0 0 32px 0;box-shadow:0 6px 24px rgba(30,27,75,0.22);">
+
+  <div style="font-size:12px;color:#a78bfa;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:14px;">TL;DR</div>
+
+  <p style="font-weight:800;font-size:22px;color:#ffffff;margin:0 0 14px 0;line-height:1.35;border-left:4px solid #8b5cf6;padding-left:16px;">AI 개발 도구 모니터링 자동화 시대 2026-04-10 — Claude Code Monitor, OpenAI 아동 안전, Gemini Notebooks, strix 보안 테스터</p>
+
+  <p style="font-size:15px;color:#a78bfa;font-weight:600;margin:0 0 16px 0;">AI 개발 도구가 수동 관찰에서 자율 모니터링으로 전환되고 있다</p>
+
+  <ul style="margin:0;padding-left:20px;list-style:none;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Anthropic이 Claude Code에 이벤트 기반 Monitor Tool을 도입해 폴링 대비 토큰 소비를 대폭 절감하고 크래시 감지 시 자동 PR 제출을 지원한다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">OpenAI는 AI 시대의 아동 보호를 위한 Child Safety Blueprint를 발표하여 법률 현대화·제공자 보고 개선·안전 설계 내장 3대 우선순위를 제시했다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Google은 Gemini 앱에 Notebooks 기능을 통합해 NotebookLM과의 양방향 실시간 동기화로 연구-대화-정리 워크플로를 하나로 묶었다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">strix는 Graph of Agents 아키텍처로 IDOR, SQL Injection, XSS 등을 자동 탐지하고 PoC 익스플로잇을 생성하는 Apache 2.0 라이선스 오픈소스 보안 테스터다.</li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">핵심 이슈 심층 분석</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">1. Claude Code Monitor Tool — 이벤트 기반 자율 모니터링</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026년 4월 10일</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Anthropic이 Claude Code에 Monitor Tool을 도입했다. 폴링(주기적 상태 확인) 기반 모니터링의 대안으로 이벤트 드리븐 접근법을 채택하여 백그라운드 프로세스가 시스템 활동을 수동적으로 관찰하다가 특정 조건 충족 시에만 에이전트를 활성화한다. Kubernetes 환경에서 kubectl logs -f와 grep 필터 결합으로 특정 에러 패턴을 실시간 추적할 수 있다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">핵심 기능은 패시브 로그 모니터링, 조건부 알림, 실시간 스트리밍, 크래시 감지 시 자동 PR 제출의 네 가지다. 이벤트 기반 방식은 실제 이상 발생 시에만 토큰을 사용하므로 대규모 인프라 팀의 AI 에이전트 운영 비용을 구조적으로 절감한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">논블로킹 아키텍처로 모니터링 중에도 대화 흐름이 중단되지 않는다. 이 패턴은 AI 코딩 에이전트가 단순 코드 생성을 넘어 DevOps 영역까지 역할을 확장하는 신호다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">2. OpenAI Child Safety Blueprint — AI 기반 아동 착취 대응 3대 전략</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">OpenAI 공식 블로그 · 2026년 4월 8일</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">OpenAI가 Child Safety Blueprint를 공개했다. AI가 아동 성착취물(CSAM) 생성에 악용되는 위험에 대응하기 위한 산업-시민사회-정부 협력 프레임워크다. IWF에 따르면 2025년 상반기 AI 생성 CSAM 사례는 8,000건 이상으로 전년 대비 14% 증가했다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Blueprint의 3대 우선순위는 (1) AI 생성 및 변형 CSAM 대응을 위한 법률 현대화, (2) 제공자 보고 및 조정 개선, (3) AI 시스템 자체에 안전 설계(Safety-by-Design) 내장이다. NCMEC, 법무장관 연맹 AI 태스크포스, Thorn 등과 협업으로 실효성을 확보했다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">사후 대응에서 사전 예방으로의 패러다임 전환이다. 모델 훈련 단계의 데이터 필터링과 추론 단계의 실시간 탐지 레이어라는 다층 방어 구조가 요구되며, 향후 EU AI Act 등 규제 프레임워크에도 반영될 전망이다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">3. Gemini Notebooks — NotebookLM 통합으로 연구 워크플로 일원화</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">Google 공식 블로그 · 2026년 4월 8일</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Google이 Gemini 앱에 Notebooks 기능을 도입했다. Gemini 대화에서 얻은 인사이트를 즉시 NotebookLM 프로젝트에 반영할 수 있고, NotebookLM에서 정리한 연구 자료를 Gemini 대화에서 참조할 수 있다. 기존에 분리돼 있던 대화형 AI와 연구 도구 간의 컨텍스트 단절이 해소된다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">핵심 워크플로는 Gemini에서 주제 탐색 → Notebooks에 저장 후 NotebookLM 자동 동기화 → NotebookLM 심층 분석 결과를 다시 Gemini에서 활용하는 3단계다. 양방향 동기화로 연구-대화-정리 사이클이 끊김 없이 순환한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">Google이 AI 도구 생태계를 단일 워크플로로 수렴시키는 전략이다. Anthropic의 Artifacts, OpenAI의 Canvas와 경쟁하는 구도에서 다중 제품 간 시너지가 Google의 차별점으로 작동한다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">4. strix — AI 에이전트 기반 자율 보안 테스트 도구</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026년 4월 10일</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">strix는 Apache 2.0 라이선스로 공개된 AI 기반 자율 보안 테스트 도구다. Graph of Agents 아키텍처로 분산 워크플로와 병렬 실행을 통해 포괄적 보안 평가를 수행하며, 실제 해커와 동일하게 코드를 직접 실행하며 발견된 취약점에 대해 PoC 익스플로잇을 생성·검증한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">탐지 취약점은 IDOR, 권한 상승, SQL Injection, SSRF, XSS, JWT 취약점 등이다. 내장 도구로 HTTP 프록시, 브라우저 자동화, 터미널, Python 런타임, OSINT 정찰, 코드 분석을 제공한다. GPT-5.4, Claude Sonnet 4.6, Gemini 3 Pro Preview 등 주요 LLM을 지원한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">CI/CD 파이프라인 네이티브 통합이 핵심 차별점이다. GitHub Actions에서 PR마다 자동 보안 스캔을 실행하고 취약점 발견 시 파이프라인을 차단한다. 보안 테스트를 개발 마지막 단계가 아닌 코드 리뷰 단계로 옮기는 Shift Left 전략의 AI 구현이다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">출처</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28376" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Claude Code Monitor Tool — GeekNews</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://openai.com/index/introducing-child-safety-blueprint" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Introducing the Child Safety Blueprint — OpenAI</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Notebooks in Gemini — Google Blog</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28364" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">strix: Open-Source AI Security Tester — GeekNews</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">관련 글</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 40px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/11/ai-agent-tools-mcp-multica-axios-shopify-april-11-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 도구 생태계 재편 — MCP, multica, Axios, Shopify (2026-04-11)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-agent-architecture-advisor-gemini-openai-meta-april-10-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 아키텍처 전환 — Advisor 패턴, Gemini 3D, OpenAI Frontier (2026-04-10)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/09/claude-managed-agents-2026-04-09-evening/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Claude Managed Agents 공개 (2026-04-09 저녁)</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:html -->
+
+<div style="background:#1e1b4b;border-radius:12px;padding:24px 28px;margin:32px 0 0 0;text-align:center;">
+
+  <p style="font-size:13px;color:#a78bfa;margin:0;letter-spacing:0.04em;">AI Biz Insider · AI 트렌드 · aibizinsider.com</p>
+
+  <p style="font-size:12px;color:#6d6aaa;margin:8px 0 0 0;">2026년 4월 10일 저녁판 · AI Biz Insider</p>
+
+</div>
+
+<!-- /wp:html -->

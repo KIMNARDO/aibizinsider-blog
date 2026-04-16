@@ -1,0 +1,22 @@
+[
+  { "slug": "ai-business-strategy", "prompt": "Corporate boardroom with holographic AI data visualizations floating above the table, blue and gold color scheme" },
+  { "slug": "ai-startup-funding", "prompt": "Modern tech startup office with venture capital money flowing as digital particles, futuristic atmosphere" },
+  { "slug": "ai-chip-race", "prompt": "Close-up of a glowing AI processor chip with circuit board patterns, neon blue and purple lighting" },
+  { "slug": "openai-gpt-update", "prompt": "Abstract neural network visualization with glowing nodes and connections, dark background with green accents" },
+  { "slug": "google-gemini-launch", "prompt": "Futuristic search engine interface with AI brain hologram, Google-inspired color palette" },
+  { "slug": "ai-healthcare", "prompt": "Robot arm performing precision surgery with holographic medical displays, clean clinical environment" },
+  { "slug": "ai-regulation-policy", "prompt": "Government building with digital shield and AI law symbols, dramatic lighting, red and white tones" },
+  { "slug": "ai-job-market", "prompt": "Split scene showing human worker and AI robot working side by side in modern office" },
+  { "slug": "autonomous-driving", "prompt": "Self-driving car navigating a smart city at night with heads-up display overlays and sensor data" },
+  { "slug": "ai-education", "prompt": "Student using holographic AI tutor in a futuristic classroom with floating educational displays" },
+  { "slug": "cloud-computing-ai", "prompt": "Massive data center with glowing server racks connected by light streams to a cloud, purple tones" },
+  { "slug": "ai-cybersecurity", "prompt": "Digital fortress with AI-powered shield deflecting cyber attacks, dark background with red threat indicators" },
+  { "slug": "robotics-manufacturing", "prompt": "Assembly line of humanoid robots building electronics in a clean modern factory" },
+  { "slug": "ai-finance-trading", "prompt": "Wall Street trading floor with AI-generated holographic stock charts and predictive analytics" },
+  { "slug": "nlp-language-models", "prompt": "Abstract visualization of words and sentences transforming into understanding, flowing text ribbons" },
+  { "slug": "ai-art-creativity", "prompt": "Robot hand painting on a digital canvas with colorful abstract art emerging from the brush" },
+  { "slug": "quantum-computing-ai", "prompt": "Quantum computer core with swirling qubits and probability clouds, blue and cyan glow" },
+  { "slug": "ai-climate-tech", "prompt": "Earth viewed from space with AI-monitored climate data overlays, green technology networks" },
+  { "slug": "tech-digest-weekly", "prompt": "Floating holographic newspaper with tech headlines and circuit board background, green accent lighting" },
+  { "slug": "ai-economy-impact", "prompt": "Globe with interconnected AI nodes showing economic flow between countries, orange and gold tones" }
+]

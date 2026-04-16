@@ -1,0 +1,209 @@
+<!-- wp:html -->
+
+<div style="background:linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);border-radius:16px;padding:32px 36px;margin:0 0 32px 0;box-shadow:0 6px 24px rgba(30,27,75,0.22);">
+
+  <div style="font-size:12px;color:#a78bfa;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:14px;">TL;DR</div>
+
+  <p style="font-weight:800;font-size:22px;color:#ffffff;margin:0 0 14px 0;line-height:1.35;border-left:4px solid #8b5cf6;padding-left:16px;">OpenAI $122B 메가 펀딩, Google Veo 3.1 Lite 출시, Claude Code 소스 유출 — 2026년 4월 1일 AI 업데이트</p>
+
+  <p style="font-size:15px;color:#a78bfa;font-weight:600;margin:0 0 16px 0;">자금·비디오 생성·에이전트 소스 노출이 같은 날 벌어졌다</p>
+
+  <ul style="margin:0;padding-left:20px;list-style:none;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">OpenAI의 1,220억 달러 규모 자금 조달이 공식 확인됐다. 차세대 컴퓨팅 인프라 확충이 목적이다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Google이 Veo 3.1 Lite를 출시했다. 경량 비디오 생성 모델로 Workspace·소셜 크리에이터용 시나리오에 맞췄다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Anthropic Claude Code 내부 소스가 npm을 통해 약 512,000라인 분량으로 실수 노출됐다. 에이전트 아키텍처 분석 논의가 커뮤니티에서 확산됐다.</li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">핵심 이슈 심층 분석</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">1. OpenAI $122B 메가 펀딩</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">OpenAI의 1,220억 달러(약 122조원) 규모 자금 조달이 공식 발표 수순으로 확인됐다. 조달 자금은 차세대 모델 훈련 인프라, 데이터센터 부지 확보, 전력·네트워크 인프라에 투입된다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Microsoft와의 긴 관계 외에 Oracle, 사우디 PIF 등 신규 투자자가 참여한다. AI 인프라 경쟁이 국가급 자본 투자 단계에 진입했다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">AI 산업 진입 장벽이 자본 중심으로 재편된다. 한국은 독자적 프런티어 모델 경쟁보다는 오픈 모델 활용·수직 전문화·온디바이스 전략에서 차별화할 여지가 있다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">2. Google Veo 3.1 Lite 출시</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Google이 Veo 3.1 Lite를 출시했다. 비디오 생성 품질을 유지하면서 추론 비용·지연을 낮춘 경량 모델이다. Workspace Vids, YouTube Shorts 제작, 소셜 크리에이터 워크플로를 타깃으로 한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Veo 전체 라인업이 Pro·Lite로 세분화되며 사용 목적별 티어링이 정착된다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">멀티모달 모델도 티어 세분화 흐름에 합류했다. 생성 품질과 비용의 균형점을 워크로드별로 선택할 수 있게 된다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">3. Claude Code 내부 소스 유출</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Anthropic Claude Code의 내부 소스 약 512,000라인 분량이 npm 패키지 배포 과정의 실수로 잠시 공개됐다. 커뮤니티는 패키지가 내려간 후에도 미러링된 사본을 분석해 에이전트 아키텍처·프롬프트 구조·도구 정의 방식을 해석했다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">의도적 공개가 아닌 보안 사고지만 결과적으로 AI 코딩 에이전트 설계의 업계 표준 논의가 가속됐다. Anthropic은 해당 패키지를 철회하고 재발 방지를 약속했다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">프런티어 AI 기업의 내부 구현 세부는 경쟁 자산인 동시에 보안 자산이다. 공급망 보안(Axios 사례)과 내부 소스 관리가 같은 축의 과제임이 드러났다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">출처</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://www.reuters.com" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Reuters — OpenAI 1,220억 달러 조달</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://blog.google" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Google Blog — Veo 3.1 Lite</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28050" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews — Claude Code 소스 유출</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">관련 글</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 40px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/11/ai-agent-tools-mcp-multica-axios-shopify-april-11-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 도구 생태계 재편 — MCP, multica, Axios, Shopify (2026-04-11)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-dev-monitoring-claude-openai-gemini-apr-10/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 개발 도구 모니터링 자동화 시대 (2026-04-10 저녁)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-agent-architecture-advisor-gemini-openai-meta-april-10-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 아키텍처 전환 — Advisor 패턴, Gemini 3D, OpenAI Frontier (2026-04-10)</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:html -->
+
+<div style="background:#1e1b4b;border-radius:12px;padding:24px 28px;margin:32px 0 0 0;text-align:center;">
+
+  <p style="font-size:13px;color:#a78bfa;margin:0;letter-spacing:0.04em;">AI Biz Insider · AI 트렌드 · aibizinsider.com</p>
+
+  <p style="font-size:12px;color:#6d6aaa;margin:8px 0 0 0;">2026년 4월 1일 발행 · AI Biz Insider</p>
+
+</div>
+
+<!-- /wp:html -->

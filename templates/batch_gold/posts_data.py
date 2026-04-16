@@ -1,0 +1,287 @@
+# -*- coding: utf-8 -*-
+"""Compact data for remaining AI_BIZ_KR posts."""
+
+POSTS = {
+558: {
+ "headline":"대한민국 인공지능행동계획 확정, 99개 실행과제와 326개 정책권고로 AI 3강 도약 청사진",
+ "bullets":[
+  "2026년 2월 25일 국가인공지능전략위원회 제2차 전체회의에서 <span style=\"color:#fbbf24;font-weight:700;\">법정계획</span>으로 의결",
+  "AI기본법 제6조 근거, 2026~2028년 <span style=\"color:#fbbf24;font-weight:700;\">99개 실행과제·326개 정책권고</span>",
+  "3대 정책축: AI 혁신 생태계, 범국가 AI 기반 대전환, 국제 AI 기본사회 기여",
+  "2026년 AI 예산 <span style=\"color:#fbbf24;font-weight:700;\">10조 1,000억 원</span>(전년 대비 3배), 법률 개정 20건·시행령 개정 4건",
+  "K-문샷 프로젝트 연계 — 첨단바이오·피지컬AI·AI과학자·반도체 8대 분야 2035년 목표"],
+ "sections":[
+  ("행동계획의 법적 근거와 체계","대통령 직속 국가인공지능전략위원회가 AI기본법 제6조에 따라 3년마다 수립하는 법정계획이다. 분과위원 52명 포함 총 85명의 전문가가 참여해 혁신·교육·산업·윤리·민주주의 전 분야 정책권고를 도출했다.","법률-전략-실행 3단 구조","법적 구속력을 가진 법정계획으로, 각 부처는 연도별 시행계획을 수립하고 이행 실적을 보고해야 한다. 기업 입장에서는 정부 사업 공고·규제 방향·지원 정책의 근거 문서가 된다."),
+  ("3대 정책축 상세","제1축은 AI 혁신 생태계 조성, 제2축은 범국가 AI 기반 대전환(정부 정보관리 민간 클라우드 이관, 복지 자동화, 교육과정 개편), 제3축은 국제 AI 거버넌스 주도를 목표로 한다.","국내외 전략 비교","한국은 진흥+규제 균형 접근으로 EU AI Act(규제 중심)와 미국(행정명령 기반)의 중간에 위치한다. 고위험 AI 기준은 10^26 FLOP로 EU(10^25)보다 완화됐고, 최소 1년 계도기간을 운영한다.")],
+ "analysis":"법정계획 확정은 한국 AI 정책이 선언에서 실행으로 전환됐음을 의미한다. 기업은 규제 준수를 비용이 아닌 경쟁력으로 인식하고, AI 예산 10.1조 원이 배분되는 99개 과제를 선점해야 하며, K-문샷 2035년 장기 비전에서 자사 포지셔닝을 검토해야 한다. 2027년 1월 계도기간 종료 전 투명성·안전관리 체계 완비가 필수다.",
+ "sources":[("과학기술정보통신부 — 대한민국 인공지능행동계획(안) 보도자료","https://www.msit.go.kr"),("국가법령정보센터 — 인공지능 기본법 원문","https://www.law.go.kr/lsInfoP.do?lsiSeq=268543"),("국가인공지능전략위원회","https://aikorea.go.kr/")],
+ "related":[("에이전틱 AI 얼라이언스 출범, 250개 기관 4개 분과 분석","https://aibizinsider.com/2026/04/11/korea-agentic-ai-alliance-250-organizations-4-divisions-analysis-2026/"),("AI 기본법 시행 3개월 현황, 고영향 AI 판단 기준과 기업 대응","https://aibizinsider.com/2026/04/05/korea-ai-basic-law-2026-high-impact-ai-compliance-guide/")]
+},
+550: {
+ "headline":"AI 인프라 투자 본격화 — Railway 1억 달러, AWS 양다리 전략, Atlassian 에이전트 확장",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">Railway:</span> 시리즈 B 1억 달러, 개발자 200만 명, 자체 데이터센터로 50% 비용 절감",
+  "<span style=\"color:#fbbf24;font-weight:700;\">AWS:</span> Anthropic·OpenAI 동시 수십억 달러 투자 공식 옹호, 경쟁+파트너십 병행 전략",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Atlassian Confluence:</span> Lovable·Replit·Gamma 등 외부 AI 에이전트 직접 호출 개방",
+  "AI 인프라 투자의 무게중심이 모델에서 배포·실행 환경, 업무 통합 계층으로 이동",
+  "한국 기업은 멀티 모델 라우팅·AI 네이티브 PaaS·협업 도구 에이전트화를 동시 검토 필요"],
+ "sections":[
+  ("Railway 시리즈 B 1억 달러","Railway는 AI 워크로드에 최적화된 자체 데이터센터를 구축해 Google Cloud를 떠났고 하이퍼스케일러 대비 약 50% 비용 절감을 달성했다. 누적 개발자 200만 명은 별도 영업 없이 유기적 성장만으로 도달한 수치다.","분석","PaaS 시장이 다시 열리고 있다. AI 에이전트와 LLM 워크로드는 전통 웹보다 변동성이 크고 콜드 스타트가 비용에 직결된다. 한국 시장에서도 데이터 주권 요구와 결합되면 자체 인프라 옵션을 재검토할 동기가 커진다."),
+  ("AWS 양다리 베팅과 Atlassian 에이전트 허브","AWS는 Anthropic·OpenAI 양쪽 투자가 클라우드 사업 관행과 일치한다고 옹호했다. 모델 계층의 승자가 아직 확정되지 않았음을 자체 시인한 셈이다. Atlassian은 Confluence에 외부 AI 에이전트를 개방해 위키가 실행 환경으로 진화하는 첫 단계를 열었다.","한국 시장 함의","협업 SaaS가 AI 에이전트의 1차 사용자 접점이 되고 있다. 자체 AI 개발 전에 사내 위키·문서 도구가 에이전트 호출 인터페이스로 어떻게 진화할지 IT 전략 회의 안건으로 올려야 한다.")],
+ "analysis":"세 사건은 AI 인프라 투자 자본이 모델 학습에서 추론 배포·업무 통합 계층으로 이동함을 보여준다. 시장은 모델→배포·실행→업무 통합 세 층위로 분화되며, 한국 기업은 어느 층위에서 차별화할지 먼저 정의하고 멀티 모델 라우팅을 기본 설계로 삼아야 한다. 분기별 가격·SLA·신규 기능 점검 루틴과 PoC 권한의 실무 위임이 경쟁력이 된다.",
+ "sources":[("VentureBeat — Railway 시리즈 B","https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"),("TechCrunch — AWS 양다리 투자 입장","https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/"),("TechCrunch — Atlassian Confluence 외부 에이전트","https://techcrunch.com/2026/04/08/atlassian-confluence-visual-ai-tools-agents/")],
+ "related":[("AI 인프라 경쟁 재편 — Google-Intel·Mercor·Meta 분석","https://aibizinsider.com/2026/04/10/google-intel-mercor-breach-meta-ai-apr-10/"),("에이전틱 AI 얼라이언스 출범 분석","https://aibizinsider.com/2026/04/11/korea-agentic-ai-alliance-250-organizations-4-divisions-analysis-2026/")]
+},
+546: {
+ "headline":"데이터센터 국산 장비 실증 지원 전면 확대, 과기정통부 2026 사업공고",
+ "bullets":[
+  "2026년 4월 7일 과기정통부 <span style=\"color:#fbbf24;font-weight:700;\">데이터센터 국산 장비 실증 지원 통합공고</span>",
+  "서버·네트워크·전력·냉각·SW <span style=\"color:#fbbf24;font-weight:700;\">전 영역 지원 확대</span>",
+  "국산 장비 실증 트랙 신설, 공공·민간 데이터센터 도입 레퍼런스 확보 지원",
+  "AI 수요 폭증 대비 국산 인프라 생태계 자립 가속",
+  "국내 데이터센터 장비 기업은 공고 세부 조건·참여 컨소시엄 구성 즉시 검토"],
+ "sections":[
+  ("사업 개요와 배경","과기정통부는 2026년 4월 7일 데이터센터 국산 장비 실증 지원을 통합 공고했다. 서버·네트워크 장비, 전력·냉각 설비, 운영 SW까지 전 영역에서 국산 장비의 실제 운영 환경 적용을 지원한다. AI 수요 폭증으로 국산 인프라의 전략적 중요성이 높아진 데 따른 조치다.","지원 트랙과 요건","실증 대상 장비, 도입 사이트(공공·민간 데이터센터), 컨소시엄 구성 요건이 세분화됐다. 국산 장비가 실제 운영 환경에서 성능과 안정성을 입증하면 후속 구매·도입으로 연결되는 레퍼런스 체계가 핵심이다.")],
+ "analysis":"국산 데이터센터 장비의 시장 진입 장벽을 정부 예산과 공공 레퍼런스로 낮춰주는 정책이다. 국내 장비 기업은 공고 조건을 즉시 분석하고 데이터센터 운영사와 컨소시엄을 구성해야 한다. 글로벌 장비사가 장악한 서버·스토리지·네트워크 시장에서 국산 제품이 첫 대규모 운영 레퍼런스를 확보할 기회다.",
+ "sources":[("과학기술정보통신부 — 2026 데이터센터 국산 장비 실증 지원 통합공고","https://www.msit.go.kr")],
+ "related":[("2026 공공 정보화 사업 수요 6.4조 원 — AI·SaaS·보안","https://aibizinsider.com/2026/04/07/korea-public-it-procurement-2026-ai-saas-security/"),("에이전틱 AI 얼라이언스 출범","https://aibizinsider.com/2026/04/11/korea-agentic-ai-alliance-250-organizations-4-divisions-analysis-2026/")]
+},
+533: {
+ "headline":"데이터 스페이스 실증 착수, 과기정통부가 여는 AI 전환 시대의 안전한 데이터 공유 체계",
+ "bullets":[
+  "2026년 3월 27일 과기정통부 <span style=\"color:#fbbf24;font-weight:700;\">데이터 스페이스 실증</span> 공식 착수",
+  "<span style=\"color:#fbbf24;font-weight:700;\">원본 비이동 원칙</span> — 연합학습·질의 기반으로 데이터 주권 유지",
+  "국제 표준 IDS-RAM 4.0 호환, EU 데이터 스페이스와 상호운용성 확보",
+  "의료·제조·모빌리티 등 산업별 실증 트랙, 참여 컨소시엄 모집",
+  "데이터 보유 기업·AI 기업 모두 참여 모델과 법적 프레임워크 검토 필수"],
+ "sections":[
+  ("데이터 스페이스란","데이터 스페이스는 원본 데이터를 이동시키지 않고도 AI 학습과 분석이 가능한 연합형 데이터 공유 체계다. 국제 표준 IDS-RAM 4.0과 호환되며, EU의 Gaia-X·European Data Space 이니셔티브와 상호운용성을 지향한다.","산업별 실증","의료·제조·모빌리티·금융 등 산업별 실증 트랙이 개설된다. 데이터 보유 기관은 원본 유출 없이 데이터 가치를 활용할 수 있고, AI 기업은 그동안 접근 불가했던 민감 데이터 기반 모델 학습이 가능해진다.")],
+ "analysis":"데이터 스페이스는 개인정보·영업비밀 보호와 AI 혁신을 동시에 달성하는 구조적 해법이다. 한국 기업은 데이터 제공자·데이터 소비자·중개자 중 자사 포지션을 정의하고, IDS-RAM 4.0 기반 기술 스택을 조기 검토해야 한다. EU 데이터 스페이스와 호환되면 유럽 시장 진출의 기술 교두보가 된다.",
+ "sources":[("과학기술정보통신부 — 데이터 스페이스 실증 보도자료","https://www.msit.go.kr"),("IDS-RAM 4.0 표준","https://internationaldataspaces.org/")],
+ "related":[("과기정통부 데이터 스페이스 실증 착수 — 의료분야 56억 원 투입","https://aibizinsider.com/2026/04/06/korea-data-space-ai-sharing-msit-2026-medical-pilot/"),("대한민국 인공지능행동계획 확정","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/")]
+},
+525: {
+ "headline":"2026 전국민 AI 경진대회, 상금 30억 원 5개 트랙 일반인·학생 참가 가이드",
+ "bullets":[
+  "2026년 <span style=\"color:#fbbf24;font-weight:700;\">5월 1일 개막</span>, 과기정통부·NIPA·NIA·TTA 공동 주관",
+  "총상금 <span style=\"color:#fbbf24;font-weight:700;\">30억 원</span>, <span style=\"color:#fbbf24;font-weight:700;\">5대 트랙</span> — 일반·학생·개발자·기업·공공",
+  "AI 활용 아이디어, 서비스 개발, 사회문제 해결형 과제 등 다양한 참가 형태",
+  "참가 자격은 트랙별 상이, 일반인·학생도 참여 가능한 오픈 트랙 포함",
+  "개별 팀 구성과 주제 선정 전략, 제출 일정·평가 기준 사전 확인 필수"],
+ "sections":[
+  ("대회 구조와 트랙","5대 트랙은 일반·학생·개발자·기업·공공 부문으로 구성되며, 각 트랙별 출제 과제와 평가 기준이 다르다. 일반 트랙은 AI 활용 아이디어 제안, 학생 트랙은 창의적 솔루션 개발, 개발자 트랙은 기술적 난이도가 높은 모델 구현을 요구한다.","참가 전략","트랙 선택이 가장 중요하다. 개인 경험과 역량에 맞는 트랙을 선택하고, 주제는 심사위원이 평가 가능한 구체적 문제 해결에 초점을 맞춰야 한다. 제출 일정과 중간 점검 시점을 역산해 작업 계획을 수립하는 것이 권장된다.")],
+ "analysis":"전국민 AI 경진대회는 AI 인재 저변 확대와 사회문제 해결형 AI 서비스 발굴을 동시에 노린다. 참가자에게는 정부 주도 AI 생태계 진입의 기회이며, 수상 시 후속 사업화 지원·투자 연결까지 가능하다. 일반인·학생도 오픈 트랙을 통해 참여할 수 있으므로 AI 활용 경험을 공식 포트폴리오로 만들 수 있는 드문 기회다.",
+ "sources":[("과학기술정보통신부 — 2026 전국민 AI 경진대회 공고","https://www.msit.go.kr"),("NIPA 공식 페이지","https://www.nipa.kr")],
+ "related":[("대한민국 인공지능행동계획 확정 — AI 인재 양성 12개 과제","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/"),("에이전틱 AI 얼라이언스 출범","https://aibizinsider.com/2026/04/11/korea-agentic-ai-alliance-250-organizations-4-divisions-analysis-2026/")]
+},
+510: {
+ "headline":"Rocket·Xoople·Zero Shot — 4월 7일 글로벌 AI 스타트업 투자 동향",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">Rocket:</span> 컨설팅 자동화 AI로 부티크 컨설팅 시장 재편",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Xoople:</span> 시리즈 B 1.3억 달러, 엔터프라이즈 AI 워크플로우 플랫폼",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Zero Shot:</span> OpenAI 동문 창업, 1억 달러 펀드로 초기 AI 스타트업 투자",
+  "전문서비스 자동화·워크플로우 자동화·OpenAI 네트워크 자본 순환이 세 키워드",
+  "한국 기업은 동일 영역 국내 벤처 발굴과 글로벌 파트너십 기회 모니터링 필요"],
+ "sections":[
+  ("3대 투자 사건 요약","Rocket은 경영 컨설턴트의 작업을 AI로 대체하며 부티크 컨설팅 시장을 재편한다. Xoople의 1.3억 달러 시리즈 B는 엔터프라이즈 AI 워크플로우 플랫폼의 가치를 확인했다. Zero Shot은 OpenAI 출신 창업자가 1억 달러 펀드로 후속 AI 스타트업을 발굴한다.","공통 흐름","자본이 전문서비스 자동화와 엔터프라이즈 도입 계층에 집중되고 있다. OpenAI·Anthropic 동문 네트워크가 자본·인재·사업 기회의 선순환 구조를 만들며, 초기 단계 스타트업의 밸류에이션을 높이고 있다.")],
+ "analysis":"AI 스타트업 투자가 모델·인프라에서 워크플로우·전문서비스 자동화로 확장됐다. 한국 기업은 컨설팅·법무·회계 등 전문서비스 영역에서 AI 도입 기회를 재평가하고, Xoople 유형의 글로벌 플랫폼과의 한국 진출 파트너십을 선제 검토해야 한다. Zero Shot 같은 동문 네트워크 자본은 한국에서도 유사한 AI 특화 벤처캐피탈 결성 가능성을 시사한다.",
+ "sources":[("TechCrunch — Rocket consulting automation","https://techcrunch.com"),("VentureBeat — Xoople 시리즈 B","https://venturebeat.com"),("The Information — Zero Shot fund","https://www.theinformation.com")],
+ "related":[("AI 인프라 투자 본격화 — Railway·AWS·Atlassian","https://aibizinsider.com/2026/04/09/ai-infrastructure-investment-railway-aws-atlassian-april-2026-evening/"),("AI 투자 시장 격변 — Anthropic·OpenAI·세컨더리","https://aibizinsider.com/2026/04/05/ai-investment-anthropic-biotech-openai-leadership/")]
+},
+509: {
+ "headline":"피지컬 AI 보안 매뉴얼 공개, 과기정통부·KISA 선박·우주·로봇 3대 산업 사이버보안 체계",
+ "bullets":[
+  "과기정통부·KISA <span style=\"color:#fbbf24;font-weight:700;\">피지컬 AI 보안 매뉴얼</span> 공식 공개",
+  "<span style=\"color:#fbbf24;font-weight:700;\">3대 적용 분야</span> — 자율운항선박·우주·로봇",
+  "글로벌 통제 항목 <span style=\"color:#fbbf24;font-weight:700;\">53개</span>, 각 산업별 보안모델 제시",
+  "AI 의사결정 경로·센서 조작·원격 제어 통제가 핵심 위협 시나리오",
+  "제조·조선·항공우주·로봇 기업은 해당 통제 항목 자가진단 즉시 착수"],
+ "sections":[
+  ("매뉴얼 구조와 3대 산업","매뉴얼은 자율운항선박·우주·로봇 3개 분야의 보안모델과 53개 글로벌 통제 항목으로 구성된다. 각 산업의 AI 의사결정 경로, 센서 조작 가능성, 원격 제어 취약성, 공급망 코드 주입 등을 중심으로 통제 요구사항을 정의한다.","기업 대응 포인트","자율운항선박 기업은 항행 판단 AI의 데이터 무결성, 우주 기업은 원격 명령 인증, 로봇 기업은 물리 공간 충돌 안전 모듈을 우선 점검해야 한다. 53개 통제 항목에 대한 자가진단으로 공백 영역 식별이 선행되어야 한다.")],
+ "analysis":"피지컬 AI는 사이버 사고가 물리적 피해로 직결되기 때문에 IT 보안과 차원이 다른 통제가 필요하다. 한국의 조선·항공우주·로봇 기업이 글로벌 시장에 진출할 때 이 매뉴얼은 레퍼런스가 된다. 53개 통제 항목은 국제 입찰 시 보안 요건의 기준이 될 가능성이 높아 선제 대응이 경쟁력이다.",
+ "sources":[("과학기술정보통신부·KISA — 피지컬 AI 보안 매뉴얼","https://www.msit.go.kr"),("한국인터넷진흥원","https://www.kisa.or.kr")],
+ "related":[("대한민국 인공지능행동계획 확정","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/"),("에이전틱 AI 얼라이언스 출범","https://aibizinsider.com/2026/04/11/korea-agentic-ai-alliance-250-organizations-4-divisions-analysis-2026/")]
+},
+505: {
+ "headline":"2026년 공공 정보화 사업 수요 6.4조 원 발표 — AI 37% 급증과 SaaS 첫 집계",
+ "bullets":[
+  "과기정통부 2026년 공공 정보화 사업 수요 <span style=\"color:#fbbf24;font-weight:700;\">6.4조 원</span>",
+  "<span style=\"color:#fbbf24;font-weight:700;\">AI 37% 급증</span>, 공공 AI 수요 본격화",
+  "<span style=\"color:#fbbf24;font-weight:700;\">SaaS 첫 집계</span>, 공공 클라우드 조달 구조 변화",
+  "보안 22.5% 확대, 정보보호·제로트러스트 수요 증가",
+  "국내 AI·SaaS·보안 기업의 공공 조달 참여 전략 수립 적기"],
+ "sections":[
+  ("예산 구조와 핵심 변화","과기정통부는 2026년 공공 정보화 사업 수요 6.4조 원을 발표했다. AI 관련 사업이 전년 대비 37% 급증하고, SaaS 품목이 처음으로 별도 집계됐다. 보안 예산도 22.5% 늘어 정보보호·제로트러스트가 핵심 키워드로 부상했다.","SaaS 조달 구조 변화","SaaS 별도 집계는 공공 기관이 전통적 SI 방식에서 구독형 서비스로 이행함을 의미한다. CSAP 인증을 확보한 국내 SaaS 기업은 공공 조달 선점 기회이며, 인증 전략이 사업 전략의 일부가 됐다.")],
+ "analysis":"공공 AI·SaaS·보안 수요가 본격화됐다. 국내 AI 기업은 공공 레퍼런스 확보 기회로, SaaS 기업은 CSAP 인증 기반 구독 매출 확대 기회로 활용해야 한다. 6.4조 원 전체가 아닌 카테고리별 증감 패턴이 개별 기업에 더 중요하며, 발주 기관별 수요 세부 내역을 조기 파악해 제안 전략을 수립하는 것이 핵심이다.",
+ "sources":[("과학기술정보통신부 — 2026년 공공 정보화 사업 수요 발표","https://www.msit.go.kr")],
+ "related":[("데이터센터 국산 장비 실증 지원 확대","https://aibizinsider.com/2026/04/09/korea-datacenter-domestic-equipment-pilot-support-2026/"),("대한민국 인공지능행동계획 확정","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/")]
+},
+496: {
+ "headline":"AI 인프라 그림자 — Microsoft Copilot 약관, 일본 피지컬 AI, Meta 천연가스 7.5GW 베팅",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">Microsoft Copilot:</span> 이용약관 변경으로 데이터 활용 권한 확대 논란",
+  "<span style=\"color:#fbbf24;font-weight:700;\">일본 피지컬 AI:</span> 제조 현장 도입 확산, 노동시장 재편 신호",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Meta:</span> 7.5GW 천연가스 발전소 투자, AI 전력 수요가 에너지 전환 지연",
+  "AI 인프라 확장의 청구서 — 신뢰·노동·에너지 세 축에서 동시 발생",
+  "한국 기업은 AI 도입 시 데이터 거버넌스·노동 전환 계획·에너지 비용을 병행 검토"],
+ "sections":[
+  ("세 사건의 공통 함의","Microsoft Copilot 약관 변경은 AI 서비스의 데이터 활용 범위 신뢰 문제를, 일본 피지컬 AI 확산은 노동시장 재편을, Meta의 7.5GW 천연가스 투자는 AI 전력 수요가 탄소중립 목표와 충돌함을 보여준다. 모두 AI 인프라 확장의 그림자 비용이다.","한국 시장 함의","기업용 AI 도입 계약 시 데이터 활용 조항을 법무 검토에 포함시키고, 제조·서비스 현장의 AI 전환이 노동 구조에 미칠 영향을 사전 설계해야 한다. 전력 확보 전략은 대규모 AI 투자의 필수 요건이 됐다.")],
+ "analysis":"AI 인프라 확장은 신뢰·노동·에너지라는 세 가지 외부 비용을 발생시킨다. 한국 기업은 AI 도입 의사결정에 이 세 항목을 KPI로 포함시켜야 하며, 특히 에너지 확보와 계약 조항의 데이터 거버넌스는 재무·법무 부서가 선제적으로 관여해야 한다. 단순 기술 도입 프로젝트로 접근하면 장기적 비용이 누적된다.",
+ "sources":[("TechCrunch — Microsoft Copilot terms update","https://techcrunch.com"),("Nikkei — Japan Physical AI adoption","https://asia.nikkei.com"),("Reuters — Meta 7.5GW natural gas","https://www.reuters.com")],
+ "related":[("AI 인프라 경쟁 재편 — Google-Intel·Mercor·Meta","https://aibizinsider.com/2026/04/10/google-intel-mercor-breach-meta-ai-apr-10/"),("AI 인프라 투자 본격화 — Railway·AWS·Atlassian","https://aibizinsider.com/2026/04/09/ai-infrastructure-investment-railway-aws-atlassian-april-2026-evening/")]
+},
+494: {
+ "headline":"과기정통부 데이터 스페이스 실증 착수, 원본 이동 없는 AI 데이터 공유 체계",
+ "bullets":[
+  "과기정통부 <span style=\"color:#fbbf24;font-weight:700;\">데이터 스페이스 실증 사업</span> 공식 착수",
+  "원본 이동 없는 <span style=\"color:#fbbf24;font-weight:700;\">연합형 데이터 공유</span> 체계",
+  "의료분야 <span style=\"color:#fbbf24;font-weight:700;\">56억 원 투입</span>, 일반분야 확대 예정",
+  "데이터 주권을 유지하면서 AI 학습·분석이 가능한 구조",
+  "의료·제조·금융 등 산업별 참여 컨소시엄 모집 착수"],
+ "sections":[
+  ("실증 구조","원본 데이터를 이동시키지 않고 연합학습·질의 기반으로 AI 모델 학습이 가능한 데이터 스페이스 체계가 실증 단계로 진입했다. 의료분야에 56억 원을 우선 투입하며, 제조·금융 등 일반분야로 확대된다.","산업별 시사점","의료기관은 임상 데이터의 가치를 원본 유출 없이 활용하게 되고, AI 기업은 민감 데이터 기반 모델 학습이 가능해진다. 데이터 제공자·소비자·중개자의 3자 구조에서 자사 포지션 선정이 전략의 출발점이다.")],
+ "analysis":"데이터 스페이스는 개인정보·영업비밀 보호와 AI 혁신의 이중 목표를 동시에 달성하는 구조적 해법이다. 한국 기업은 IDS-RAM 4.0 기반 기술 스택을 조기 검토하고, 의료 56억 원 실증을 참조해 자사 산업의 실증 참여 시점을 계획해야 한다.",
+ "sources":[("과학기술정보통신부 — 데이터 스페이스 실증 보도자료","https://www.msit.go.kr")],
+ "related":[("데이터 스페이스 실증 착수 — AI 전환 시대 데이터 공유","https://aibizinsider.com/2026/04/08/korea-data-space-msit-ai-transformation-2026/"),("대한민국 인공지능행동계획 확정","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/")]
+},
+484: {
+ "headline":"AI 투자 시장 격변 — Anthropic 바이오텍 4억 달러 인수, OpenAI 경영진 교체, 세컨더리 마켓 6000억 달러 돌파",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">Anthropic:</span> Coefficient Bio 4억 달러 인수, AI×바이오 수직 통합",
+  "<span style=\"color:#fbbf24;font-weight:700;\">OpenAI:</span> 경영진 대규모 재편, 지배구조·제품 전략 변화",
+  "<span style=\"color:#fbbf24;font-weight:700;\">세컨더리 마켓:</span> 6,000억 달러 돌파, AI 비상장 유동성 급증",
+  "AI 자본은 수직 통합·경영구조 전환·유동성 확대 세 축에서 재편",
+  "한국 VC·기업은 비상장 AI 지분 거래와 수직 통합 M&A 기회 모니터링"],
+ "sections":[
+  ("세 사건 요약","Anthropic이 Coefficient Bio를 4억 달러에 인수하며 AI×바이오 수직 통합의 신호탄을 쏘았다. OpenAI는 경영진을 대규모 재편하며 지배구조 투명성과 제품 전략 안정화를 추진한다. 세컨더리 마켓은 6,000억 달러를 돌파해 AI 비상장 주식의 유동성이 공식 자산군으로 부상했다.","한국 시장 함의","국내 VC는 AI 비상장 포트폴리오의 조기 현금화 전략을 재평가할 수 있다. 대기업은 바이오·의료·법무 등 수직 영역 AI 기업 M&A를 통해 데이터·도메인 지식을 확보하는 모델을 고려해야 한다.")],
+ "analysis":"AI 투자 시장이 성숙기에 진입했다. 수직 통합 M&A는 파운데이션 모델 기업이 특정 산업 데이터와 사용 사례를 직접 확보하려는 전략이며, 세컨더리 마켓 급성장은 AI 투자의 장기 락업 리스크를 완화하는 구조적 변화다. 한국 투자자는 두 흐름을 포트폴리오 설계의 주요 변수로 통합해야 한다.",
+ "sources":[("TechCrunch — Anthropic Coefficient Bio acquisition","https://techcrunch.com"),("The Information — OpenAI leadership changes","https://www.theinformation.com")],
+ "related":[("AI 투자 전쟁 격화 — OpenAI $852B·Rebellions IPO","https://aibizinsider.com/2026/04/02/ai-investment-openai-852b-rebellions-ipo/"),("Rocket·Xoople·Zero Shot — 4월 7일 투자 동향","https://aibizinsider.com/2026/04/07/ai-startup-investment-rocket-xoople-zeroshot-april-2026-evening/")]
+},
+478: {
+ "headline":"AI 기본법 시행 3개월 현황, 고영향 AI 판단 기준과 과태료 체계",
+ "bullets":[
+  "AI 기본법 <span style=\"color:#fbbf24;font-weight:700;\">2026년 1월 22일 시행</span>, 3개월 경과",
+  "<span style=\"color:#fbbf24;font-weight:700;\">고영향 AI 판단 기준</span> — 에너지·의료·채용·대출·교통·공공서비스",
+  "과태료 <span style=\"color:#fbbf24;font-weight:700;\">최대 3,000만 원</span>, 계도기간 최소 1년",
+  "생성형 AI 투명성 의무 — AI 사용 고지, 결과물 AI 표시, 딥페이크 별도 표시",
+  "2027년 1월 계도기간 종료 전 전체 의무 이행 체계 완료 필수"],
+ "sections":[
+  ("시행 3개월 핵심 쟁점","AI 기본법 시행 후 고영향 AI 판단, 투명성 의무 이행 범위, 기존 법령과의 중복 규제 해소가 주요 실무 쟁점이다. 개인정보보호법·금융소비자보호법 등을 준수하는 경우 중복 규제는 면제되지만, 면제 요건 해석에 모호성이 남아 있다.","기업 대응 단계","1단계 고영향 AI 해당 여부 자체 판단, 2단계 투명성 표시 체계 구축, 3단계 위험관리방안·설명가능성 확보, 4단계 계도기간 종료 전 전수 점검이 권장 로드맵이다.")],
+ "analysis":"AI 기본법은 EU AI Act 대비 완화된 규제 강도이지만, 법정계획(AI 행동계획)과 결합되면 실질적 구속력이 높다. 기업은 규제 준수를 경쟁력의 일부로 내재화하고, 한국 AI 기본법 준수 체계가 EU AI Act 대응의 기반이 될 수 있다는 점에 주목해야 한다. 2027년 1월 계도기간 종료는 절대적 데드라인이다.",
+ "sources":[("국가법령정보센터 — 인공지능 기본법","https://www.law.go.kr/lsInfoP.do?lsiSeq=268543"),("법제처 — 시행령 제정안","https://www.moleg.go.kr")],
+ "related":[("대한민국 인공지능행동계획 확정","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/"),("G7 AI 규제 프레임워크 발표","https://aibizinsider.com/2026/04/04/g7-ai-regulation-framework-korea-guide-2026/")]
+},
+423: {
+ "headline":"에이전틱 AI 얼라이언스 출범, 250개 기관 4대 분과 체계와 기업 대응 전략",
+ "bullets":[
+  "과기정통부 <span style=\"color:#fbbf24;font-weight:700;\">에이전틱 AI 얼라이언스</span> 공식 출범",
+  "<span style=\"color:#fbbf24;font-weight:700;\">250개 기관</span> 참여, 산업·기술·생태계·안전 4대 분과",
+  "민간 분과장 + 정부기관 운영 지원 협업 구조",
+  "A2A·MCP 프로토콜 등 에이전트 상호운용성 표준 대응",
+  "기업의 에이전틱 AI 도입을 체계적으로 지원하는 민관 협력체"],
+ "sections":[
+  ("얼라이언스 구조","과기정통부 주도로 250개 기업·기관이 참여하는 민관 협력체가 출범했다. 산업(신동훈 NC AI)·기술(전기정 LG AI연구원)·생태계(김세웅 카카오)·안전-신뢰(최대선 숭실대) 4대 분과가 민간 분과장 중심으로 운영된다.","기업 대응 전략","얼라이언스 참여는 표준 수립, 정부 사업 공고, 규제 해석 과정에서 유리한 위치 확보 수단이다. 자사 업무 중 자율 에이전트화 가능 영역을 식별하고, A2A·MCP 등 상호운용성 프로토콜 검토를 즉시 시작해야 한다.")],
+ "analysis":"한국이 AI 에이전트 생태계의 글로벌 주도권 경쟁에 공식 참여하는 신호다. 법률-전략-실행 3단 체계(AI기본법→AI 행동계획→얼라이언스)가 구축되면서 기업의 대응 로드맵도 명확해졌다. 얼라이언스 참여와 고영향 AI 규제 대응, 에이전트 보안 정책 수립이 동시에 필요하다.",
+ "sources":[("과학기술정보통신부 — 에이전틱 AI 얼라이언스 출범","https://www.msit.go.kr")],
+ "related":[("에이전틱 AI 얼라이언스 250개 기관 4개 분과 완전 분석","https://aibizinsider.com/2026/04/11/korea-agentic-ai-alliance-250-organizations-4-divisions-analysis-2026/"),("대한민국 인공지능행동계획 확정","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/")]
+},
+417: {
+ "headline":"G7 AI 규제 프레임워크 발표, 한국 기업이 지금 준비해야 할 5가지",
+ "bullets":[
+  "G7 <span style=\"color:#fbbf24;font-weight:700;\">AI 규제 프레임워크</span> 확정 발표",
+  "<span style=\"color:#fbbf24;font-weight:700;\">프런티어 모델 라이선스제</span> 핵심 도입",
+  "AI 피해 책임 조항, 훈련 데이터 규제 강화",
+  "한국 기업의 글로벌 시장 진출에 직접적 영향",
+  "규제 준수 로드맵 수립과 EU AI Act 정합성 확보가 시급"],
+ "sections":[
+  ("G7 프레임워크 핵심","프런티어 모델(초대형 파운데이션 모델)은 사전 등록·평가 라이선스제 대상이 된다. AI 피해 책임은 개발사·배포사의 공동 책임으로 명시되며, 훈련 데이터의 출처·저작권·개인정보 처리가 강화된다.","한국 기업 5가지 준비","1) 프런티어 모델 해당 여부 판단, 2) 훈련 데이터 거버넌스 재정비, 3) 피해 책임 보험·계약 조항 검토, 4) EU AI Act와 G7 프레임워크 정합성, 5) 국내 AI 기본법과의 연결 로드맵 수립이 핵심이다.")],
+ "analysis":"G7 프레임워크는 EU AI Act보다 포괄적이며 글로벌 AI 규제의 사실상 표준이 될 가능성이 높다. 한국 기업은 국내법 준수만으로는 부족하며, G7·EU·미국 규제의 교집합을 설계해 글로벌 단일 컴플라이언스 체계를 구축해야 한다. 글로벌 시장 진출 기업에는 규제 준수 자체가 시장 진입 자격이 된다.",
+ "sources":[("G7 AI Governance Framework","https://www.g7.gov"),("EU AI Act","https://eur-lex.europa.eu")],
+ "related":[("AI 기본법 시행 3개월 현황","https://aibizinsider.com/2026/04/05/korea-ai-basic-law-2026-high-impact-ai-compliance-guide/"),("대한민국 인공지능행동계획 확정","https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/")]
+},
+411: {
+ "headline":"OpenAI TBPN 팟캐스트 인수, Google Vids AI 아바타, Meta 7.5GW 천연가스 발전",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">OpenAI:</span> TBPN 팟캐스트 인수, 콘텐츠·미디어 수직 진입",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Google Vids:</span> AI 아바타 디렉션 기능 추가, 영상 제작 자동화",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Anthropic:</span> 512K 라인 유출 사건, 코드 유출 관리 과제",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Meta:</span> Hyperion 데이터센터용 7.5GW 천연가스 발전 투자",
+  "AI 기업의 콘텐츠·영상·에너지 수직 통합이 동시에 진행"],
+ "sections":[
+  ("4대 이벤트 요약","OpenAI의 TBPN 팟캐스트 인수는 AI 기업이 미디어·유통 채널을 직접 확보하려는 첫 신호다. Google Vids의 AI 아바타는 영상 제작 자동화의 상용 단계를, Anthropic 512K 라인 유출은 AI 기업의 내부 보안 과제를, Meta의 7.5GW 가스 발전은 AI 전력 전략의 현실을 보여준다.","비즈니스 함의","한국 기업은 AI 시대 콘텐츠 유통 채널 확보, 영상·미디어 제작 프로세스 재설계, 내부 코드·데이터 보안 강화, 전력 수급 전략을 종합적으로 재검토해야 한다.")],
+ "analysis":"AI 기업의 수직 통합이 콘텐츠·영상·에너지·인프라로 확장되고 있다. 과거 단일 모델 제공자였던 기업들이 이제 미디어·유통·전력 전 영역에 자본을 투입한다. 한국 기업은 개별 이벤트가 아닌 흐름으로 읽고, 자사의 수직 통합 혹은 전문화 전략을 명확히 선택해야 한다.",
+ "sources":[("TechCrunch — OpenAI TBPN acquisition","https://techcrunch.com"),("Reuters — Meta Hyperion gas","https://www.reuters.com")],
+ "related":[("AI 인프라 그림자 — Microsoft Copilot·일본 피지컬AI·Meta 천연가스","https://aibizinsider.com/2026/04/06/ai-infrastructure-shadow-copilot-physical-ai-natural-gas-april-2026/"),("AI 투자 시장 격변 — Anthropic·OpenAI·세컨더리","https://aibizinsider.com/2026/04/05/ai-investment-anthropic-biotech-openai-leadership/")]
+},
+278: {
+ "headline":"OpenAI 8520억 달러 기업가치, Microsoft 자체 AI 모델 3종, Cognichip 반도체 설계",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">OpenAI:</span> 1220억 달러 펀딩, 기업가치 8,520억 달러",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Microsoft MAI:</span> 자체 AI 모델 3종 출시, OpenAI 의존 감소 전략",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Cognichip:</span> AI 반도체 설계 자동화, 6,000만 달러 유치",
+  "AI 자본·기술·하드웨어 세 전선에서 동시 재편",
+  "한국 기업은 모델 다변화·자체 모델·AI 설계 도구 전략 재점검"],
+ "sections":[
+  ("3대 흐름","OpenAI의 8,520억 달러 가치는 AI 시장 최상위의 자본 집중을 보여주고, Microsoft의 자체 모델 MAI 3종은 파트너십 의존 축소 전략을, Cognichip의 6,000만 달러는 AI 반도체 설계 자동화의 가치를 증명한다.","한국 시장 함의","대기업은 파트너와 자체 모델의 이중 전략을 검토하고, 반도체 기업은 AI 설계 도구 도입으로 설계 사이클 단축을 추진해야 한다.")],
+ "analysis":"자본은 최상위 소수 기업에 극단적으로 집중되고, 대기업은 벤더 의존을 줄이려 자체 모델을 확보하며, 반도체 설계 영역에도 AI가 침투한다. 세 흐름은 모두 AI 가치사슬의 수직 재편을 가리킨다. 한국 기업은 각 계층에서 자사 포지션을 재정의해야 한다.",
+ "sources":[("The Information — OpenAI $852B","https://www.theinformation.com"),("Bloomberg — Microsoft MAI","https://www.bloomberg.com"),("TechCrunch — Cognichip","https://techcrunch.com")],
+ "related":[("AI 투자 전쟁 격화 — OpenAI $852B·Rebellions IPO","https://aibizinsider.com/2026/04/02/ai-investment-openai-852b-rebellions-ipo/"),("AI 투자 시장 격변 — Anthropic·OpenAI·세컨더리","https://aibizinsider.com/2026/04/05/ai-investment-anthropic-biotech-openai-leadership/")]
+},
+275: {
+ "headline":"AI 투자 전쟁 격화 — OpenAI $852B 기업가치, 한국 AI칩 Rebellions IPO 임박",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">OpenAI:</span> 8,520억 달러 기업가치 달성, AI 자본 집중 심화",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Rebellions:</span> 4억 달러 Pre-IPO, 한국 AI칩 글로벌 진출",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Cognichip:</span> AI 반도체 설계 자동화 6,000만 달러",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Salesforce Slack:</span> 30개 AI 기능 대규모 업데이트",
+  "AI 투자·인프라·SaaS 생태계에서 한국 기업의 전략적 위치 재정의"],
+ "sections":[
+  ("한국 AI칩 Rebellions의 전략적 의미","Rebellions의 4억 달러 Pre-IPO는 한국 AI 반도체가 글로벌 자본시장에서 독자적 가치를 인정받은 신호다. Nvidia 의존도가 높아지는 글로벌 공급망에서 한국 AI칩의 포지셔닝 기회가 열린다.","Salesforce Slack과 업무 AI","Slack의 30개 AI 기능 업데이트는 업무용 SaaS가 AI 에이전트의 주요 진입점임을 재확인시킨다. 한국 기업은 사내 협업 도구의 AI 전환 로드맵을 수립해야 한다.")],
+ "analysis":"글로벌 AI 자본은 최상위로 집중되지만, 그 틈에서 한국 Rebellions 같은 특화 기업의 기회도 확대된다. 한국 기업은 파운데이션 모델 경쟁을 우회해 AI 반도체·버티컬 AI·업무 자동화에서 차별화된 포지션을 구축해야 한다.",
+ "sources":[("The Information — OpenAI $852B","https://www.theinformation.com"),("Bloomberg — Rebellions Pre-IPO","https://www.bloomberg.com")],
+ "related":[("OpenAI $852B·Microsoft MAI·Cognichip 분석","https://aibizinsider.com/2026/04/03/openai-852b-microsoft-ai-cognichip-2026/"),("AI 투자 시장 격변 — Anthropic·OpenAI·세컨더리","https://aibizinsider.com/2026/04/05/ai-investment-anthropic-biotech-openai-leadership/")]
+},
+227: {
+ "headline":"AI 업계 오후 브리핑 — 공급망 보안 위협, GPU 최적화 투자, AI 코드 검증 시대",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">Mercor:</span> 오픈소스 LiteLLM 공급망 공격, 데이터 유출 발생",
+  "<span style=\"color:#fbbf24;font-weight:700;\">ScaleOps:</span> GPU 자원 최적화로 시리즈 C 1.3억 달러",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Qodo:</span> AI 생성 코드 검증 영역 7,000만 달러 유치",
+  "오픈소스 보안·GPU 효율화·AI 코드 품질이 동시 이슈화",
+  "기업은 SBOM·GPU 운영 최적화·AI 생성물 검증 체계 구축 필요"],
+ "sections":[
+  ("3대 투자 이슈","Mercor 공급망 공격은 오픈소스 의존성 관리가 더 이상 선택이 아님을 보여준다. ScaleOps의 1.3억 달러는 GPU 자원 최적화가 대형 투자 주제임을, Qodo의 7,000만 달러는 AI 생성 코드 검증이 별도 시장으로 형성됐음을 증명한다.","기업 실행 과제","SBOM 작성과 정기 감사, GPU 활용률 모니터링, AI 코드 PR 자동 검증 파이프라인 구축을 단기 과제로 추진해야 한다.")],
+ "analysis":"AI 도입 비용 구조가 모델 비용에서 운영·보안·품질 비용으로 확장됐다. 한국 기업은 AI 생산성 지표에 GPU 효율, 공급망 보안 성숙도, AI 생성물 검증 통과율을 포함시켜야 한다.",
+ "sources":[("TechCrunch — Mercor breach","https://techcrunch.com"),("VentureBeat — ScaleOps Series C","https://venturebeat.com"),("TechCrunch — Qodo funding","https://techcrunch.com")],
+ "related":[("AI 인프라 경쟁 재편 — Google-Intel·Mercor·Meta","https://aibizinsider.com/2026/04/10/google-intel-mercor-breach-meta-ai-apr-10/"),("AI 업계 오늘의 동향 — 2026년 4월 1일","https://aibizinsider.com/2026/04/01/ai-industry-daily-apr-1-2026/")]
+},
+226: {
+ "headline":"AI 업계 오늘의 동향 — 2026년 4월 1일",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">OpenAI:</span> 소매 투자자 대상 30억 달러 조달, 기업가치 8,520억 달러",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Salesforce Slack:</span> AI 기능 30개 탑재 대규모 업데이트",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Yupp AI:</span> 3,300만 달러 투자에도 1년 만에 폐업",
+  "AI 공급망 보안 위협(Mercor LiteLLM 사건) 지속 영향",
+  "성공과 실패가 공존하는 AI 시장의 명암을 실무 관점에서 분석"],
+ "sections":[
+  ("자본·제품·실패 3축","OpenAI 8,520억 달러는 AI 자본 집중의 극단을, Slack AI 30개 기능은 업무 SaaS의 AI 전환 본격화를, Yupp AI 폐업은 자본만으로 제품시장 적합성을 보장할 수 없다는 교훈을 보여준다.","공급망 보안 지속 리스크","Mercor LiteLLM 공격 여진이 이어지며 오픈소스 의존성이 있는 모든 AI 서비스가 재점검 대상이다.")],
+ "analysis":"AI 시장은 자본 집중과 동시에 구조적 실패도 가속화된다. 한국 기업은 자본 확보보다 제품시장 적합성과 지속 가능한 단위 경제(unit economics) 검증을 우선해야 하며, 업무 SaaS의 AI 전환 흐름에 즉시 대응해야 한다.",
+ "sources":[("Bloomberg — OpenAI retail round","https://www.bloomberg.com"),("TechCrunch — Slack AI 30 features","https://techcrunch.com"),("TechCrunch — Yupp AI shutdown","https://techcrunch.com")],
+ "related":[("AI 업계 오후 브리핑 — 공급망·GPU·AI 코드","https://aibizinsider.com/2026/04/01/ai-briefing-supply-chain-gpu-apr-1-2026/"),("AI 투자 전쟁 격화 — OpenAI·Rebellions","https://aibizinsider.com/2026/04/02/ai-investment-openai-852b-rebellions-ipo/")]
+},
+213: {
+ "headline":"AI 업계 오늘의 동향 — 2026년 3월 31일",
+ "bullets":[
+  "<span style=\"color:#fbbf24;font-weight:700;\">Rebellions:</span> 4억 달러 프리IPO, 한국 AI 칩의 글로벌 진입",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Mistral AI:</span> 8.3억 유로 데이터센터 투자",
+  "<span style=\"color:#fbbf24;font-weight:700;\">OpenAI Sora:</span> 중단 결정의 비즈니스 시사점",
+  "<span style=\"color:#fbbf24;font-weight:700;\">Runway:</span> 스타트업 생태계 펀드 조성",
+  "AI 인프라·반도체·생성 모델·생태계 투자가 동시에 진행"],
+ "sections":[
+  ("한국·유럽·미국 3축","Rebellions의 4억 달러 프리IPO는 한국 AI 반도체의 글로벌 독자 진출, Mistral의 8.3억 유로 데이터센터는 유럽 AI 주권, Runway의 펀드는 생성 AI 생태계 형성을 각각 대표한다.","Sora 중단의 교훈","OpenAI Sora 중단은 AI 제품이 기술 성숙도와 별개로 운영·법적·콘텐츠 리스크로 중단될 수 있음을 보여준다. 한국 기업의 AI 제품 출시도 리스크 완화 설계가 선행되어야 한다.")],
+ "analysis":"AI 자본이 반도체·인프라·콘텐츠·생태계로 다각화되고 있다. 한국 기업은 파운데이션 모델 경쟁 외의 영역에서 Rebellions 사례를 벤치마크로 삼고, 제품 출시 시 법적·운영 리스크를 기술 로드맵과 동급으로 설계해야 한다.",
+ "sources":[("Bloomberg — Rebellions Pre-IPO","https://www.bloomberg.com"),("Reuters — Mistral AI datacenter","https://www.reuters.com"),("TechCrunch — Sora suspension","https://techcrunch.com")],
+ "related":[("AI 업계 오늘의 동향 — 2026년 4월 1일","https://aibizinsider.com/2026/04/01/ai-industry-daily-apr-1-2026/"),("AI 투자 전쟁 격화 — OpenAI·Rebellions","https://aibizinsider.com/2026/04/02/ai-investment-openai-852b-rebellions-ipo/")]
+},
+}

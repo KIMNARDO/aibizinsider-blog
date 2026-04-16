@@ -1,0 +1,450 @@
+<!-- wp:html -->
+<div style="max-width:1120px;margin:0 auto;padding:24px;color:#334155;font-family:'Pretendard Variable','Pretendard','Noto Sans KR',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.9;font-size:16px;">
+
+<!-- Featured banner -->
+<figure style="margin:0 0 32px 0;">
+  <div style="position:relative;border-radius:18px;overflow:hidden;background:linear-gradient(135deg,#0a1628 0%,#1a2e4a 50%,#1e1b4b 100%);color:#fff;">
+    <svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%;">
+      <defs>
+        <linearGradient id="v2-bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#0a1628"/>
+          <stop offset="100%" stop-color="#1e1b4b"/>
+        </linearGradient>
+        <pattern id="v2-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+          <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(251,191,36,0.08)" stroke-width="1"/>
+        </pattern>
+        <linearGradient id="v2-fade" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="rgba(10,22,40,1)"/>
+          <stop offset="35%" stop-color="rgba(10,22,40,0.85)"/>
+          <stop offset="60%" stop-color="rgba(10,22,40,0)"/>
+        </linearGradient>
+      </defs>
+      <rect width="1200" height="420" fill="url(#v2-bg)"/>
+      <rect width="1200" height="420" fill="url(#v2-grid)"/>
+
+      <!-- 오른쪽: GPU 서버 랙 일러스트 -->
+      <g transform="translate(720,60)">
+        <!-- 서버 랙 -->
+        <rect x="70" y="20" width="320" height="280" fill="none" stroke="rgba(251,191,36,0.3)" stroke-width="1.5" rx="6"/>
+        <!-- 4개의 서버 유닛 -->
+        <g>
+          <rect x="85" y="45" width="290" height="54" fill="#0f172a" rx="4" stroke="#fbbf24" stroke-width="0.8" opacity="0.95"/>
+          <circle cx="100" cy="72" r="5" fill="#22c55e"/>
+          <text x="115" y="76" fill="#fbbf24" font-family="monospace" font-size="12" font-weight="700">Llama 4 · 128K</text>
+          <rect x="270" y="62" width="90" height="20" fill="rgba(251,191,36,0.15)" rx="2"/>
+          <text x="315" y="77" text-anchor="middle" fill="#fbbf24" font-family="monospace" font-size="11">17B MoE</text>
+        </g>
+        <g>
+          <rect x="85" y="109" width="290" height="54" fill="#0f172a" rx="4" stroke="#a78bfa" stroke-width="0.8" opacity="0.95"/>
+          <circle cx="100" cy="136" r="5" fill="#22c55e"/>
+          <text x="115" y="140" fill="#a78bfa" font-family="monospace" font-size="12" font-weight="700">Qwen 3 · 92 lang</text>
+          <rect x="270" y="126" width="90" height="20" fill="rgba(167,139,250,0.15)" rx="2"/>
+          <text x="315" y="141" text-anchor="middle" fill="#a78bfa" font-family="monospace" font-size="11">Apache 2.0</text>
+        </g>
+        <g>
+          <rect x="85" y="173" width="290" height="54" fill="#0f172a" rx="4" stroke="#10b981" stroke-width="0.8" opacity="0.95"/>
+          <circle cx="100" cy="200" r="5" fill="#22c55e"/>
+          <text x="115" y="204" fill="#10b981" font-family="monospace" font-size="12" font-weight="700">HyperClova X · KR</text>
+          <rect x="270" y="190" width="90" height="20" fill="rgba(16,185,129,0.15)" rx="2"/>
+          <text x="315" y="205" text-anchor="middle" fill="#10b981" font-family="monospace" font-size="11">한국 특화</text>
+        </g>
+        <g>
+          <rect x="85" y="237" width="290" height="54" fill="#0f172a" rx="4" stroke="#06b6d4" stroke-width="0.8" opacity="0.95"/>
+          <circle cx="100" cy="264" r="5" fill="#22c55e"/>
+          <text x="115" y="268" fill="#06b6d4" font-family="monospace" font-size="12" font-weight="700">Mistral Large 3</text>
+          <rect x="270" y="254" width="90" height="20" fill="rgba(6,182,212,0.15)" rx="2"/>
+          <text x="315" y="269" text-anchor="middle" fill="#06b6d4" font-family="monospace" font-size="11">OSS · EU</text>
+        </g>
+        <!-- 랙 라벨 -->
+        <text x="230" y="320" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="10" letter-spacing="3">ON-PREMISE · GPU RACK</text>
+      </g>
+
+      <!-- 왼쪽 페이드 마스크 -->
+      <rect x="0" y="0" width="760" height="420" fill="url(#v2-fade)"/>
+
+      <!-- 장식 파티클 -->
+      <g opacity="0.4">
+        <circle cx="780" cy="30" r="1.2" fill="#fbbf24"/>
+        <circle cx="1150" cy="60" r="1.2" fill="#fbbf24"/>
+        <circle cx="1100" cy="400" r="1.2" fill="#a78bfa"/>
+      </g>
+    </svg>
+
+    <div style="position:relative;padding:56px 48px;min-height:420px;display:flex;flex-direction:column;justify-content:center;max-width:640px;">
+      <div style="display:inline-flex;align-items:center;gap:10px;background:rgba(251,191,36,0.15);border:1px solid rgba(251,191,36,0.4);color:#fbbf24;font-size:11px;font-weight:700;letter-spacing:0.18em;padding:7px 16px;border-radius:100px;margin-bottom:22px;align-self:flex-start;backdrop-filter:blur(8px);">
+        MONTHLY REPORT · VOL. 02 / 2026.04
+      </div>
+      <h1 style="font-size:40px;font-weight:800;line-height:1.2;color:#fff;margin:0 0 16px 0;letter-spacing:-0.02em;word-break:keep-all;text-shadow:0 2px 20px rgba(0,0,0,0.5);">공장에 들어갈 AI, <span style="color:#fbbf24;">어느 모델을 쓸 것인가</span></h1>
+      <p style="font-size:16px;color:#e2e8f0;margin:0 0 22px 0;line-height:1.65;max-width:580px;">Llama 4 · Qwen 3 · HyperClova X · Mistral Large 3 — 2026년 4월 기준 한국 제조업 온프레미스 LLM 실전 선택 가이드</p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:#cbd5e1;align-items:center;">
+        <span style="display:inline-flex;align-items:center;gap:6px;"><span style="width:24px;height:24px;background:#fbbf24;color:#0a1628;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;">K</span>K.Nardo</span>
+        <span style="opacity:0.4;">·</span>
+        <span>READ 16 MIN</span>
+        <span style="opacity:0.4;">·</span>
+        <span>2026-04-15</span>
+      </div>
+    </div>
+  </div>
+  <figcaption style="font-size:12px;color:#64748b;text-align:center;margin-top:12px;font-style:italic;">한국 제조업이 사내 GPU 랙에 배포할 수 있는 4개 주요 온프레미스 LLM.</figcaption>
+</figure>
+
+<!-- TL;DR 박스 -->
+<div style="background:linear-gradient(135deg,#0a1628 0%,#1a2e4a 100%);border-radius:16px;padding:28px 32px;margin-bottom:36px;box-shadow:0 4px 20px rgba(10,22,40,0.2);">
+  <div style="font-size:11px;color:#fbbf24;letter-spacing:0.18em;font-weight:700;margin-bottom:12px;">TL;DR</div>
+  <ul style="margin:0;padding-left:20px;color:#e2e8f0;font-size:15px;line-height:1.95;">
+    <li style="margin-bottom:8px;">Vol.01에서 "클라우드 AI를 못 쓴다"고 결론 내린 제조 기업이 지금 답해야 할 질문은 하나: <strong style="color:#fbbf24;">"어느 온프레미스 LLM을 사내 GPU에 올릴 것인가?"</strong></li>
+    <li style="margin-bottom:8px;">2026년 4월 현재 현실적 후보는 4개: <strong style="color:#fbbf24;">Meta Llama 4 · Alibaba Qwen 3 · Naver HyperClova X · Mistral Large 3</strong>. 각각 강점이 다르다.</li>
+    <li style="margin-bottom:8px;">한국어 품질·한국 데이터 최적화는 <strong style="color:#fbbf24;">HyperClova X 압도적</strong>(HAE-RAE Bench 84.14). 글로벌 범용은 Llama 4(10M context)·Qwen 3(92언어). 비용 효율은 Mistral Medium 3.</li>
+    <li style="margin-bottom:0;">하드웨어: 70B 클래스는 <strong style="color:#fbbf24;">H100 8장(2~4억 원)</strong> 필요. 소형 모델(8B 이하)은 A100 2장으로 가능. CAD 검증·BOM 분석에는 소형부터 POC 권장.</li>
+  </ul>
+</div>
+
+<!-- Opening -->
+<p style="font-size:17px;line-height:1.9;margin:0 0 24px 0;">
+  지난 리포트(Vol.01)에서 "한국 제조업은 도면·BOM·원가를 클라우드 AI로 보낼 수 없다"는 현실을 다뤘다. 그 결론이 옳다면 다음 질문은 자연스럽다. <strong style="color:#0f172a;">그렇다면 어느 온프레미스 LLM을 사내에 설치할 것인가.</strong>
+</p>
+<p style="font-size:17px;line-height:1.9;margin:0 0 36px 0;">
+  2026년 4월 현재 이 질문에 답할 수 있는 현실적 후보는 4개뿐이다. Meta의 <strong style="color:#0f172a;">Llama 4</strong>, Alibaba의 <strong style="color:#0f172a;">Qwen 3</strong>, Naver의 <strong style="color:#0f172a;">HyperClova X</strong>, Mistral의 <strong style="color:#0f172a;">Large 3</strong>. 각각 라이선스·성능·한국어 품질·하드웨어 요구가 다르다. 이 리포트는 선택 기준 5가지와 용도별 추천을 정리한다.
+</p>
+
+<!-- =========== SECTION 1 =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">선택 기준 5가지</h2>
+
+<p style="margin:0 0 20px 0;">
+  모델 비교 전에 프레임이 필요하다. 공장에 AI를 도입하는 기업이 실제로 따져야 할 5가지 축은 다음과 같다.
+</p>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:28px 0;">
+  <div style="background:#fffbeb;border:1px solid #fef3c7;border-radius:12px;padding:20px;">
+    <div style="font-size:11px;font-weight:800;color:#f59e0b;letter-spacing:0.15em;margin-bottom:8px;">01</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">한국어 품질</div>
+    <div style="font-size:13px;color:#475569;line-height:1.65;">도면 주석·보고서·이메일이 한국어. 번역 품질이 아니라 자연스러운 한국어 생성이 핵심.</div>
+  </div>
+  <div style="background:#fffbeb;border:1px solid #fef3c7;border-radius:12px;padding:20px;">
+    <div style="font-size:11px;font-weight:800;color:#f59e0b;letter-spacing:0.15em;margin-bottom:8px;">02</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">라이선스</div>
+    <div style="font-size:13px;color:#475569;line-height:1.65;">상업 사용 가능 여부, 재배포 제한, 월간 활성 사용자 수 제한.</div>
+  </div>
+  <div style="background:#fffbeb;border:1px solid #fef3c7;border-radius:12px;padding:20px;">
+    <div style="font-size:11px;font-weight:800;color:#f59e0b;letter-spacing:0.15em;margin-bottom:8px;">03</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">하드웨어 비용</div>
+    <div style="font-size:13px;color:#475569;line-height:1.65;">GPU 구성·전력·발열. 70B 모델 돌리려면 초기 투자 2~4억 원.</div>
+  </div>
+  <div style="background:#fffbeb;border:1px solid #fef3c7;border-radius:12px;padding:20px;">
+    <div style="font-size:11px;font-weight:800;color:#f59e0b;letter-spacing:0.15em;margin-bottom:8px;">04</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">컨텍스트 길이</div>
+    <div style="font-size:13px;color:#475569;line-height:1.65;">긴 설계 문서·BOM 분석에 필요. 8K로는 부족, 128K 이상 권장.</div>
+  </div>
+  <div style="background:#fffbeb;border:1px solid #fef3c7;border-radius:12px;padding:20px;">
+    <div style="font-size:11px;font-weight:800;color:#f59e0b;letter-spacing:0.15em;margin-bottom:8px;">05</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">생태계·지원</div>
+    <div style="font-size:13px;color:#475569;line-height:1.65;">파인튜닝 도구, RAG 연동, 한국 내 SI·컨설팅 확보 가능성.</div>
+  </div>
+</div>
+
+<!-- =========== SECTION 2 =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">4개 모델 전수 비교</h2>
+
+<p style="margin:0 0 20px 0;">
+  공식 발표 기준으로 정리한 2026년 4월 스냅샷이다. 세부 수치는 모델 버전·배포 형태에 따라 달라질 수 있다.
+</p>
+
+<div style="overflow-x:auto;margin:20px 0;">
+  <table style="width:100%;border-collapse:collapse;font-size:13px;border:1px solid #fef3c7;border-radius:10px;overflow:hidden;">
+    <thead>
+      <tr style="background:#0f172a;color:#fff;">
+        <th style="padding:12px 14px;text-align:left;font-weight:700;min-width:130px;">항목</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">Llama 4 (Meta)</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">Qwen 3 (Alibaba)</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">HyperClova X (Naver)</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">Mistral Large 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#fffbeb;">
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;color:#92400e;">출시일</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">2025.04 (Scout·Maverick)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">2025 전반 (지속 업데이트)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">2024~2025 (SEED 라인업)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">2025~2026</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;color:#92400e;">대표 크기</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">Scout 17B/16E MoE<br/>Maverick 17B/128E MoE</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">다양 (소형~대형)<br/>Qwen-Image 20B 별도</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">32B Think, 14B Think,<br/>8B Omni, 3B, 1.5B, 0.5B</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">Large 3 (OSS 플래그십)<br/>Medium 3, Ministral 3</td>
+      </tr>
+      <tr style="background:#fffbeb;">
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;color:#92400e;">컨텍스트</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">Scout <strong>10M</strong>, Maverick <strong>1M</strong></td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">최대 128K~</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">비공개 (업무용 충분)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">128K+</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;color:#92400e;">라이선스</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">Llama Community<br/>(상업 OK, MAU 7억 제한)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;"><strong>Apache 2.0</strong><br/>(완전 자유)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">엔터프라이즈 계약<br/>(Naver 협의)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">일부 Apache 2.0<br/>일부 상업 라이선스</td>
+      </tr>
+      <tr style="background:#fffbeb;">
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;color:#92400e;">한국어 품질</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">보통 (번역 톤 존재)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">양호 (92언어 공식 지원)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;"><strong>압도적</strong> (HAE-RAE 84.14)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">보통</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;color:#92400e;">토큰 효율</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">표준 (TikToken)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">표준</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;"><strong>2배 효율</strong> (한국어 특화 토크나이저)</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">표준</td>
+      </tr>
+      <tr style="background:#fffbeb;">
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;color:#92400e;">멀티모달</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">텍스트 + 이미지</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">텍스트 + 이미지 + 영상</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">텍스트 + 이미지 + 음성</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">텍스트 중심</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 14px;font-weight:700;color:#92400e;">한국 내 지원</td>
+        <td style="padding:10px 14px;">글로벌 커뮤니티</td>
+        <td style="padding:10px 14px;">글로벌 커뮤니티</td>
+        <td style="padding:10px 14px;"><strong>Naver 직접 지원·SI 네트워크</strong></td>
+        <td style="padding:10px 14px;">유럽 중심</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div style="background:#fef3c7;border-left:5px solid #f59e0b;border-radius:10px;padding:20px 24px;margin:24px 0;">
+  <p style="margin:0;font-size:15px;line-height:1.85;color:#78350f;font-style:italic;">
+    <strong>AI Biz Insider 분석 ―</strong> 표만 보면 HyperClova X가 한국어 특화로 독보적이다. 그러나 라이선스가 엔터프라이즈 계약 기반이라 비용·협상이 필요하다. 반면 Llama 4·Qwen 3은 가중치 공개 + 상업 라이선스라 당장 다운로드해 사내에 돌릴 수 있다. <strong>"접근성"과 "품질"의 트레이드오프</strong>가 선택의 첫 축이다.
+  </p>
+</div>
+
+<!-- =========== SECTION 3 =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">하드웨어 요구사항 — 얼마가 드는가</h2>
+
+<p style="margin:0 0 20px 0;">
+  온프레미스 LLM의 실질적 장벽은 모델 자체가 아니라 하드웨어다. 모델 크기별 GPU 구성과 구축 비용을 정리하면 다음과 같다.
+</p>
+
+<div style="overflow-x:auto;margin:20px 0;">
+  <table style="width:100%;border-collapse:collapse;font-size:13.5px;border:1px solid #fef3c7;border-radius:10px;overflow:hidden;">
+    <thead>
+      <tr style="background:#0f172a;color:#fff;">
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">모델 크기</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">GPU 구성 (일반적)</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">초기 투자 (HW)</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">월 운영 (전력·냉각)</th>
+        <th style="padding:12px 14px;text-align:left;font-weight:700;">동시 사용자</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#fffbeb;">
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;">1~3B 소형</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">A100 40GB 1장 또는 RTX 4090</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">1,500만~3,000만 원</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">30~60만 원</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">10~20명</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;">7~14B 중형</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">A100 80GB 2장</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">6,000만~1억 원</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">100~200만 원</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">30~50명</td>
+      </tr>
+      <tr style="background:#fffbeb;">
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;font-weight:700;">32~70B 대형</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">H100 80GB 4~8장</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;"><strong>2억~4억 원</strong></td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">400~800만 원</td>
+        <td style="padding:10px 14px;border-bottom:1px solid #fef3c7;">100~200명</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 14px;font-weight:700;">100B+ 초대형</td>
+        <td style="padding:10px 14px;">H100 16장 이상</td>
+        <td style="padding:10px 14px;"><strong>8억 원+</strong></td>
+        <td style="padding:10px 14px;">1,500만 원+</td>
+        <td style="padding:10px 14px;">500명+</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 style="font-size:20px;font-weight:700;color:#92400e;border-left:4px solid #fbbf24;padding-left:12px;margin:28px 0 14px 0;">가성비 전략: "작게 시작하고 확장하라"</h3>
+
+<p style="margin:0 0 16px 0;">
+  많은 기업이 처음부터 70B 대형 모델을 도입하려다 초기 비용에 좌절한다. 실무 관점에서 권장되는 순서는 다음과 같다:
+</p>
+
+<ol style="margin:0 0 24px 0;padding-left:22px;font-size:16px;line-height:1.95;">
+  <li style="margin-bottom:10px;"><strong style="color:#0f172a;">1단계 — 소형 POC</strong>: 1~3B 모델 + A100 1장으로 특정 업무(예: CAD 검증) 3개월 테스트. 투자 3,000만 원 이내.</li>
+  <li style="margin-bottom:10px;"><strong style="color:#0f172a;">2단계 — 중형 확대</strong>: 효과 확인되면 7~14B 모델 + A100 2장. 동시 50명 사용 가능. 1억 원 이내.</li>
+  <li style="margin-bottom:10px;"><strong style="color:#0f172a;">3단계 — 대형 전환</strong>: 전사 적용 결정 시 70B + H100 8장. 이때도 이미 1~2단계에서 워크플로우·데이터 준비 끝나 있어야 함.</li>
+</ol>
+
+<!-- =========== SECTION 4 =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">용도별 최적 선택</h2>
+
+<p style="margin:0 0 20px 0;">
+  "어느 모델이 최고냐"는 틀린 질문이다. "우리 용도에 어느 모델이 맞냐"가 맞는 질문이다. PLM 구축 현장에서 관찰되는 대표 5가지 업무별 추천.
+</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0;">
+  <div style="background:#fff;border:2px solid #fef3c7;border-radius:12px;padding:24px;">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+      <span style="background:#f59e0b;color:#fff;padding:3px 10px;border-radius:100px;font-size:10px;font-weight:800;letter-spacing:0.12em;">USE CASE 1</span>
+    </div>
+    <h3 style="font-size:18px;font-weight:700;color:#0f172a;margin:0 0 10px 0;">CAD 치수·공차 검증</h3>
+    <p style="font-size:14px;color:#475569;line-height:1.7;margin:0 0 12px 0;">이전 버전과 변경 후 버전의 치수 일관성 자동 체크. 한국어 설명 품질보다 <strong>정밀한 논리 추론</strong>이 중요.</p>
+    <div style="background:#fffbeb;border-radius:8px;padding:10px 14px;font-size:13px;color:#78350f;"><strong>추천:</strong> Llama 4 Scout (10M 컨텍스트로 전체 도면 세트 동시 분석)</div>
+  </div>
+  <div style="background:#fff;border:2px solid #fef3c7;border-radius:12px;padding:24px;">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+      <span style="background:#f59e0b;color:#fff;padding:3px 10px;border-radius:100px;font-size:10px;font-weight:800;letter-spacing:0.12em;">USE CASE 2</span>
+    </div>
+    <h3 style="font-size:18px;font-weight:700;color:#0f172a;margin:0 0 10px 0;">설계 변경 이력 요약</h3>
+    <p style="font-size:14px;color:#475569;line-height:1.7;margin:0 0 12px 0;">ECO/ECN 승인 요청서 자동 작성. 한국어 보고서 톤·공문 형식이 핵심.</p>
+    <div style="background:#fffbeb;border-radius:8px;padding:10px 14px;font-size:13px;color:#78350f;"><strong>추천:</strong> HyperClova X 14B Think (공문 한국어 품질 최고)</div>
+  </div>
+  <div style="background:#fff;border:2px solid #fef3c7;border-radius:12px;padding:24px;">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+      <span style="background:#f59e0b;color:#fff;padding:3px 10px;border-radius:100px;font-size:10px;font-weight:800;letter-spacing:0.12em;">USE CASE 3</span>
+    </div>
+    <h3 style="font-size:18px;font-weight:700;color:#0f172a;margin:0 0 10px 0;">BOM 변경 영향 분석</h3>
+    <p style="font-size:14px;color:#475569;line-height:1.7;margin:0 0 12px 0;">품번 하나가 바뀌면 어느 완성품에 영향이 가는지 자동 추적. 대규모 테이블 이해 필수.</p>
+    <div style="background:#fffbeb;border-radius:8px;padding:10px 14px;font-size:13px;color:#78350f;"><strong>추천:</strong> Qwen 3 (구조화 데이터 처리 강점, Apache 2.0 자유 배포)</div>
+  </div>
+  <div style="background:#fff;border:2px solid #fef3c7;border-radius:12px;padding:24px;">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+      <span style="background:#f59e0b;color:#fff;padding:3px 10px;border-radius:100px;font-size:10px;font-weight:800;letter-spacing:0.12em;">USE CASE 4</span>
+    </div>
+    <h3 style="font-size:18px;font-weight:700;color:#0f172a;margin:0 0 10px 0;">협력사 이메일 분류·요약</h3>
+    <p style="font-size:14px;color:#475569;line-height:1.7;margin:0 0 12px 0;">도면 회신·이슈·납기 문의 자동 태깅. 소형 모델로도 충분.</p>
+    <div style="background:#fffbeb;border-radius:8px;padding:10px 14px;font-size:13px;color:#78350f;"><strong>추천:</strong> HyperClova X 3B 또는 Qwen 3 7B (경량·빠른 응답)</div>
+  </div>
+</div>
+
+<div style="background:#fff;border:2px solid #fef3c7;border-radius:12px;padding:24px;margin:18px 0;">
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+    <span style="background:#f59e0b;color:#fff;padding:3px 10px;border-radius:100px;font-size:10px;font-weight:800;letter-spacing:0.12em;">USE CASE 5</span>
+  </div>
+  <h3 style="font-size:18px;font-weight:700;color:#0f172a;margin:0 0 10px 0;">품질 부적합 보고서 분류 + 유사 사례 검색</h3>
+  <p style="font-size:14px;color:#475569;line-height:1.7;margin:0 0 12px 0;">새 부적합 보고서가 들어오면 과거 10년치 유사 사례를 자동 검색 + 근본 원인 후보 제시. <strong>RAG 파이프라인</strong> 필수.</p>
+  <div style="background:#fffbeb;border-radius:8px;padding:10px 14px;font-size:13px;color:#78350f;"><strong>추천:</strong> Mistral Large 3 (RAG 최적화 · 긴 문서 이해) 또는 HyperClova X 14B (한국어 문서일 경우)</div>
+</div>
+
+<!-- =========== SECTION 5 =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">구축 체크리스트 — 발주 전 확인할 것</h2>
+
+<p style="margin:0 0 20px 0;">
+  GPU 발주 전, 모델 다운로드 전, 이 10개 질문에 답이 있어야 실패하지 않는다.
+</p>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0;">
+  <div style="background:#fffbeb;border:1px solid #fef3c7;border-radius:10px;padding:18px;">
+    <div style="font-size:11px;font-weight:800;color:#f59e0b;letter-spacing:0.12em;margin-bottom:6px;">기술</div>
+    <ul style="margin:0;padding-left:18px;font-size:13.5px;line-height:1.8;color:#334155;">
+      <li>우리 업무 텍스트 중 한국어 비중 (%)</li>
+      <li>평균 문서 길이 (토큰)</li>
+      <li>동시 사용자 예상 수</li>
+      <li>응답 지연 허용 (초)</li>
+      <li>파인튜닝 필요 여부</li>
+    </ul>
+  </div>
+  <div style="background:#fffbeb;border:1px solid #fef3c7;border-radius:10px;padding:18px;">
+    <div style="font-size:11px;font-weight:800;color:#f59e0b;letter-spacing:0.12em;margin-bottom:6px;">운영·비용</div>
+    <ul style="margin:0;padding-left:18px;font-size:13.5px;line-height:1.8;color:#334155;">
+      <li>3년 TCO (HW + 전력 + 인건비)</li>
+      <li>라이선스 재판매·재배포 제약</li>
+      <li>서버실 냉각·전력 증설 필요 여부</li>
+      <li>모델 업데이트 책임자 지정</li>
+      <li>보안 감사 로그 요구사항</li>
+    </ul>
+  </div>
+</div>
+
+<!-- =========== SECTION 6 =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">현장에서 본 5가지 시행착오</h2>
+
+<p style="margin:0 0 20px 0;">
+  Papsnet이 PLM·MES 구축 경험에서 관찰한 온프레미스 AI 도입 초기 단계의 공통 실수.
+</p>
+
+<ul style="margin:0 0 24px 0;padding-left:22px;font-size:16px;line-height:1.95;">
+  <li style="margin-bottom:12px;"><strong style="color:#0f172a;">① 처음부터 70B 모델</strong>: "좋은 모델 사자"는 임원 지시로 H100 8장 먼저 사고, 이후 실제로 쓰는 건 3B로 충분했다는 결론이 6개월 뒤에 나온다. 하드웨어 유휴 상태.</li>
+  <li style="margin-bottom:12px;"><strong style="color:#0f172a;">② 한국어 품질 테스트 없이 Llama 선택</strong>: 영문 벤치마크만 보고 결정. 실제 사내 문서로 돌려보면 번역 톤이 어색해 사용 저조.</li>
+  <li style="margin-bottom:12px;"><strong style="color:#0f172a;">③ RAG 없이 "모델만 돌리면 된다"</strong>: 모델은 도입했는데 사내 도면·BOM 인덱싱 없어 그냥 일반 LLM처럼 쓰다가 가치 못 느낌.</li>
+  <li style="margin-bottom:12px;"><strong style="color:#0f172a;">④ 라이선스 약관 미확인</strong>: Llama Community 라이선스의 "MAU 7억" 조항이나 Mistral 상업 버전 요금을 법무 검토 없이 배포 후 문제 발생.</li>
+  <li style="margin-bottom:12px;"><strong style="color:#0f172a;">⑤ 책임자 미지정</strong>: 모델은 6개월마다 업데이트 필요. 누가 모니터링·재학습·보안 패치 할지 정하지 않으면 6개월 후 구버전 방치.</li>
+</ul>
+
+<!-- =========== SECTION 7 =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">결론 — 세 가지 상황별 추천</h2>
+
+<div style="background:linear-gradient(135deg,#fffbeb 0%,#fef3c7 100%);border-radius:14px;padding:28px 32px;margin:24px 0;border:1px solid #fde68a;">
+  <div style="margin-bottom:20px;">
+    <div style="font-size:11px;font-weight:800;color:#b45309;letter-spacing:0.15em;margin-bottom:6px;">상황 A</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">한국어 문서 90% 이상 · 중견 제조 · 예산 2억 이내</div>
+    <div style="font-size:14px;color:#78350f;line-height:1.7;">→ <strong>HyperClova X 14B Think</strong> + A100 2장. Naver 엔터프라이즈 계약. 한국어 품질 압도적, 토큰 효율 2배로 장기 운영비 절감.</div>
+  </div>
+  <div style="margin-bottom:20px;">
+    <div style="font-size:11px;font-weight:800;color:#b45309;letter-spacing:0.15em;margin-bottom:6px;">상황 B</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">글로벌 본사 보고 · 한영 혼용 · 장기 베팅</div>
+    <div style="font-size:14px;color:#78350f;line-height:1.7;">→ <strong>Llama 4 Scout</strong> + H100 4장. 10M 컨텍스트로 대용량 문서 분석 가능. 오픈 생태계 + 글로벌 인력 수급 유리.</div>
+  </div>
+  <div>
+    <div style="font-size:11px;font-weight:800;color:#b45309;letter-spacing:0.15em;margin-bottom:6px;">상황 C</div>
+    <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:6px;">자유도 최우선 · 파인튜닝 · 재배포 계획</div>
+    <div style="font-size:14px;color:#78350f;line-height:1.7;">→ <strong>Qwen 3</strong> + A100 2장. Apache 2.0 라이선스로 법적 제약 최소. 내부 도구로 자유롭게 커스터마이징.</div>
+  </div>
+</div>
+
+<p style="margin:0 0 20px 0;font-size:17px;line-height:1.9;">
+  "최고의 모델"은 없다. <strong style="color:#0f172a;">우리 업무 특성에 가장 잘 맞는 모델</strong>이 있을 뿐이다. 그리고 그걸 찾으려면 2개월 POC를 돌려봐야 안다. 발주부터 하면 늦는다.
+</p>
+
+<p style="margin:0 0 40px 0;font-size:17px;line-height:1.9;color:#475569;font-style:italic;">
+  다음 월간 리포트 <strong>Vol.03</strong>에서는 실제 POC 설계법을 다룬다. "1개월 3,000만 원으로 온프레미스 LLM을 제대로 평가하는 방법 — POC 계획서 템플릿과 평가 지표 10가지".
+</p>
+
+<!-- =========== SOURCES =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">출처 · 방법론</h2>
+
+<ol style="margin:0 0 32px 0;padding-left:22px;font-size:14px;line-height:2;color:#475569;">
+  <li><a href="https://github.com/meta-llama/llama-models" target="_blank" rel="noopener noreferrer" style="color:#92400e;">Meta Llama Models GitHub Repository</a> — Llama 3.3 / 4 모델 사양</li>
+  <li><a href="https://www.llama.com/" target="_blank" rel="noopener noreferrer" style="color:#92400e;">Llama 공식 사이트</a> — 라이선스 및 사용 정책</li>
+  <li><a href="https://qwenlm.github.io/blog/" target="_blank" rel="noopener noreferrer" style="color:#92400e;">Qwen 공식 블로그</a> — Qwen 3 모델 패밀리</li>
+  <li><a href="https://clova.ai/hyperclova" target="_blank" rel="noopener noreferrer" style="color:#92400e;">Naver HyperClova X</a> — SEED 라인업 및 벤치마크</li>
+  <li><a href="https://mistral.ai/technology" target="_blank" rel="noopener noreferrer" style="color:#92400e;">Mistral AI Technology</a> — Large 3 · Medium 3 · Ministral 3</li>
+  <li>Papsnet PLM 구축 고객사 관찰 (30+ 현장, 2015~2026) — 업종·규모로만 익명 처리</li>
+  <li>NVIDIA H100 · A100 가격 자료 (공식 파트너 견적 기준)</li>
+</ol>
+
+<!-- =========== RELATED =========== -->
+<h2 style="font-size:28px;font-weight:800;color:#0f172a;border-bottom:3px solid #f59e0b;padding-bottom:12px;margin:48px 0 20px 0;line-height:1.3;">관련 글</h2>
+
+<ul style="margin:0 0 32px 0;padding-left:22px;font-size:15px;line-height:2.1;">
+  <li><a href="https://aibizinsider.com/2026/04/14/korea-manufacturing-ai-barriers-onprem-llm-2026-04/" style="color:#f59e0b;text-decoration:none;font-weight:600;">월간 리포트 Vol.01 — 숫자 하나에 공장이 휘청인다: 한국 제조업 AI 장벽과 돌파구</a></li>
+  <li><a href="https://aibizinsider.com/2026/04/11/mcp-vs-skills-analysis/" style="color:#f59e0b;text-decoration:none;font-weight:600;">MCP vs Skills: 무엇이 다르고, 왜 중요한가 — 원문 분석</a></li>
+  <li><a href="https://aibizinsider.com/2026/04/10/korea-ai-action-plan-99-tasks-326-recommendations-2026-2028/" style="color:#f59e0b;text-decoration:none;font-weight:600;">대한민국 인공지능행동계획 확정, 99개 실행과제로 AI 3강 도약 청사진</a></li>
+  <li><a href="https://aibizinsider.com/2026/04/05/korea-ai-basic-law-2026-high-impact-ai-compliance-guide/" style="color:#f59e0b;text-decoration:none;font-weight:600;">AI 기본법 시행 3개월 현황, 고영향 AI 판단 기준과 과태료 체계</a></li>
+  <li><a href="https://aibizinsider.com/2026/04/11/korea-agentic-ai-alliance-250-organizations-4-divisions-analysis-2026/" style="color:#f59e0b;text-decoration:none;font-weight:600;">에이전틱 AI 얼라이언스 출범, 250개 기관 참여 민관 협력체 완전 분석</a></li>
+</ul>
+
+<!-- Footer -->
+<div style="background:#0f172a;border-radius:12px;padding:24px 32px;margin-top:40px;text-align:center;">
+  <div style="font-size:11px;color:#fbbf24;letter-spacing:0.18em;font-weight:700;margin-bottom:6px;">MONTHLY REPORT · VOL. 02</div>
+  <p style="font-size:13px;color:#94a3b8;margin:0;">AI Biz Insider · AI 비즈니스 · aibizinsider.com</p>
+  <p style="font-size:12px;color:#64748b;margin:8px 0 0 0;">발행 2026-04-15 · 편집장 K.Nardo (킴날도) · 리포트 문의 kimnardo98@gmail.com</p>
+</div>
+
+</div>
+<!-- /wp:html -->

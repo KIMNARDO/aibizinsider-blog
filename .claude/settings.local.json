@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_WordPress_com__wpcom-mcp-content-authoring",
+      "mcp__claude_ai_WordPress_com__wpcom-mcp-site-plugins",
+      "mcp__claude_ai_WordPress_com__wpcom-mcp-site-settings",
+      "mcp__claude_ai_Canva__generate-design",
+      "mcp__claude_ai_Canva__create-design-from-candidate",
+      "mcp__claude_ai_Canva__export-design",
+      "mcp__claude_ai_Canva__start-editing-transaction",
+      "mcp__claude_ai_Canva__cancel-editing-transaction",
+      "mcp__claude_ai_Canva__perform-editing-operations",
+      "mcp__claude_ai_Canva__commit-editing-transaction",
+      "mcp__claude_ai_WordPress_com__wpcom-get-site-stats",
+      "mcp__9967fed5-bad3-486d-9807-ec43f5f85717__wpcom-get-site-stats",
+      "mcp__9967fed5-bad3-486d-9807-ec43f5f85717__wpcom-mcp-content-authoring",
+      "mcp__9967fed5-bad3-486d-9807-ec43f5f85717__wpcom-mcp-site-settings",
+      "mcp__c1fc4002-5f49-5f9d-a4e5-93c4ef5d6a75__google_drive_fetch",
+      "mcp__80ef9aae-e017-4e61-9abf-b447d95cb31f__generate-design"
+    ]
+  }
+}

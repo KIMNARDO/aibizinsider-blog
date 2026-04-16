@@ -1,0 +1,310 @@
+<div style="max-width:1120px;margin:0 auto;padding:24px;color:#334155;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.9;font-size:16px;">
+
+<!-- HERO IMAGE -->
+<figure style="margin:0 0 28px 0;">
+  <img src="https://iili.io/BMxn3tj.png" alt="Futuristic AI command center with holographic displays showing planning workflows and legal proceedings" style="width:100%;height:auto;display:block;border-radius:16px;max-height:420px;object-fit:cover;" />
+  <figcaption style="font-size:12px;color:#64748b;text-align:center;margin-top:8px;font-style:italic;">AI-generated illustration: A panoramic command center depicting AI infrastructure scaling, legal proceedings, and cloud-based development workflows</figcaption>
+</figure>
+
+<!-- TL;DR KEY POINTS BOX -->
+<div style="background:linear-gradient(135deg,#0c4a6e 0%,#155e75 100%);border-radius:16px;padding:32px;box-shadow:0 4px 20px rgba(12,74,110,0.25);margin-bottom:32px;">
+  <div style="font-size:12px;color:#67e8f9;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:10px;font-weight:700;">KEY POINTS</div>
+  <p style="font-weight:700;font-size:20px;color:#ffffff;margin:0 0 20px 0;line-height:1.4;">Claude Code Ultraplan Launches Cloud Workflows, Musk-OpenAI $100B Trial Escalates, Anthropic Secures CoreWeave Infrastructure</p>
+  <ul style="margin:0;padding-left:20px;">
+    <li style="margin-bottom:12px;font-size:15px;line-height:1.8;color:#e2e8f0;"><span style="color:#22d3ee;font-weight:700;">Claude Code Ultraplan</span> — Anthropic launches a cloud-based planning feature that transfers heavy workflow drafting from the CLI terminal to the browser, requiring Claude Code v2.1.91+ and a connected GitHub repository.</li>
+    <li style="margin-bottom:12px;font-size:15px;line-height:1.8;color:#e2e8f0;"><span style="color:#22d3ee;font-weight:700;">Musk vs. OpenAI Trial Heats Up</span> — OpenAI accuses Elon Musk of a legal ambush after he revised his remedies to include removing Sam Altman and Greg Brockman, with jury selection set for April 27 and over $100 billion at stake.</li>
+    <li style="margin-bottom:12px;font-size:15px;line-height:1.8;color:#e2e8f0;"><span style="color:#22d3ee;font-weight:700;">Anthropic-CoreWeave Infrastructure Deal</span> — Anthropic signs a multi-year agreement with CoreWeave for GPU cloud capacity using Nvidia chips in US data centers, sending CoreWeave stock up 12 percent.</li>
+    <li style="margin-bottom:0;font-size:15px;line-height:1.8;color:#e2e8f0;"><span style="color:#22d3ee;font-weight:700;">MCP vs. Skills Debate</span> — The developer ecosystem wrestles with whether Model Context Protocol or Skills-based approaches will become the dominant standard for AI agent tool integration.</li>
+  </ul>
+</div>
+
+<!-- INTRO LEAD -->
+<p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 32px 0;">This evening edition covers four major developments shaking the AI industry: Anthropic introduces Ultraplan to offload planning from terminals to the cloud, the Musk-OpenAI legal confrontation intensifies with accusations of courtroom ambush tactics ahead of a late-April trial, Anthropic inks a multi-year GPU cloud deal with CoreWeave to scale Claude infrastructure, and the developer community debates whether MCP or Skills will define the future of AI tool integration. Each story carries significant implications for how AI companies build, compete, and govern themselves in 2026.</p>
+
+<!-- SECTION 1 -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">Claude Code Ultraplan: Asynchronous AI Planning Goes Cloud-Native</h2>
+
+<div style="background:#ffffff;border:1px solid #e0f2fe;border-radius:12px;box-shadow:0 2px 12px rgba(12,74,110,0.07);margin-bottom:28px;overflow:hidden;">
+  <figure style="margin:0;">
+    <img src="https://iili.io/BM9QUmu.png" alt="Abstract visualization of cloud-based AI planning tool with interconnected workflow nodes" style="width:100%;height:auto;display:block;max-height:240px;object-fit:cover;" />
+    <figcaption style="font-size:11px;color:#64748b;text-align:center;padding:6px 20px;font-style:italic;">AI-generated: Cloud-based planning interface with interconnected workflow nodes and terminal integration</figcaption>
+  </figure>
+  <div style="padding:20px 24px 24px;">
+    <div style="display:inline-block;background:#0c4a6e;color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:4px;margin-bottom:12px;letter-spacing:0.05em;">Anthropic</div>
+
+    <h3 style="font-size:20px;font-weight:700;color:#0e7490;border-left:4px solid #67e8f9;padding-left:14px;margin:0 0 8px 0;line-height:1.4;">Claude Code Ultraplan Moves AI-Assisted Planning to the Browser</h3>
+    <p style="font-size:13px;color:#0e7490;font-weight:600;margin:0 0 14px 0;">GeekNews / Anthropic — April 11, 2026</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">Anthropic has released Ultraplan, a new feature within Claude Code that transfers computationally intensive planning workflows from the local command-line interface to the cloud-based Claude Code web environment. The tool allows developers to initiate a planning session using three methods: the <code style="background:#ecfeff;color:#0e7490;padding:2px 6px;border-radius:3px;font-size:14px;">/ultraplan</code> command, including the keyword "ultraplan" in a regular prompt, or selecting a refinement option after completing a local plan. Once triggered, the planning task moves to Anthropic's cloud infrastructure, freeing the terminal for other development work. Users can then review the generated plan in their browser, provide inline feedback on specific sections using comments and emoji reactions, and navigate through an outline sidebar. After approval, developers choose between implementing directly in the web interface to create pull requests or sending the plan back to the terminal for local execution.</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">The feature requires Claude Code version 2.1.91 or later and a connected GitHub repository. Notably, Ultraplan runs exclusively on Anthropic's own infrastructure, meaning it is unavailable for teams using Amazon Bedrock, Google Cloud Vertex AI, or Microsoft Foundry environments. Real-time terminal status indicators keep developers informed: a hollow diamond signals active drafting, a notification state indicates Claude needs clarification, and a filled diamond confirms the plan is ready for browser review. The feature is currently in research preview status.</p>
+
+    <!-- Tech Analysis Box -->
+    <div style="background:#cffafe;border:2px solid #06b6d4;border-radius:10px;padding:18px 20px;margin:16px 0 14px 0;">
+      <p style="font-size:13px;font-weight:700;color:#0e7490;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 8px 0;">Tech Analysis</p>
+      <p style="font-size:15px;line-height:1.85;color:#0e7490;margin:0;">Ultraplan represents a meaningful architectural shift in how AI-assisted development tools handle resource-intensive operations. By offloading planning to the cloud, Anthropic addresses a persistent pain point where long-running Claude Code sessions block terminal access for routine tasks like git operations, test execution, or dependency management. The asynchronous model mirrors established patterns in CI/CD pipelines (Continuous Integration / Continuous Delivery — the automated process of building, testing, and deploying code) where heavy computation happens remotely while developers continue local work. However, the restriction to Anthropic's own infrastructure raises questions about enterprise adoption, particularly for organizations with existing commitments to AWS Bedrock or Google Vertex AI for their Claude deployments. This platform lock-in creates a two-tier experience where cloud-native Anthropic customers get the full toolchain while managed-service users face feature gaps. The GitHub-only requirement also excludes teams using GitLab or Bitbucket, narrowing the initial addressable market.</p>
+    </div>
+
+    <p style="margin:14px 0 0 0;"><a href="https://news.hada.io/topic?id=28410" target="_blank" rel="noopener noreferrer" style="color:#0e7490;font-size:13px;text-decoration:none;border-bottom:1px solid #06b6d4;">Read original on GeekNews</a></p>
+  </div>
+</div>
+
+<!-- SECTION 2 -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">OpenAI Accuses Musk of Legal Ambush Ahead of $100 Billion Trial</h2>
+
+<div style="background:#ffffff;border:1px solid #e0f2fe;border-radius:12px;box-shadow:0 2px 12px rgba(12,74,110,0.07);margin-bottom:28px;overflow:hidden;">
+  <figure style="margin:0;">
+    <img src="https://iili.io/BM9Zqpn.png" alt="Abstract courtroom scene with scales of justice and AI neural network patterns" style="width:100%;height:auto;display:block;max-height:240px;object-fit:cover;" />
+    <figcaption style="font-size:11px;color:#64748b;text-align:center;padding:6px 20px;font-style:italic;">AI-generated: Scales of justice intertwined with digital neural network patterns representing AI industry legal disputes</figcaption>
+  </figure>
+  <div style="padding:20px 24px 24px;">
+    <div style="display:inline-block;background:#0c4a6e;color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:4px;margin-bottom:12px;letter-spacing:0.05em;">OpenAI / Legal</div>
+
+    <h3 style="font-size:20px;font-weight:700;color:#0e7490;border-left:4px solid #67e8f9;padding-left:14px;margin:0 0 8px 0;line-height:1.4;">Musk Revises Lawsuit Demands to Include Ousting Altman and Brockman as Trial Approaches</h3>
+    <p style="font-size:13px;color:#0e7490;font-weight:600;margin:0 0 14px 0;">Bloomberg / The Hill / TechCrunch — April 11, 2026</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">OpenAI filed a late-night court document on Friday accusing Elon Musk of conducting a legal ambush by suddenly revising what he seeks in his lawsuit against the AI company. The revised remedies, filed on April 7, now include demands for the removal of CEO Sam Altman and President Greg Brockman from their leadership positions, a significant escalation from the original complaint. Musk's lawsuit alleges that OpenAI abandoned its founding nonprofit mission in favor of commercial profit-seeking. The total damages sought exceed $100 billion, with some filings referencing figures as high as $134 billion. OpenAI stated that Musk's revised proposals appear aimed at "sandbagging the defendants and injecting chaos into the proceedings, while trying to recast his public narrative about his lawsuit." Jury selection for the federal case is scheduled to begin on April 27, just over two weeks away.</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">In a strategic move, Musk's legal team also amended the proposed remedies to suggest that any damages paid out in the case should be returned to OpenAI's nonprofit entity rather than to Musk personally. The filing stated: "Any assets obtained at the charity's expense belong to the OpenAI charity and must be returned to it. Plaintiff does not and will not seek these funds for himself." This repositioning frames Musk as a guardian of the original mission rather than a financial claimant, a narrative shift that could influence jury perception. Meanwhile, OpenAI has separately urged California and Delaware attorneys general to investigate Musk's conduct, adding regulatory pressure alongside the courtroom battle. OpenAI recently completed a $122 billion funding round valuing the company at $852 billion, underscoring the massive financial stakes involved.</p>
+
+    <!-- Tech Analysis Box -->
+    <div style="background:#cffafe;border:2px solid #06b6d4;border-radius:10px;padding:18px 20px;margin:16px 0 14px 0;">
+      <p style="font-size:13px;font-weight:700;color:#0e7490;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 8px 0;">Tech Analysis</p>
+      <p style="font-size:15px;line-height:1.85;color:#0e7490;margin:0;">This legal battle extends far beyond two companies. The outcome will likely set precedent for how AI organizations structured as nonprofits can transition to for-profit entities, affecting every research lab considering similar moves. The $852 billion valuation that OpenAI achieved in its latest funding round demonstrates why the nonprofit-to-profit conversion question carries such enormous financial weight. From a technical governance standpoint, if Musk's demands for leadership removal succeed, it would signal that founding charter commitments in AI research organizations carry enforceable legal weight, potentially constraining how future AI companies structure their governance. The timing is also significant: with frontier AI models advancing rapidly, any disruption to OpenAI's leadership during a critical development period could shift competitive dynamics among the top three labs. For enterprise customers relying on OpenAI's APIs and products, the trial introduces a layer of organizational risk that procurement teams will need to factor into vendor evaluations through the remainder of 2026.</p>
+    </div>
+
+    <p style="margin:14px 0 0 0;"><a href="https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms" target="_blank" rel="noopener noreferrer" style="color:#0e7490;font-size:13px;text-decoration:none;border-bottom:1px solid #06b6d4;">Read original on Bloomberg</a></p>
+  </div>
+</div>
+
+<!-- SECTION 3 -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">Anthropic Secures Multi-Year CoreWeave GPU Cloud Deal to Scale Claude</h2>
+
+<div style="background:#ffffff;border:1px solid #e0f2fe;border-radius:12px;box-shadow:0 2px 12px rgba(12,74,110,0.07);margin-bottom:28px;overflow:hidden;">
+  <figure style="margin:0;">
+    <img src="https://iili.io/BM9ZA2S.png" alt="Expansive network of interconnected data centers with glowing fiber optic connections across a stylized globe" style="width:100%;height:auto;display:block;max-height:240px;object-fit:cover;" />
+    <figcaption style="font-size:11px;color:#64748b;text-align:center;padding:6px 20px;font-style:italic;">AI-generated: Global network of interconnected data centers with fiber optic pathways representing AI infrastructure scaling</figcaption>
+  </figure>
+  <div style="padding:20px 24px 24px;">
+    <div style="display:inline-block;background:#0c4a6e;color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:4px;margin-bottom:12px;letter-spacing:0.05em;">Anthropic / Infrastructure</div>
+
+    <h3 style="font-size:20px;font-weight:700;color:#0e7490;border-left:4px solid #67e8f9;padding-left:14px;margin:0 0 8px 0;line-height:1.4;">CoreWeave Stock Surges 12% as Anthropic Joins Nine of Ten Top AI Model Providers on the Platform</h3>
+    <p style="font-size:13px;color:#0e7490;font-weight:600;margin:0 0 14px 0;">Bloomberg / CNBC / CoreWeave — April 10, 2026</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">Anthropic announced a multi-year agreement with CoreWeave to rent GPU cloud capacity for building and deploying its Claude family of AI models. The deal covers a variety of Nvidia chip architectures deployed across data centers in the United States, with compute resources coming online later in 2026 through a phased infrastructure rollout. While CoreWeave declined to disclose the financial terms of the agreement, the market reaction was significant: CoreWeave shares surged approximately 12 percent on the announcement, climbing from $92 to $103 per share. The deal makes Anthropic the ninth of the ten leading AI model providers to leverage CoreWeave's specialized GPU cloud platform, reinforcing CoreWeave's position as the dominant infrastructure provider for frontier AI development.</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">The timing of the announcement carries additional weight. It came just one day after CoreWeave secured a separate $21 billion infrastructure expansion agreement with Meta, representing two landmark contracts in 48 hours. For Anthropic, the deal represents a strategic diversification of compute infrastructure beyond its existing relationship with Google Cloud, where it has been a primary cloud customer. The multi-year structure and phased rollout suggest Anthropic is planning for sustained scaling of Claude's inference and training workloads, aligning with its recent launch of features like Claude Managed Agents and the Ultraplan cloud workflow that require substantial backend compute capacity. Anthropic also recently signed a multi-gigawatt TPU deal with Google and Broadcom, indicating a parallel multi-cloud strategy where different chip architectures serve different workload profiles.</p>
+
+    <!-- Tech Analysis Box -->
+    <div style="background:#cffafe;border:2px solid #06b6d4;border-radius:10px;padding:18px 20px;margin:16px 0 14px 0;">
+      <p style="font-size:13px;font-weight:700;color:#0e7490;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 8px 0;">Tech Analysis</p>
+      <p style="font-size:15px;line-height:1.85;color:#0e7490;margin:0;">This deal reveals a sophisticated multi-cloud infrastructure strategy emerging at Anthropic. By combining Google TPUs for specific workloads with Nvidia GPUs through CoreWeave, Anthropic gains the flexibility to optimize cost-performance ratios across different stages of the AI pipeline: training, fine-tuning, and inference each have distinct computational profiles that different chip architectures handle with varying efficiency. The phased rollout also suggests Anthropic is planning for the compute demands of its next-generation models beyond the current Claude Opus and Sonnet lineup. For the broader AI infrastructure market, the fact that nine of ten top model providers now use CoreWeave validates the thesis that specialized GPU cloud providers can compete effectively against hyperscalers (large-scale public cloud providers like AWS, Azure, and Google Cloud) for AI workloads. Enterprise customers evaluating Claude deployments should note that this expanded infrastructure footprint should translate to improved inference latency and availability as the new capacity comes online, potentially reducing the API reliability concerns that led to outages on April 7 and 8.</p>
+    </div>
+
+    <p style="margin:14px 0 0 0;"><a href="https://www.coreweave.com/news/coreweave-announces-multi-year-agreement-with-anthropic" target="_blank" rel="noopener noreferrer" style="color:#0e7490;font-size:13px;text-decoration:none;border-bottom:1px solid #06b6d4;">Read original on CoreWeave</a></p>
+  </div>
+</div>
+
+<!-- SECTION 4 -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">MCP vs. Skills: The AI Tool Integration Standard Debate Intensifies</h2>
+
+<div style="background:#ffffff;border:1px solid #e0f2fe;border-radius:12px;box-shadow:0 2px 12px rgba(12,74,110,0.07);margin-bottom:28px;">
+  <div style="padding:20px 24px 24px;">
+    <div style="display:inline-block;background:#0c4a6e;color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:4px;margin-bottom:12px;letter-spacing:0.05em;">Developer Ecosystem</div>
+
+    <h3 style="font-size:20px;font-weight:700;color:#0e7490;border-left:4px solid #67e8f9;padding-left:14px;margin:0 0 8px 0;line-height:1.4;">Developer Analysis Positions MCP as Connection Layer, Skills as Knowledge Layer for AI Agent Tooling</h3>
+    <p style="font-size:13px;color:#0e7490;font-weight:600;margin:0 0 14px 0;">GeekNews — April 11, 2026</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">A detailed analysis circulating on GeekNews has reignited the debate over whether Model Context Protocol (MCP, Anthropic's open standard for connecting AI models to external tools and data sources) or Skills (procedural knowledge bundles that teach AI agents how to perform specific tasks) should serve as the primary integration standard for AI agent ecosystems. The analysis argues that MCP functions as an API abstraction-based standard interface enabling remote access without local installation, automatic updates across all connected clients simultaneously, and OAuth-based security with sandboxing capabilities. Its platform-agnostic compatibility across Mac, mobile, and web environments gives it a distribution advantage that Skills lack. In contrast, Skills excel at teaching procedural knowledge, documenting tool usage patterns, and encoding organizational standards and terminology into reusable formats.</p>
+
+    <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 14px 0;">The core distinction the analysis draws is architectural: MCP operates as a connection layer handling external system interaction requiring authentication and remote execution, while Skills function as a knowledge layer focused on context provision and procedural guidance for tools that are already installed. Critics of the Skills approach highlight deployment friction, noting that Skills often require CLI installation across incompatible platforms and create authentication challenges in multi-environment setups. Proponents counter that Skills consume less context window space and remain sufficient for simple, well-defined tasks. The article also introduces the concept of cloud-tunneling services like MCP Nest that enable local MCP servers to operate remotely, a development that could blur the line between local and cloud-based tool integration and position MCP as the default standard for future AI integration environments.</p>
+
+    <!-- Comparison Table -->
+    <div style="overflow-x:auto;margin:20px 0;">
+      <table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0f2fe;border-radius:8px;overflow:hidden;">
+        <thead>
+          <tr style="background:#0c4a6e;color:#fff;">
+            <th style="padding:12px 16px;text-align:left;font-weight:600;">Feature</th>
+            <th style="padding:12px 16px;text-align:left;font-weight:600;">MCP (Model Context Protocol)</th>
+            <th style="padding:12px 16px;text-align:left;font-weight:600;">Skills</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="background:#f0fdfe;">
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;font-weight:600;color:#0c4a6e;">Primary Function</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">System integration and connection</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Knowledge transfer and procedures</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;font-weight:600;color:#0c4a6e;">Deployment</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Remote, no local installation</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Often requires CLI setup</td>
+          </tr>
+          <tr style="background:#f0fdfe;">
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;font-weight:600;color:#0c4a6e;">Updates</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Automatic across all clients</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Manual per environment</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;font-weight:600;color:#0c4a6e;">Security</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">OAuth + sandboxing</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Platform-dependent</td>
+          </tr>
+          <tr style="background:#f0fdfe;">
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;font-weight:600;color:#0c4a6e;">Context Cost</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Higher (tool definitions)</td>
+            <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Lower (lightweight prompts)</td>
+          </tr>
+          <tr>
+            <td style="padding:10px 16px;font-weight:600;color:#0c4a6e;">Best For</td>
+            <td style="padding:10px 16px;color:#334155;">APIs, databases, SaaS integration</td>
+            <td style="padding:10px 16px;color:#334155;">Domain knowledge, procedures, standards</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tech Analysis Box -->
+    <div style="background:#cffafe;border:2px solid #06b6d4;border-radius:10px;padding:18px 20px;margin:16px 0 14px 0;">
+      <p style="font-size:13px;font-weight:700;color:#0e7490;letter-spacing:0.08em;text-transform:uppercase;margin:0 0 8px 0;">Tech Analysis</p>
+      <p style="font-size:15px;line-height:1.85;color:#0e7490;margin:0;">The MCP versus Skills framing obscures what is really a layered architecture question. In practice, the most effective AI agent deployments will likely use both: MCP for stateful, authenticated connections to external systems like databases, APIs, and SaaS platforms, and Skills for encoding domain-specific knowledge about how to use those connections effectively. The analogy is similar to the difference between a database driver (MCP) and a set of query templates optimized for a specific business domain (Skills). What makes this debate commercially significant is that the winner of the standardization battle gains enormous platform leverage. If MCP becomes the universal integration standard, Anthropic controls the protocol that every AI tool vendor must implement. The emergence of cloud-tunneling services suggests the ecosystem is already moving toward MCP as the default connection layer. For developers and organizations making tooling investments today, the pragmatic approach is to build MCP servers for system-level integrations while using Skills for the knowledge and procedural layer that sits on top, rather than treating it as an either-or decision.</p>
+    </div>
+
+    <p style="margin:14px 0 0 0;"><a href="https://news.hada.io/topic?id=28404" target="_blank" rel="noopener noreferrer" style="color:#0e7490;font-size:13px;text-decoration:none;border-bottom:1px solid #06b6d4;">Read original on GeekNews</a></p>
+  </div>
+</div>
+
+<!-- BY THE NUMBERS TABLE -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">By the Numbers</h2>
+
+<div style="overflow-x:auto;margin-bottom:32px;">
+  <table style="width:100%;border-collapse:collapse;font-size:14px;border:1px solid #e0f2fe;border-radius:8px;overflow:hidden;">
+    <thead>
+      <tr style="background:#0c4a6e;color:#fff;">
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Metric</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Value</th>
+        <th style="padding:12px 16px;text-align:left;font-weight:600;">Context</th>
+        <th style="padding:12px 16px;text-align:center;font-weight:600;">Impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#f0fdfe;">
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Musk-OpenAI Damages Sought</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;font-weight:600;">$100B–$134B</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Largest AI-related lawsuit in history</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;text-align:center;"><span style="background:#dc2626;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;">High</span></td>
+      </tr>
+      <tr>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">OpenAI Valuation</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;font-weight:600;">$852B</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Post $122B funding round</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;text-align:center;"><span style="background:#dc2626;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;">High</span></td>
+      </tr>
+      <tr style="background:#f0fdfe;">
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">CoreWeave Stock Jump</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;font-weight:600;">+12%</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">$92 to $103 per share on Anthropic deal</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;text-align:center;"><span style="background:#dc2626;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;">High</span></td>
+      </tr>
+      <tr>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Meta-CoreWeave Deal</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;font-weight:600;">$21B</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Infrastructure expansion, announced day before Anthropic deal</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;text-align:center;"><span style="background:#dc2626;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;">High</span></td>
+      </tr>
+      <tr style="background:#f0fdfe;">
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">AI Model Providers on CoreWeave</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;font-weight:600;">9 of 10</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Top frontier AI labs now on the platform</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;text-align:center;"><span style="background:#0891b2;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;">Medium</span></td>
+      </tr>
+      <tr>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Claude Code Version for Ultraplan</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;font-weight:600;">v2.1.91+</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;color:#334155;">Minimum required version, research preview</td>
+        <td style="padding:10px 16px;border-bottom:1px solid #e0f2fe;text-align:center;"><span style="background:#0891b2;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;">Medium</span></td>
+      </tr>
+      <tr style="background:#f0fdfe;">
+        <td style="padding:10px 16px;color:#334155;">Musk Trial Jury Selection</td>
+        <td style="padding:10px 16px;color:#334155;font-weight:600;">April 27, 2026</td>
+        <td style="padding:10px 16px;color:#334155;">Federal court, 16 days from publication date</td>
+        <td style="padding:10px 16px;text-align:center;"><span style="background:#dc2626;color:#fff;padding:2px 10px;border-radius:4px;font-size:12px;font-weight:700;">High</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- KEY TAKEAWAYS -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">Key Takeaways</h2>
+
+<div style="background:#ecfeff;border:2px solid #06b6d4;border-radius:12px;padding:24px;margin-bottom:32px;">
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 16px 0;"><strong style="color:#0c4a6e;">AI development workflows are becoming distributed.</strong> Ultraplan's cloud-based planning model signals that the future of AI-assisted development involves splitting tasks across local and remote environments. Developers who adopt asynchronous AI workflows early will gain productivity advantages, though platform lock-in risks remain a concern for teams committed to specific cloud providers.</p>
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 16px 0;"><strong style="color:#0c4a6e;">Legal uncertainty threatens to reshape AI governance norms.</strong> The Musk-OpenAI trial, now just 16 days from jury selection, could establish binding precedent on whether nonprofit AI research charters carry enforceable legal weight after for-profit conversions. The outcome will influence how every AI lab structures its governance going forward, with billions of dollars in organizational value at stake.</p>
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 16px 0;"><strong style="color:#0c4a6e;">AI infrastructure is consolidating around specialized providers.</strong> CoreWeave's back-to-back deals with Meta ($21 billion) and Anthropic demonstrate that GPU-specialized cloud providers are winning against hyperscaler incumbents for AI-specific workloads. Nine of ten top model providers now use CoreWeave, creating a concentration risk that the industry will need to monitor.</p>
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0;"><strong style="color:#0c4a6e;">The AI integration standard war is still early.</strong> MCP and Skills represent different layers of the same stack, and organizations investing in AI tooling should build both rather than betting on one. The emergence of cloud-tunneling bridges like MCP Nest suggests MCP is gaining momentum as the default connection protocol, but Skills remain essential for encoding institutional knowledge.</p>
+</div>
+
+<!-- INDUSTRY CROSS-ANALYSIS -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">Industry Cross-Analysis</h2>
+
+<div style="background:#f8fafc;border:1px solid #e0f2fe;border-radius:12px;padding:24px;margin-bottom:32px;">
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 16px 0;">Today's stories connect through a single thread: the AI industry is simultaneously scaling its technical capabilities while navigating existential governance questions. Anthropic's dual moves of launching Ultraplan and securing CoreWeave infrastructure reveal a company racing to build both the tooling layer and the compute foundation for the next generation of AI development. Meanwhile, the Musk-OpenAI trial creates systemic uncertainty that affects not just OpenAI but every AI company that started with a research-oriented mission and evolved toward commercial deployment.</p>
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 16px 0;">The competitive dynamics are shifting. CoreWeave's emergence as the infrastructure backbone for nine of ten top AI labs means infrastructure access is no longer a differentiator among frontier model providers. Instead, differentiation is moving up the stack to tooling and developer experience, exactly where Ultraplan and the MCP standard compete. Anthropic's strategy of building proprietary developer tools (Ultraplan runs only on Anthropic infrastructure) while promoting an open integration standard (MCP) mirrors the classic platform playbook: control the protocol, capture the ecosystem.</p>
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0;">The financial stakes are staggering. Between OpenAI's $852 billion valuation, Musk's $134 billion lawsuit, CoreWeave's back-to-back deals totaling tens of billions, and the compute infrastructure arms race, the AI industry is operating at a scale of capital deployment that rivals the entire cloud computing transition of the 2010s compressed into a single year. Enterprises and developers building on these platforms should prepare contingency plans for multiple outcomes from the April 27 trial, as the verdict could restructure the competitive landscape overnight.</p>
+</div>
+
+<!-- ACTION ITEMS -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">Action Items</h2>
+
+<div style="background:#ffffff;border:2px solid #06b6d4;border-radius:12px;padding:24px;margin-bottom:32px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li style="margin-bottom:14px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#0c4a6e;">Test Claude Code Ultraplan in non-critical projects.</strong> If your team uses Claude Code v2.1.91+ with GitHub, evaluate whether the asynchronous cloud planning workflow reduces terminal bottlenecks during complex refactoring or architecture planning sessions. Note the Anthropic-only infrastructure limitation before committing to production workflows.</li>
+    <li style="margin-bottom:14px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#0c4a6e;">Monitor the Musk-OpenAI trial timeline closely.</strong> With jury selection on April 27, prepare contingency assessments for your AI vendor strategy. If your organization depends heavily on OpenAI APIs, document alternative providers and estimate migration timelines in case leadership disruption affects service reliability or product direction.</li>
+    <li style="margin-bottom:14px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#0c4a6e;">Audit your AI infrastructure provider concentration.</strong> With CoreWeave now serving nine of ten top model providers, evaluate whether your inference and training workloads have single-provider risk. Consider multi-cloud redundancy strategies, particularly as new CoreWeave-Anthropic capacity comes online later in 2026.</li>
+    <li style="margin-bottom:14px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#0c4a6e;">Adopt a dual MCP-plus-Skills integration strategy.</strong> Build MCP servers for external system connections and Skills for domain knowledge encoding. This layered approach positions your tooling for compatibility regardless of which standard gains dominance, and aligns with the emerging consensus that both serve distinct architectural roles.</li>
+    <li style="margin-bottom:0;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#0c4a6e;">Review AI governance structures for legal resilience.</strong> The Musk lawsuit highlights risks in nonprofit-to-profit conversions. If your organization has AI-related charter commitments or mission statements, consult legal counsel on their enforceability and potential liability exposure before making structural changes.</li>
+  </ul>
+</div>
+
+<!-- WHAT TO WATCH NEXT -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">What to Watch Next</h2>
+
+<div style="background:#fff7ed;border:1px solid #fed7aa;border-radius:12px;padding:22px;margin-bottom:32px;">
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 12px 0;"><strong style="color:#0c4a6e;">April 27 — Musk-OpenAI jury selection begins.</strong> This is the most consequential date on the AI industry calendar. Pre-trial motions and potential settlement discussions could emerge in the next two weeks.</p>
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0 0 12px 0;"><strong style="color:#0c4a6e;">CoreWeave infrastructure phased rollout.</strong> Watch for announcements specifying which Nvidia chip architectures Anthropic will deploy and when the first capacity comes online. This will signal the scale of Claude's next infrastructure upgrade.</p>
+  <p style="font-size:16px;line-height:1.9;color:#334155;margin:0;"><strong style="color:#0c4a6e;">Ultraplan general availability timeline.</strong> Currently in research preview, the transition to GA will indicate Anthropic's confidence in the feature and whether Bedrock and Vertex AI support is planned.</p>
+</div>
+
+<!-- SOURCES -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">Sources</h2>
+
+<div style="background:#f8fafc;border:1px solid #e0f2fe;border-radius:12px;padding:22px;margin-bottom:32px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28410" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">GeekNews — Claude Code Ultraplan</a></li>
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28404" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">GeekNews — MCP vs Skills Analysis</a></li>
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://www.bloomberg.com/news/articles/2026-04-11/openai-accuses-musk-of-ambush-as-100-billion-plus-trial-looms" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">Bloomberg — OpenAI Accuses Musk of Ambush as $100B Trial Looms</a></li>
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://www.coreweave.com/news/coreweave-announces-multi-year-agreement-with-anthropic" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">CoreWeave — Multi-Year Agreement with Anthropic</a></li>
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://www.cnbc.com/2026/04/10/coreweave-anthropic-claude-ai-deal.html" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">CNBC — CoreWeave Stock Pops 11% on Anthropic Deal</a></li>
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://thehill.com/policy/technology/5819566-openai-urges-investigation-elon-musk/" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">The Hill — OpenAI Presses for Investigation of Musk</a></li>
+    <li style="margin-bottom:0;font-size:14px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/11/meta-muse-spark-openai-ai-liability-multica-agent-platform-april-11-2026/" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">AI Biz Insider — Morning Edition, April 11, 2026</a></li>
+  </ul>
+</div>
+
+<!-- RELATED -->
+<h2 style="font-size:28px;font-weight:700;color:#0c4a6e;border-bottom:3px solid #06b6d4;padding-bottom:10px;margin:40px 0 20px 0;">Related</h2>
+
+<div style="background:#f8fafc;border:1px solid #e0f2fe;border-radius:12px;padding:22px;margin-bottom:32px;">
+  <ul style="margin:0;padding-left:20px;">
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/11/meta-muse-spark-openai-ai-liability-multica-agent-platform-april-11-2026/" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">Meta Muse Spark Multimodal Reasoning, OpenAI Illinois AI Liability Bill — AI Today, April 11, 2026</a></li>
+    <li style="margin-bottom:8px;font-size:14px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/11/ai-infrastructure-ultraplan-musk-openai-trial-coreweave-evening-april-11-2026/" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">AI Industry Tonight — April 11, 2026: Lawsuits, State Probes, and Platform Bans</a></li>
+    <li style="margin-bottom:0;font-size:14px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/claude-code-monitor-strix-openai-child-safety-gemini-notes-april-10-2026/" target="_blank" rel="noopener noreferrer" style="color:#0e7490;text-decoration:none;border-bottom:1px solid #06b6d4;">Claude Code Monitor Tool, Strix AI Security Agent, OpenAI Child Safety Blueprint — April 10, 2026</a></li>
+  </ul>
+</div>
+
+<!-- FOOTER -->
+<div style="background:#0c4a6e;border-radius:12px;padding:20px 28px;text-align:center;margin-top:16px;">
+  <p style="font-size:14px;color:#67e8f9;font-weight:600;margin:0 0 4px 0;">AI Biz Insider &middot; AI Trends (EN) &middot; aibizinsider.com</p>
+  <p style="font-size:12px;color:#94d8e8;margin:0;">Evening Edition | April 11, 2026 &middot; Reporting verified against official sources. Analysis reflects editorial interpretation of publicly available information.</p>
+</div>
+
+</div>

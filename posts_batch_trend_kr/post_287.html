@@ -1,0 +1,273 @@
+<!-- wp:html -->
+
+<div style="background:linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);border-radius:16px;padding:32px 36px;margin:0 0 32px 0;box-shadow:0 6px 24px rgba(30,27,75,0.22);">
+
+  <div style="font-size:12px;color:#a78bfa;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:14px;">TL;DR</div>
+
+  <p style="font-weight:800;font-size:22px;color:#ffffff;margin:0 0 14px 0;line-height:1.35;border-left:4px solid #8b5cf6;padding-left:16px;">Cursor 3, Qwen3.6-Plus, Copilot SDK, Gemini Flex — AI 개발 도구 생태계 하루 만에 재편</p>
+
+  <p style="font-size:15px;color:#a78bfa;font-weight:600;margin:0 0 16px 0;">IDE·오픈 모델·SDK·지연 최적화가 동시에 업데이트됐다</p>
+
+  <ul style="margin:0;padding-left:20px;list-style:none;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Cursor 3가 공개됐다. 멀티 파일 편집, 장기 컨텍스트 추적, 스킬 시스템이 핵심 업데이트다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Alibaba가 Qwen3.6-Plus를 공개했다. 오픈 가중치 프런티어급 성능과 장문 컨텍스트(128K+) 지원이 특징이다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">GitHub가 Copilot SDK를 공개했다. 서드파티가 Copilot 기반 도구를 확장할 수 있는 표준 인터페이스를 제공한다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Google Gemini Flex는 지연 시간 최적화 티어로, 대화형 앱의 응답 지연을 30% 이상 줄이는 저지연 추론 모드를 도입했다.</li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">핵심 이슈 심층 분석</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">1. Cursor 3 — 멀티 파일·장기 컨텍스트·스킬</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">Cursor · 2026-04-03</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Cursor 3는 수십 개 파일을 동시에 편집하고 프로젝트 전체의 장기 컨텍스트를 추적한다. 스킬 시스템이 도입돼 사용자·팀 단위로 반복 작업을 재사용 가능한 단위로 저장한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">단일 파일·단일 함수 중심 AI 코딩이 프로젝트 단위·세션 단위로 진화하고 있다. Claude Code·Codex와의 경쟁에서 IDE 통합 경험을 차별화 포인트로 내세운다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">AI 코딩 도구 경쟁이 모델 품질에서 IDE·CLI·PR 통합 경험으로 이동한다. 실무에서는 모델보다 도구 체인이 생산성에 더 큰 영향을 준다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">2. Qwen3.6-Plus — 오픈 가중치 장문 컨텍스트</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">Alibaba · 2026-04-03</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Alibaba Qwen3.6-Plus는 128K 이상의 장문 컨텍스트와 프런티어급 벤치마크 성능을 동시에 제공하는 오픈 가중치 모델이다. 상업 사용 라이선스가 명시돼 있다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">중국계 오픈 모델의 성능 추격이 분기마다 가속된다. 미국계 폐쇄형 API 의존을 피하려는 기업·연구소에 유력한 대안이다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">오픈 가중치 프런티어 모델이 현실적 선택지가 되면서 모델 이중화 전략(주 모델 + 백업 모델)이 표준이 된다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">3. GitHub Copilot SDK — 생태계 확장</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GitHub · 2026-04-03</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">GitHub가 Copilot SDK를 공개했다. 서드파티 개발자가 Copilot을 확장하는 플러그인·에이전트·채팅 기술을 만들 수 있는 표준 인터페이스를 제공한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Copilot이 단일 제품에서 개방형 플랫폼으로 확장되는 움직임이다. GitHub Marketplace의 Copilot Extension 섹션이 성장 채널로 부상한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">개발 도구 생태계에서 SDK 공개는 벤더 록인을 강화하는 장치이자 외부 혁신을 흡수하는 장치다. 내부 전략과 외부 기여의 균형이 관건이다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">4. Gemini Flex — 저지연 추론 티어</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">Google · 2026-04-03</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Google이 Gemini Flex를 공개했다. 응답 지연을 우선하는 저지연 추론 티어로 대화형 앱·검색 UI·실시간 번역 같은 UX 민감 워크로드에 적합하다. 기존 Pro·Ultra 티어 대비 지연이 30% 이상 줄어든다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">모델 추론 과금 체계가 지연 시간을 기준으로 세분화되는 흐름이다. 배치·대화형·실시간 등 워크로드 특성에 맞춘 티어 선택이 비용 설계의 핵심이 된다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">AI 추론 티어링(tiering)이 본격화됐다. 단일 모델 선택이 아니라 워크로드별 최적 티어 조합이 경제성 확보의 열쇠다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">출처</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://www.cursor.com/blog" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Cursor 3 공식 블로그</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://qwenlm.github.io" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Alibaba — Qwen3.6-Plus</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://github.blog" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GitHub — Copilot SDK 발표</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://blog.google/gemini" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Google — Gemini Flex 안내</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">관련 글</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 40px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/11/ai-agent-tools-mcp-multica-axios-shopify-april-11-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 도구 생태계 재편 — MCP, multica, Axios, Shopify (2026-04-11)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-dev-monitoring-claude-openai-gemini-apr-10/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 개발 도구 모니터링 자동화 시대 (2026-04-10 저녁)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-agent-architecture-advisor-gemini-openai-meta-april-10-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 아키텍처 전환 — Advisor 패턴, Gemini 3D, OpenAI Frontier (2026-04-10)</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:html -->
+
+<div style="background:#1e1b4b;border-radius:12px;padding:24px 28px;margin:32px 0 0 0;text-align:center;">
+
+  <p style="font-size:13px;color:#a78bfa;margin:0;letter-spacing:0.04em;">AI Biz Insider · AI 트렌드 · aibizinsider.com</p>
+
+  <p style="font-size:12px;color:#6d6aaa;margin:8px 0 0 0;">2026년 4월 3일 발행 · AI Biz Insider</p>
+
+</div>
+
+<!-- /wp:html -->

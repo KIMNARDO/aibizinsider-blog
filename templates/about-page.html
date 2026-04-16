@@ -1,0 +1,289 @@
+<!-- wp:html -->
+<style>
+:root {
+  --abi-sans: "Pretendard Variable","Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  --abi-serif: "Pretendard Variable","Pretendard","Noto Serif KR",Georgia,serif;
+}
+body.page-id-ABOUT_ID .wp-block-post-title,
+body.page-id-ABOUT_ID .entry-title,
+body.page-id-ABOUT_ID header.entry-header,
+body.page-id-ABOUT_ID .wp-block-post-featured-image {
+  position:absolute !important;width:1px !important;height:1px !important;
+  padding:0 !important;margin:-1px !important;overflow:hidden !important;
+  clip:rect(0,0,0,0) !important;white-space:nowrap !important;border:0 !important;
+}
+.abi-about, .abi-about * { font-family: var(--abi-sans); box-sizing:border-box; }
+.abi-about h1, .abi-about h2, .abi-about h3 { font-family: var(--abi-serif); }
+@keyframes abi-gradient-bg { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+@keyframes abi-spin-slow { from{transform:rotate(0)} to{transform:rotate(360deg)} }
+@media (max-width:768px) {
+  .abi-hero-2col { grid-template-columns: 1fr !important; text-align:center; }
+  .abi-hero-2col .abi-monogram { margin: 0 auto; }
+  .abi-values-grid { grid-template-columns: 1fr 1fr !important; }
+  .abi-products-grid { grid-template-columns: 1fr !important; }
+}
+</style>
+
+<div class="abi-about" style="max-width:1120px;margin:0 auto;color:#0f172a;">
+
+<!-- ====== HERO ====== -->
+<section style="position:relative;background:linear-gradient(120deg,#0a0f1e 0%,#1a1b3a 45%,#0d1937 100%);background-size:200% 200%;animation:abi-gradient-bg 18s ease infinite;border-radius:28px;padding:72px 56px;margin-bottom:64px;overflow:hidden;">
+  <div style="position:absolute;top:-100px;right:-60px;width:420px;height:420px;background:radial-gradient(circle,rgba(251,191,36,0.14) 0%,transparent 60%);border-radius:50%;"></div>
+  <div style="position:absolute;bottom:-120px;left:-80px;width:460px;height:460px;background:radial-gradient(circle,rgba(167,139,250,0.12) 0%,transparent 60%);border-radius:50%;"></div>
+
+  <div class="abi-hero-2col" style="position:relative;display:grid;grid-template-columns:220px 1fr;gap:48px;align-items:center;">
+
+    <!-- 모노그램 -->
+    <div class="abi-monogram" style="position:relative;width:220px;height:220px;">
+      <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;display:block;">
+        <defs>
+          <linearGradient id="abi-mono-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1e1b4b"/>
+            <stop offset="50%" stop-color="#312e81"/>
+            <stop offset="100%" stop-color="#0a1628"/>
+          </linearGradient>
+          <linearGradient id="abi-mono-ring" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#fbbf24"/>
+            <stop offset="50%" stop-color="#f59e0b"/>
+            <stop offset="100%" stop-color="#a78bfa"/>
+          </linearGradient>
+          <linearGradient id="abi-mono-text" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fbbf24"/>
+            <stop offset="100%" stop-color="#fef3c7"/>
+          </linearGradient>
+          <filter id="abi-glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feMerge>
+              <feMergeNode in="blur"/>
+              <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+          </filter>
+        </defs>
+        <!-- 외곽 회전 링 -->
+        <g style="transform-origin:110px 110px;animation:abi-spin-slow 30s linear infinite;">
+          <circle cx="110" cy="110" r="105" fill="none" stroke="url(#abi-mono-ring)" stroke-width="2" stroke-dasharray="6 10" opacity="0.7"/>
+        </g>
+        <!-- 메인 배경 원 -->
+        <circle cx="110" cy="110" r="94" fill="url(#abi-mono-bg)" stroke="rgba(251,191,36,0.3)" stroke-width="1.5"/>
+        <!-- 도트 그리드 장식 -->
+        <g fill="rgba(251,191,36,0.2)">
+          <circle cx="50" cy="50" r="1.5"/>
+          <circle cx="65" cy="50" r="1.5"/>
+          <circle cx="80" cy="50" r="1.5"/>
+          <circle cx="50" cy="65" r="1.5"/>
+          <circle cx="65" cy="65" r="1.5"/>
+          <circle cx="170" cy="155" r="1.5"/>
+          <circle cx="155" cy="155" r="1.5"/>
+          <circle cx="170" cy="170" r="1.5"/>
+        </g>
+        <!-- K.N 텍스트 -->
+        <text x="110" y="128" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="70" font-weight="700" font-style="italic" fill="url(#abi-mono-text)" filter="url(#abi-glow)" letter-spacing="-2">K.N</text>
+        <!-- Papsnet 로고 모티브 (3점 연결) -->
+        <g transform="translate(155,60)" opacity="0.85">
+          <line x1="0" y1="0" x2="14" y2="10" stroke="#a78bfa" stroke-width="1.5"/>
+          <line x1="14" y1="10" x2="0" y2="20" stroke="#a78bfa" stroke-width="1.5"/>
+          <line x1="0" y1="0" x2="0" y2="20" stroke="#a78bfa" stroke-width="1.5"/>
+          <circle cx="0" cy="0" r="3" fill="#fbbf24"/>
+          <circle cx="14" cy="10" r="3" fill="#a78bfa"/>
+          <circle cx="0" cy="20" r="3" fill="#fbbf24"/>
+        </g>
+      </svg>
+      <!-- 하단 배지 -->
+      <div style="position:absolute;bottom:-10px;left:50%;transform:translateX(-50%);background:#fbbf24;color:#0a1628;font-size:10px;font-weight:700;letter-spacing:0.16em;padding:6px 14px;border-radius:100px;white-space:nowrap;box-shadow:0 6px 18px rgba(251,191,36,0.35);">EDITOR</div>
+    </div>
+
+    <!-- 텍스트 -->
+    <div style="min-width:0;">
+      <div style="display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:700;letter-spacing:0.2em;color:#fbbf24;margin-bottom:18px;">
+        <span style="width:6px;height:6px;background:#fbbf24;border-radius:50%;"></span>
+        ABOUT THE EDITOR
+      </div>
+      <h1 style="font-size:44px;font-weight:700;line-height:1.2;color:#fff;margin:0 0 12px 0;letter-spacing:-0.02em;">K.Nardo <span style="color:#a78bfa;font-weight:500;">(킴날도)</span></h1>
+      <p style="font-size:16px;color:#cbd5e1;margin:0 0 20px 0;line-height:1.7;">
+        <span style="color:#fbbf24;font-weight:600;">AI Biz Insider 편집장</span>
+        <span style="margin:0 8px;opacity:0.5;">·</span>
+        <span>(주)팹스넷 대표이사</span>
+      </p>
+      <p style="font-size:18px;color:#e2e8f0;margin:0;line-height:1.7;font-weight:500;border-left:3px solid #fbbf24;padding-left:18px;">
+        제조 PLM 현장의 대표가 정리하는,<br/>
+        <span style="color:#fbbf24;font-weight:700;">AI 시대 실무 브리핑.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ====== WHY ====== -->
+<section style="margin-bottom:72px;">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid #0f172a;">
+    <div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.2em;color:#94a3b8;margin-bottom:6px;">WHY · 왜 이 블로그를 만들었나</div>
+      <h2 style="font-size:30px;font-weight:700;color:#0f172a;margin:0;letter-spacing:-0.02em;">공장에서 검증된 관점이 필요합니다.</h2>
+    </div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;">
+    <p style="font-size:17px;line-height:1.85;color:#334155;margin:0;">
+      AI가 빠르게 모든 산업을 바꾸는 시기, 한국 실무자들이 영문 원문을 번역 없이 읽고, 정부 정책을 관료 언어 없이 이해할 수 있어야 한다고 생각했습니다. AI 뉴스는 많습니다. 그러나 <strong style="color:#0f172a;">"이 기술이 실제로 우리 공장에서 통할까?"</strong>를 묻는 매체는 드뭅니다.
+    </p>
+    <p style="font-size:17px;line-height:1.85;color:#334155;margin:0;">
+      10년간 제조·엔지니어링 기업에 PLM·MES 솔루션을 구축해왔습니다. 쿠쿠전자, 현대공업, 우리산업, 다원시스, 에스엘 같은 고객사의 <strong style="color:#0f172a;">생산 라인과 사무실에서 본 것</strong>이 있습니다. AI Biz Insider는 그 현장 감각으로 AI 뉴스를 걸러냅니다.
+    </p>
+  </div>
+</section>
+
+<!-- ====== PRINCIPLES ====== -->
+<section style="margin-bottom:72px;background:#f8fafc;border-radius:20px;padding:48px;border:1px solid #e2e8f0;">
+  <div style="font-size:11px;font-weight:700;letter-spacing:0.2em;color:#94a3b8;margin-bottom:6px;">EDITORIAL PRINCIPLES · 편집 원칙</div>
+  <h2 style="font-size:30px;font-weight:700;color:#0f172a;margin:0 0 32px 0;letter-spacing:-0.02em;">네 가지 약속.</h2>
+  <div class="abi-values-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:24px;">
+    <div>
+      <div style="width:42px;height:42px;background:#0f172a;color:#fbbf24;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;margin-bottom:14px;">01</div>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px 0;letter-spacing:-0.01em;">원문 검증</h3>
+      <p style="font-size:14px;color:#475569;margin:0;line-height:1.7;">모든 수치·인용은 1차 소스(기업 공식 발표·논문·정부 발표)에서 확인합니다.</p>
+    </div>
+    <div>
+      <div style="width:42px;height:42px;background:#0f172a;color:#a78bfa;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;margin-bottom:14px;">02</div>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px 0;letter-spacing:-0.01em;">관점 제공</h3>
+      <p style="font-size:14px;color:#475569;margin:0;line-height:1.7;">집계가 아닌 해석. 특히 제조·엔지니어링 실무 관점에서 재해석합니다.</p>
+    </div>
+    <div>
+      <div style="width:42px;height:42px;background:#0f172a;color:#10b981;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;margin-bottom:14px;">03</div>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px 0;letter-spacing:-0.01em;">출처 공개</h3>
+      <p style="font-size:14px;color:#475569;margin:0;line-height:1.7;">모든 포스트 하단에 원문 URL을 투명하게 공개합니다. 추측은 기록하지 않습니다.</p>
+    </div>
+    <div>
+      <div style="width:42px;height:42px;background:#0f172a;color:#06b6d4;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;margin-bottom:14px;">04</div>
+      <h3 style="font-size:17px;font-weight:700;color:#0f172a;margin:0 0 8px 0;letter-spacing:-0.01em;">한·영 병행</h3>
+      <p style="font-size:14px;color:#475569;margin:0;line-height:1.7;">글로벌 맥락을 놓치지 않으면서도 한국 산업 각도로 번역·재구성합니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ====== EDITOR BIO ====== -->
+<section style="margin-bottom:72px;">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:28px;padding-bottom:16px;border-bottom:2px solid #0f172a;">
+    <div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.2em;color:#94a3b8;margin-bottom:6px;">EDITOR · 편집장 소개</div>
+      <h2 style="font-size:30px;font-weight:700;color:#0f172a;margin:0;letter-spacing:-0.02em;">K.Nardo (킴날도)</h2>
+    </div>
+  </div>
+  <div style="background:#fff;border:1px solid #e2e8f0;border-radius:18px;padding:40px;">
+    <div style="display:grid;grid-template-columns:180px 1fr;gap:36px;align-items:start;">
+      <div>
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.15em;color:#94a3b8;margin-bottom:6px;">ROLE</div>
+        <div style="font-size:15px;color:#0f172a;font-weight:600;line-height:1.6;margin-bottom:20px;">(주)팹스넷 대표이사<br/>AI Biz Insider 편집장</div>
+        <div style="font-size:11px;font-weight:700;letter-spacing:0.15em;color:#94a3b8;margin-bottom:6px;">EXPERTISE</div>
+        <div style="font-size:14px;color:#334155;line-height:1.7;">
+          PLM · MES · WMS<br/>
+          스마트공장 구축<br/>
+          AI 산업 동향 분석
+        </div>
+      </div>
+      <div>
+        <p style="font-size:16px;color:#334155;line-height:1.85;margin:0 0 18px 0;">
+          <strong style="color:#0f172a;">PLM(제품 수명주기 관리) 솔루션 10년차 전문가</strong>이자 한국 PLM 자체 개발 기업 (주)팹스넷의 대표이사입니다. 2015년부터 SEMS 브랜드로 시작해 2021년 <strong style="color:#0f172a;">CLIP Solution</strong> 브랜드 체계를 정립, 제조·엔지니어링 기업 30곳 이상에 PLM·MES 시스템을 구축·운영해왔습니다.
+        </p>
+        <p style="font-size:16px;color:#334155;line-height:1.85;margin:0 0 18px 0;">
+          블로그는 <strong style="color:#0f172a;">제조 현장에서 AI를 실제로 팔고 붙여본 사람의 관점</strong>으로 운영합니다. AI 연구자가 아닌, AI를 ERP 옆에 앉혀야 하는 실무 책임자의 눈높이로 뉴스를 걸러내고 재해석합니다.
+        </p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px;padding-top:24px;border-top:1px solid #e2e8f0;">
+          <div>
+            <div style="font-family:var(--abi-serif);font-size:26px;font-weight:700;color:#0f172a;letter-spacing:-0.01em;">10<span style="color:#fbbf24;">+</span></div>
+            <div style="font-size:12px;color:#64748b;font-weight:600;letter-spacing:0.05em;margin-top:2px;">년 PLM 경력</div>
+          </div>
+          <div>
+            <div style="font-family:var(--abi-serif);font-size:26px;font-weight:700;color:#0f172a;letter-spacing:-0.01em;">30<span style="color:#fbbf24;">+</span></div>
+            <div style="font-size:12px;color:#64748b;font-weight:600;letter-spacing:0.05em;margin-top:2px;">제조 구축 레퍼런스</div>
+          </div>
+          <div>
+            <div style="font-family:var(--abi-serif);font-size:26px;font-weight:700;color:#0f172a;letter-spacing:-0.01em;">5</div>
+            <div style="font-size:12px;color:#64748b;font-weight:600;letter-spacing:0.05em;margin-top:2px;">CLIP 자체 제품군</div>
+          </div>
+        </div>
+        <div style="margin-top:20px;padding:14px 16px;background:#fffbeb;border-left:3px solid #fbbf24;border-radius:6px;">
+          <div style="font-size:12px;font-weight:700;color:#92400e;letter-spacing:0.1em;margin-bottom:4px;">RECOGNITIONS</div>
+          <div style="font-size:14px;color:#78350f;line-height:1.7;">기업부설연구소 인정 · 스마트공장 공급기업 공식 Pool · Clip PLM/DDMS 저작권 등록</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== ABOUT PAPSNET ====== -->
+<section style="margin-bottom:72px;background:linear-gradient(135deg,#0f172a 0%,#1e293b 100%);border-radius:24px;padding:56px 48px;color:#fff;">
+  <div style="display:flex;align-items:center;gap:14px;margin-bottom:28px;">
+    <span style="display:inline-block;width:4px;height:32px;background:#fbbf24;border-radius:2px;"></span>
+    <div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.2em;color:#fbbf24;margin-bottom:4px;">COMPANY · 운영 회사</div>
+      <h2 style="font-size:30px;font-weight:700;color:#fff;margin:0;letter-spacing:-0.02em;">About Papsnet</h2>
+    </div>
+  </div>
+  <p style="font-size:17px;color:#cbd5e1;line-height:1.85;margin:0 0 32px 0;max-width:760px;">
+    (주)팹스넷(<strong style="color:#fff;">PapsNet Corp.</strong>)은 2015년부터 PLM·MES·WMS 영역에서 자체 솔루션을 개발해온 한국 PLM 전문 기업입니다. <em style="color:#fbbf24;font-style:normal;">"People and People Solution Networks"</em>를 모토로, 제조·엔지니어링 기업의 업무혁신을 자체 CLIP Solution 브랜드로 돕고 있습니다.
+  </p>
+
+  <!-- 제품 카드 그리드 -->
+  <div class="abi-products-grid" style="display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:32px;">
+    <div style="background:rgba(251,191,36,0.08);border:1px solid rgba(251,191,36,0.25);border-radius:12px;padding:18px;">
+      <div style="font-size:11px;font-weight:700;color:#fbbf24;letter-spacing:0.12em;margin-bottom:4px;">CLIP PLM</div>
+      <div style="font-size:13px;color:#e2e8f0;line-height:1.6;">프로젝트·도면·BOM·설계변경 통합 관리</div>
+    </div>
+    <div style="background:rgba(167,139,250,0.08);border:1px solid rgba(167,139,250,0.25);border-radius:12px;padding:18px;">
+      <div style="font-size:11px;font-weight:700;color:#a78bfa;letter-spacing:0.12em;margin-bottom:4px;">CLIP DDMS</div>
+      <div style="font-size:13px;color:#e2e8f0;line-height:1.6;">협력사 도면 배포 + 보안·이력 관리</div>
+    </div>
+    <div style="background:rgba(16,185,129,0.08);border:1px solid rgba(16,185,129,0.25);border-radius:12px;padding:18px;">
+      <div style="font-size:11px;font-weight:700;color:#6ee7b7;letter-spacing:0.12em;margin-bottom:4px;">CLIP EPL</div>
+      <div style="font-size:13px;color:#e2e8f0;line-height:1.6;">기구+전자 Multi-BOM 솔루션</div>
+    </div>
+    <div style="background:rgba(6,182,212,0.08);border:1px solid rgba(6,182,212,0.25);border-radius:12px;padding:18px;">
+      <div style="font-size:11px;font-weight:700;color:#67e8f9;letter-spacing:0.12em;margin-bottom:4px;">CLIP MES/POP</div>
+      <div style="font-size:13px;color:#e2e8f0;line-height:1.6;">생산·품질·재고 실시간 관리</div>
+    </div>
+    <div style="background:rgba(249,115,22,0.08);border:1px solid rgba(249,115,22,0.25);border-radius:12px;padding:18px;">
+      <div style="font-size:11px;font-weight:700;color:#fdba74;letter-spacing:0.12em;margin-bottom:4px;">CLIP WMS</div>
+      <div style="font-size:13px;color:#e2e8f0;line-height:1.6;">물류·창고 통합 관리</div>
+    </div>
+  </div>
+
+  <!-- 고객사 -->
+  <div style="background:rgba(255,255,255,0.04);border-radius:12px;padding:24px;border:1px solid rgba(255,255,255,0.08);">
+    <div style="font-size:11px;font-weight:700;color:#94a3b8;letter-spacing:0.15em;margin-bottom:10px;">REFERENCE CUSTOMERS · 주요 구축 고객사</div>
+    <div style="font-size:14px;color:#e2e8f0;line-height:1.9;">
+      현대공업 · 우리산업 · 다원시스 · 쿠쿠전자(디원) · 에스엘 · 디에스시 · 오토스윙 · 네오바이오텍 · 성산ENG · 윤진전자 · 서보스타 · 신우코스텍 · 혜성정공 · 터보텍 · 삼진케미칼 · 다인산업 · 세기엔지니어링 · 비.엘.아이 · 엔아이디에스 · 삼성그라텍 등 <strong style="color:#fbbf24;">30곳+</strong>
+    </div>
+  </div>
+
+  <div style="margin-top:28px;text-align:center;">
+    <a href="https://www.papsnet.net" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;gap:8px;background:#fbbf24;color:#0a1628;padding:12px 26px;border-radius:100px;text-decoration:none;font-weight:700;font-size:14px;letter-spacing:0.02em;">papsnet.net 방문 <span style="font-size:16px;">↗</span></a>
+  </div>
+</section>
+
+<!-- ====== CONTACT ====== -->
+<section style="margin-bottom:48px;">
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:28px;padding-bottom:16px;border-bottom:2px solid #0f172a;">
+    <div>
+      <div style="font-size:11px;font-weight:700;letter-spacing:0.2em;color:#94a3b8;margin-bottom:6px;">CONTACT · 연락처</div>
+      <h2 style="font-size:30px;font-weight:700;color:#0f172a;margin:0;letter-spacing:-0.02em;">문의·기고·제보.</h2>
+    </div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
+    <a href="mailto:kimnardo98@gmail.com" style="display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:26px;transition:border-color 0.2s;">
+      <div style="font-size:11px;font-weight:700;color:#94a3b8;letter-spacing:0.15em;margin-bottom:8px;">EDITORIAL</div>
+      <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:4px;">편집·기고 문의</div>
+      <div style="font-size:14px;color:#fbbf24;font-weight:600;">kimnardo98@gmail.com</div>
+    </a>
+    <a href="mailto:kimnardo@papsnet.net" style="display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:26px;">
+      <div style="font-size:11px;font-weight:700;color:#94a3b8;letter-spacing:0.15em;margin-bottom:8px;">BUSINESS</div>
+      <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:4px;">팹스넷 비즈니스</div>
+      <div style="font-size:14px;color:#a78bfa;font-weight:600;">kimnardo@papsnet.net</div>
+    </a>
+    <a href="https://www.papsnet.net" target="_blank" rel="noopener noreferrer" style="display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:26px;">
+      <div style="font-size:11px;font-weight:700;color:#94a3b8;letter-spacing:0.15em;margin-bottom:8px;">WEBSITE</div>
+      <div style="font-size:16px;font-weight:700;color:#0f172a;margin-bottom:4px;">(주)팹스넷 홈페이지</div>
+      <div style="font-size:14px;color:#10b981;font-weight:600;">www.papsnet.net ↗</div>
+    </a>
+  </div>
+</section>
+
+</div>
+<!-- /wp:html -->

@@ -1,0 +1,229 @@
+<!-- wp:html -->
+
+<div style="background:linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);border-radius:16px;padding:32px 36px;margin:0 0 32px 0;box-shadow:0 6px 24px rgba(30,27,75,0.22);">
+
+  <div style="font-size:12px;color:#a78bfa;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:14px;">TL;DR</div>
+
+  <p style="font-weight:800;font-size:22px;color:#ffffff;margin:0 0 14px 0;line-height:1.35;border-left:4px solid #8b5cf6;padding-left:16px;">AI 에이전트 오케스트레이션 전환점 2026-04-08 — Google Scion·Orchestra Patterns·GoClaw 저녁 브리핑</p>
+
+  <p style="font-size:15px;color:#a78bfa;font-weight:600;margin:0 0 16px 0;">에이전트를 조율·관리·실행하는 레이어 경쟁이 본격화됐다</p>
+
+  <ul style="margin:0;padding-left:20px;list-style:none;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Google이 Scion을 공개해 다중 에이전트 협업 오케스트레이션 프레임워크를 내놓았다. 대규모 에이전트 팀의 상태 공유·메시지 라우팅·오류 복구를 표준화한다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Orchestra Patterns 공개로 에이전트 설계에서 재사용 가능한 협업 패턴들이 카탈로그화됐다. Advisor, Supervisor, Debater 등 패턴 라이브러리가 확산된다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">GoClaw는 Go 언어 기반 경량 에이전트 런타임으로, Python 기반 LangGraph 대비 저메모리·저지연 실행을 지향한다. 엣지·임베디드 배포에 적합하다.</li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">공통 흐름은 에이전트 오케스트레이션 레이어의 표준화와 다양화다. 단일 벤더 종속 대신 다중 벤더 조합이 현실적 배포 전략으로 자리잡는다.</li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">핵심 이슈 심층 분석</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">1. Google Scion — 다중 에이전트 오케스트레이션 프레임워크</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026-04-08</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Google이 Scion이라는 다중 에이전트 오케스트레이션 프레임워크를 공개했다. 여러 에이전트가 협업할 때 필요한 상태 공유, 메시지 라우팅, 오류 복구, 실패 시 롤백을 표준화된 API로 제공한다. 대규모 에이전트 팀을 프로덕션에 배포할 때 반복적으로 구축해야 했던 인프라 레이어를 표준화하는 접근이다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Scion의 핵심은 결정론적 재생(deterministic replay)이다. 특정 시점의 에이전트 상태를 저장한 뒤 재현할 수 있어 디버깅과 감사가 용이하다. 장기 실행 워크플로의 상태 지속성 문제를 구조적으로 해결한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">Anthropic Managed Agents가 에이전트 운영 자체를 가져간다면 Scion은 프레임워크로 제공해 기업이 자체 인프라에 배포하도록 한다. 두 접근 중 어느 쪽이 표준이 될지는 데이터 주권·벤더 종속성 평가에 달렸다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">2. Orchestra Patterns — 에이전트 협업 패턴 카탈로그</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026-04-08</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">Orchestra Patterns 프로젝트는 다중 에이전트 설계에서 반복 등장하는 협업 패턴을 카탈로그 형태로 정리한 오픈 표준이다. Advisor(자문), Supervisor(감독), Debater(토론), Worker Pool(작업 풀), Planner-Executor(계획-실행) 등 재사용 가능한 설계 패턴을 제공한다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">개발자는 각 패턴을 조합하여 자신의 업무에 맞는 에이전트 아키텍처를 빠르게 구축할 수 있다. 디자인 패턴이 객체지향 프로그래밍 문화를 형성했던 것처럼 에이전트 개발 문화가 형성되는 초기 단계다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">Anthropic의 Advisor 패턴 공식 도입이 플랫폼 측면의 움직임이라면 Orchestra Patterns는 커뮤니티 측면의 표준화다. 둘이 수렴하면 에이전트 설계 언어가 통일된다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">3. GoClaw — Go 기반 경량 에이전트 런타임</h3>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026-04-08</div>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">GoClaw는 Go 언어로 구현된 경량 에이전트 런타임이다. Python 기반 LangGraph·LangChain 대비 메모리 사용량과 지연 시간이 낮아 엣지 디바이스·임베디드·서버리스 환경에 적합하다. 단일 바이너리 배포가 가능해 종속성 관리 부담이 적다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+
+<p style="font-size:16px;line-height:1.9;color:#334155;">AI 에이전트가 클라우드만이 아닌 엣지에서도 작동해야 하는 시나리오가 늘어나는 추세다. GoClaw는 이 공백을 노린다. 다만 LLM 생태계의 Python 편향을 고려하면 커뮤니티 규모는 제한적일 수 있다.</p>
+
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">에이전트 런타임이 언어·환경별로 분화되고 있다. 단일 언어·단일 프레임워크 시대는 끝났고 워크로드별 최적 런타임 선택이 중요해진다.</p>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">출처</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28301" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews — Google Scion 발표</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28308" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews — Orchestra Patterns 카탈로그</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28312" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews — GoClaw 런타임 공개</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">관련 글</h2>
+
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 40px 0;">
+
+  <ul style="margin:0;padding-left:18px;">
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/11/ai-agent-tools-mcp-multica-axios-shopify-april-11-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 도구 생태계 재편 — MCP, multica, Axios, Shopify (2026-04-11)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-dev-monitoring-claude-openai-gemini-apr-10/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 개발 도구 모니터링 자동화 시대 (2026-04-10 저녁)</a></li>
+
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-agent-architecture-advisor-gemini-openai-meta-april-10-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">AI 에이전트 아키텍처 전환 — Advisor 패턴, Gemini 3D, OpenAI Frontier (2026-04-10)</a></li>
+
+  </ul>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+
+<!-- /wp:separator -->
+
+<!-- wp:html -->
+
+<div style="background:#1e1b4b;border-radius:12px;padding:24px 28px;margin:32px 0 0 0;text-align:center;">
+
+  <p style="font-size:13px;color:#a78bfa;margin:0;letter-spacing:0.04em;">AI Biz Insider · AI 트렌드 · aibizinsider.com</p>
+
+  <p style="font-size:12px;color:#6d6aaa;margin:8px 0 0 0;">2026년 4월 8일 저녁판 · AI Biz Insider</p>
+
+</div>
+
+<!-- /wp:html -->

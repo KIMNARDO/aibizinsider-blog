@@ -1,0 +1,390 @@
+<!-- wp:html -->
+<div style="margin:2rem 0;border-radius:12px;overflow:hidden">
+  <img decoding="async" src="https://i0.wp.com/iili.io/BM9QUmu.png?ssl=1" alt="AI 에이전트 엔지니어링 트렌드를 상징하는 미래형 디지털 워크스페이스" style="width:100%;height:auto" />
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">2026년 4월 11일, 해외 기술 커뮤니티에서 가장 뜨거운 관심을 받은 세 가지 주제를 분석합니다. 오늘의 공통 키워드는 <strong>AI 에이전트 엔지니어링</strong>입니다. 구글 클라우드 AI 디렉터가 공개한 프로덕션급 에이전트 스킬 프레임워크, 4년에 걸친 에이전틱 AI 패턴의 진화 기록, 그리고 AI 조직 변혁(AX)이 실패하는 구조적 원인까지, 오늘의 세 기사는 모두 하나의 질문으로 수렴합니다. AI 에이전트 엔지니어링을 실무에 적용하려면 기술과 조직 양쪽에서 무엇을 바꿔야 하는가. GeekNews 커뮤니티에서 총 182포인트, 15건의 토론을 이끌어낸 이 주제들을 하나씩 짚어보겠습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- DIGEST TL;DR BOX -->
+<!-- wp:html -->
+<div style="background:linear-gradient(135deg,#052e16 0%,#14532d 100%);border-radius:12px;padding:2rem 2.5rem;margin:2rem 0">
+  <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.25rem">
+    <span style="background:#22c55e;color:#052e16;font-size:11px;font-weight:800;letter-spacing:0.12em;padding:4px 10px;border-radius:4px">DIGEST</span>
+    <span style="color:#86efac;font-size:18px;font-weight:700">오늘의 핵심 3줄 요약</span>
+  </div>
+  <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:0.75rem">
+    <li style="color:#e2e8f0;font-size:15px;line-height:1.7;padding-left:1.25rem;position:relative">
+      <span style="position:absolute;left:0;color:#4ade80;font-weight:700">01</span>
+      구글 클라우드 AI 디렉터 Addy Osmani의 <strong style="color:#4ade80">agent-skills</strong> 리포지토리가 3일 만에 GitHub 12,200 스타를 기록 — 20개 프로덕션급 워크플로우로 AI 코딩 에이전트의 지름길을 구조적으로 차단합니다.
+    </li>
+    <li style="color:#e2e8f0;font-size:15px;line-height:1.7;padding-left:1.25rem;position:relative">
+      <span style="position:absolute;left:0;color:#4ade80;font-weight:700">02</span>
+      AI 에이전트 엔지니어링의 중심이 <strong style="color:#4ade80">프롬프트 → 컨텍스트 → 하네스</strong>로 이동 — 2022년부터 2026년까지 4년의 패러다임 전환을 세 단계로 정리합니다.
+    </li>
+    <li style="color:#e2e8f0;font-size:15px;line-height:1.7;padding-left:1.25rem;position:relative">
+      <span style="position:absolute;left:0;color:#4ade80;font-weight:700">03</span>
+      AX팀 신설은 <strong style="color:#4ade80">AI가 제거해야 할 계층을 오히려 추가</strong>하는 역설 — MIT 연구에 따르면 생성형 AI 파일럿의 95%가 실패하며, 성공한 5%는 현장 관리자 주도였습니다.
+    </li>
+  </ul>
+</div>
+<!-- /wp:html -->
+
+<!-- ============================================================ -->
+<!-- H2: Agent Skills -->
+<!-- ============================================================ -->
+<!-- wp:html -->
+<h2 style="font-size:28px;font-weight:700;color:#052e16;border-bottom:3px solid #22c55e;padding-bottom:0.5rem;margin:2.5rem 0 1.25rem">Agent Skills: AI 코딩 에이전트를 시니어 엔지니어로 훈련시키는 프레임워크</h2>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">[주목] 구글 클라우드 AI/웹 플랫폼 디렉터 Addy Osmani가 공개한 <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">agent-skills</a> 리포지토리가 공개 3일 만에 GitHub 스타 12,200개를 기록하며 개발자 커뮤니티의 폭발적 반응을 얻고 있습니다. GeekNews에서도 94포인트로 최근 일주일간 최고 관심도를 보였습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">이 프로젝트가 해결하려는 핵심 문제는 명확합니다. AI 코딩 에이전트는 "최단 경로를 선택하는 경향"이 있어, 스펙 문서 작성을 생략하고, 테스트를 최소화하며, 보안 검토를 건너뛰는 습성을 보입니다. Agent Skills는 이러한 지름길을 구조적으로 차단하는 20개의 프로덕션급 워크플로우를 제공합니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- Tech Note box -->
+<!-- wp:html -->
+<div style="background:#dcfce7;border-left:4px solid #22c55e;border-radius:0 8px 8px 0;padding:1.25rem 1.75rem;margin:1.75rem 0">
+  <p style="margin:0 0 0.5rem;font-size:13px;font-weight:700;color:#166534;letter-spacing:0.08em;text-transform:uppercase">Tech Note</p>
+  <p style="margin:0;font-size:15px;line-height:1.8;color:#166534"><strong>[실무 포인트]</strong> Agent Skills의 6단계 파이프라인은 DEFINE(/spec) → PLAN(/plan) → BUILD(/build) → VERIFY(/test) → REVIEW(/review) → SHIP(/ship)으로 구성됩니다. 각 단계에는 "반합리화(Rationalizations)" 섹션이 포함되어, 에이전트가 단계를 건너뛰려 할 때 발생하는 일반적 핑계와 그에 대한 반박 근거를 미리 정의합니다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">구체적으로 살펴보면, 20개 스킬은 소프트웨어 개발 생명주기 전체를 포괄합니다. Define 단계의 spec-driven-development는 목표, 구조, 코드 스타일, 테스트 경계를 포함한 PRD 작성을 강제합니다. Build 단계의 incremental-implementation은 "얇은 수직 슬라이스(thin vertical slice)" 방식으로 기능을 구현하고, 각 슬라이스마다 테스트와 커밋을 요구합니다. Verify 단계의 browser-testing-with-devtools는 Chrome DevTools MCP를 통해 실시간 DOM 검사, 네트워크 추적, 성능 프로파일링까지 자동화합니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- Table 1: Agent Skills Pipeline -->
+<!-- wp:html -->
+<div style="overflow-x:auto;margin:1.75rem 0">
+  <table style="border-collapse:collapse;width:100%;font-size:15px;line-height:1.7">
+    <thead>
+      <tr>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">단계</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">핵심 스킬</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">적용 원칙</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#ffffff">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">DEFINE</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">spec-driven-development</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">코드 전에 스펙 작성, PRD 필수</td>
+      </tr>
+      <tr style="background:#f0fdf4">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">BUILD</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">test-driven-development</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">Red-Green-Refactor, 테스트 피라미드(80/15/5)</td>
+      </tr>
+      <tr style="background:#ffffff">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">BUILD</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">context-engineering</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">에이전트에 적시 적소의 정보 주입</td>
+      </tr>
+      <tr style="background:#f0fdf4">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">REVIEW</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">security-and-hardening</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">OWASP Top 10 예방, 3계층 경계</td>
+      </tr>
+      <tr style="background:#ffffff">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">SHIP</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">ci-cd-and-automation</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">Shift Left, 기능 플래그 기반 단계적 롤아웃</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">[트렌드 시그널] 이 프로젝트가 시사하는 바는 AI 에이전트 엔지니어링의 패러다임이 "프롬프트 최적화"에서 "워크플로우 구조화"로 이동하고 있다는 점입니다. Claude Code, Cursor, Gemini CLI, Windsurf, GitHub Copilot 등 주요 에이전트 플랫폼을 모두 지원하며, MIT 라이선스로 자유롭게 활용 가능합니다. 팀 내 AI 코딩 에이전트 도입을 검토 중이라면, 이 프레임워크를 기반으로 조직 고유의 스킬 세트를 구축하는 것이 권장됩니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">실무 액션 포인트</h3>
+<!-- /wp:html -->
+
+<!-- wp:list -->
+<ul style="font-size:16px;line-height:1.9;color:#334155;padding-left:1.5rem">
+  <li>코딩 에이전트 도입 시 Agent Skills의 6단계 파이프라인을 팀 워크플로우에 통합할 것</li>
+  <li>security-and-hardening 스킬로 OWASP Top 10 검증을 자동화 파이프라인에 포함할 것</li>
+  <li>source-driven-development 스킬을 활용하여 에이전트가 공식 문서 기반으로만 의사결정하도록 강제할 것</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- ============================================================ -->
+<!-- H2: 에이전틱 패턴 4년 진화 -->
+<!-- ============================================================ -->
+<!-- wp:html -->
+<h2 style="font-size:28px;font-weight:700;color:#052e16;border-bottom:3px solid #22c55e;padding-bottom:0.5rem;margin:2.5rem 0 1.25rem">프롬프트에서 하네스까지: AI 에이전트 엔지니어링 패러다임의 4년 진화</h2>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="margin:2rem 0;border-radius:12px;overflow:hidden">
+  <img decoding="async" src="https://i0.wp.com/iili.io/BM9Zqpn.png?ssl=1" alt="AI 에이전틱 패턴 진화를 나타내는 추상적 기술 다이어그램" style="width:100%;height:auto" />
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">[주목] GeekNews 66포인트, 7건의 토론을 기록한 이 글은 2022년부터 2026년까지 4년간 AI 에이전틱 패턴이 어떻게 진화해왔는지를 세 단계로 정리합니다. 핵심 논지는 "엔지니어링의 엄밀함(rigor)은 사라지지 않고 이동한다"는 것입니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">1시대: 프롬프트 엔지니어링 (2022~2024)</h3>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">첫 번째 시대는 <strong>프롬프트 엔지니어링(2022~2024)</strong>입니다. GitHub Copilot(2022년 6월)과 ChatGPT(2022년 11월)가 촉발한 이 시기의 핵심 질문은 "어떤 말을 해야 하나?"였습니다. Chain-of-Thought 프롬프팅, ReAct 패턴(생각과 행동 반복), Andrew Ng의 4가지 에이전틱 패턴(Reflection, Tool Use, Planning, Multi-Agent Collaboration)이 등장했지만, "Blind Prompting" 즉 측정 없는 시행착오가 근본적 한계였습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">2시대: 컨텍스트 엔지니어링 (2025)</h3>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">두 번째 시대는 <strong>컨텍스트 엔지니어링(2025)</strong>입니다. Shopify CEO Tobi Lutke가 제안한 이 개념의 핵심 질문은 "어떤 정보를 넣어야 하나?"입니다. LLM을 운영체제로 보면 프롬프트는 명령어 한 줄에 불과하고, 진짜 성능은 RAM(컨텍스트 윈도우)에서 결정됩니다. Anthropic이 제시한 4대 전략인 Write(구조화 작성), Select(선택적 주입), Compress(요약 압축), Isolate(서브에이전트 격리)가 이 시대의 실무 프레임워크로 자리 잡았습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- Tech Note box -->
+<!-- wp:html -->
+<div style="background:#dcfce7;border-left:4px solid #22c55e;border-radius:0 8px 8px 0;padding:1.25rem 1.75rem;margin:1.75rem 0">
+  <p style="margin:0 0 0.5rem;font-size:13px;font-weight:700;color:#166534;letter-spacing:0.08em;text-transform:uppercase">Tech Note</p>
+  <p style="margin:0;font-size:15px;line-height:1.8;color:#166534"><strong>[실무 포인트]</strong> 컨텍스트 엔지니어링의 핵심 메트릭은 KV-cache hit rate입니다. 시스템 프롬프트(컨텍스트 접두어)가 변하지 않으면 캐시를 재사용할 수 있어, Claude Sonnet 기준 비용을 10분의 1로 절감할 수 있습니다. MCP(Model Context Protocol)가 도구 연결의 표준으로 부상한 것도 이 시기입니다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">3시대: 하네스 엔지니어링 (2026~)</h3>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">세 번째 시대는 <strong>하네스 엔지니어링(2026~)</strong>입니다. "에이전트에서 모델을 뺀 나머지 전부"를 의미하는 하네스의 핵심 원칙은 "에이전트가 실수하면 프롬프트를 고치지 말고 시스템을 바꾼다"입니다. Anthropic의 3-에이전트 하네스(Planner-Generator-Evaluator)는 단독 실행 대비 비용이 22배 증가하지만 완성도를 대폭 향상시켰습니다. OpenAI Codex 실험에서는 5개월간 7명 엔지니어가 코드를 직접 작성하지 않고 100만 줄의 코드를 생성하여 1,500개 PR을 처리했습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- Table 2: 3 Eras Comparison -->
+<!-- wp:html -->
+<div style="overflow-x:auto;margin:1.75rem 0">
+  <table style="border-collapse:collapse;width:100%;font-size:15px;line-height:1.7">
+    <thead>
+      <tr>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">차원</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">프롬프트 (2022-2024)</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">컨텍스트 (2025)</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">하네스 (2026~)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#ffffff">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155;font-weight:600">핵심 질문</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">어떤 말을 해야 하나?</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">어떤 정보를 넣어야 하나?</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">어떤 시스템을 만들어야 하나?</td>
+      </tr>
+      <tr style="background:#f0fdf4">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155;font-weight:600">핵심 메트릭</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">응답 품질(주관)</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">KV-cache hit rate</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">태스크 완료율</td>
+      </tr>
+      <tr style="background:#ffffff">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155;font-weight:600">실패 모드</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">Blind Prompting</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">Lost-in-the-Middle</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">오케스트레이션 버그</td>
+      </tr>
+      <tr style="background:#f0fdf4">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155;font-weight:600">필요 역량</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">언어 감각</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">정보 아키텍처</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">시스템 설계</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">[트렌드 시그널] 이 진화 과정에서 주목할 보안 프레임워크가 있습니다. Simon Willison이 제시한 "Lethal Trifecta"는 신뢰할 수 없는 입력 처리, 민감한 시스템 접근, 상태 변경 능력이 동시에 존재하면 사고가 불가피하다고 경고합니다. Meta AI의 "Rule of Two"는 이 세 가지 중 최대 두 가지만 동시 허용하고, 세 가지가 필요한 경우 반드시 사람의 승인을 받도록 규정합니다. AI 에이전트 엔지니어링 시스템을 설계할 때 이 원칙의 적용은 필수적입니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">실무 액션 포인트</h3>
+<!-- /wp:html -->
+
+<!-- wp:list -->
+<ul style="font-size:16px;line-height:1.9;color:#334155;padding-left:1.5rem">
+  <li>자사 AI 에이전트 아키텍처가 현재 어느 시대에 머물러 있는지 진단하고, 하네스 엔지니어링으로의 전환 로드맵을 수립할 것</li>
+  <li>KV-cache hit rate를 모니터링하여 컨텍스트 구성 효율을 정량적으로 관리할 것</li>
+  <li>Lethal Trifecta와 Rule of Two를 에이전트 보안 정책의 기본 원칙으로 채택할 것</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- ============================================================ -->
+<!-- H2: AX팀 역설 -->
+<!-- ============================================================ -->
+<!-- wp:html -->
+<h2 style="font-size:28px;font-weight:700;color:#052e16;border-bottom:3px solid #22c55e;padding-bottom:0.5rem;margin:2.5rem 0 1.25rem">AX팀을 만드는 순간, 조직은 AX에 실패한다: AI 변혁의 구조적 역설</h2>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">[주목] GeekNews 22포인트를 기록한 이 글은 경영진이 반드시 직면하게 되는 AI 조직 변혁(AX, AI Transformation)의 구조적 모순을 정면으로 다룹니다. 핵심 주장은 단순하면서도 강력합니다. "AI가 계층을 제거하는 도구인데, 별도 AX 추진팀 신설은 기존 계층 위에 새로운 계층을 추가하는 행위"라는 것입니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">이 주장을 뒷받침하는 데이터가 있습니다. MIT NANDA 연구에 따르면 생성형 AI 파일럿의 95%가 실패하며, 성공한 5%의 공통점은 "중앙 AI 랩이 아닌 현장 관리자가 주도"했다는 점입니다. 실제 실패 사례도 구체적입니다. Coca-Cola는 CEO 제임스 퀸시가 사임하고 75개 직위가 구조조정되었고, Commonwealth Bank는 AI 챗봇 도입 후 콜 볼륨이 오히려 증가하여 45명을 재채용해야 했습니다. Intel의 CAIO(최고AI책임자)는 7개월 만에 OpenAI로 이직했습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- Tech Note box -->
+<!-- wp:html -->
+<div style="background:#dcfce7;border-left:4px solid #22c55e;border-radius:0 8px 8px 0;padding:1.25rem 1.75rem;margin:1.75rem 0">
+  <p style="margin:0 0 0.5rem;font-size:13px;font-weight:700;color:#166534;letter-spacing:0.08em;text-transform:uppercase">Tech Note</p>
+  <p style="margin:0;font-size:15px;line-height:1.8;color:#166534"><strong>[실무 포인트]</strong> 저자가 제시하는 대안은 End-to-End 조직 모델입니다. 기존의 "기획 → PM → 개발 → 배포" 다층 핸드오프 구조 대신, 한 팀이 Discovery(무엇을 만들지) → Delivery(어떻게 만들지) → Distribution(어떻게 팔지)까지 전체를 책임지는 구조입니다. AI가 개인의 업무 커버리지를 확대하면서, 한 사람이 이전보다 훨씬 더 많은 영역을 감당할 수 있게 되었기 때문입니다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">성공 사례는 이 원칙을 잘 보여줍니다. Lumen Technologies는 정체성 자체를 "레거시 통신사"에서 "AI 경제의 백본"으로 재정의하여, 영업팀 고객 리서치 시간을 4시간에서 15분으로 단축하고 연간 5,000만 달러 매출 가치를 창출했습니다. Bank of America의 Erica는 "Build Once, Reuse" 전략으로 누적 상호작용 32억 건을 기록했으며, 사용자 98% 이상이 필요 정보를 획득하고 있습니다. Walmart는 인원수를 유지하되 역할을 재정의하여 생산성을 향상시켰습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">저자는 많은 조직이 "사내 AI 사용자 수"나 "만든 자동화 개수" 같은 활동 지표를 성과로 착각하고 있다고 지적합니다. 진정한 성과 지표는 고객 리드타임 단축률, 부서 간 핸드오프 감소량, 의사결정 지연 시간 개선입니다. 이미 AX팀이 신설된 경우에도 생존 전략이 있습니다. AI 전문가가 아니라 각 영역의 병목을 아는 현업 인력을 영입하고, "AI 도입 촉진" 같은 슬로건 대신 "고객 문의 해결 시간 24시간에서 4시간으로 단축"처럼 측정 가능한 비즈니스 목표를 설정하며, 궁극적으로 "자기 소멸을 목표로" 운영해야 합니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">실무 액션 포인트</h3>
+<!-- /wp:html -->
+
+<!-- wp:list -->
+<ul style="font-size:16px;line-height:1.9;color:#334155;padding-left:1.5rem">
+  <li>AI 도입 성과를 활동 지표(사용자 수, 자동화 건수)가 아닌 비즈니스 성과 지표(리드타임, 핸드오프 감소)로 측정할 것</li>
+  <li>별도 AX팀 대신 현장 조직에 AI 실험 권한을 위임하는 분산형 모델을 검토할 것</li>
+  <li>개인 역할 정의를 "보고자에서 판단자", "전달자에서 실행자", "Maker에서 Closer"로 재설정할 것</li>
+</ul>
+<!-- /wp:list -->
+
+<!-- ============================================================ -->
+<!-- H2: Executive Summary -->
+<!-- ============================================================ -->
+<!-- wp:html -->
+<h2 style="font-size:28px;font-weight:700;color:#052e16;border-bottom:3px solid #22c55e;padding-bottom:0.5rem;margin:2.5rem 0 1.25rem">오늘의 핵심 요약 (Executive Summary)</h2>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">오늘 분석한 세 기사는 AI 에이전트 엔지니어링의 세 가지 차원을 조명합니다. Agent Skills는 개별 에이전트의 품질을 워크플로우로 보장하는 "미시적" 접근입니다. 에이전틱 패턴의 진화는 프롬프트에서 컨텍스트, 그리고 하네스로 이어지는 시스템 아키텍처의 "거시적" 흐름을 보여줍니다. AX팀의 역설은 이 기술을 조직에 내재화할 때 발생하는 "조직적" 과제를 다룹니다. 세 차원을 종합하면, 2026년 AI 에이전트 엔지니어링의 성공은 기술 프레임워크, 시스템 아키텍처, 조직 구조의 정합성에 달려 있습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- Summary Table -->
+<!-- wp:html -->
+<div style="background:#f0fdf4;border:1px solid #22c55e;border-radius:12px;padding:1.5rem;margin:1.75rem 0;overflow-x:auto">
+  <table style="border-collapse:collapse;width:100%;font-size:15px;line-height:1.7">
+    <thead>
+      <tr>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">기사</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">핵심 인사이트</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">실무 액션</th>
+        <th style="background:#052e16;color:#86efac;padding:12px 16px;border:1px solid #166534;text-align:left;font-weight:700">관련 지표</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background:#ffffff">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155;font-weight:600">Agent Skills</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">에이전트의 지름길을 워크플로우로 차단</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">6단계 파이프라인 팀 적용</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">코드 품질, 테스트 커버리지</td>
+      </tr>
+      <tr style="background:#f0fdf4">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155;font-weight:600">에이전틱 패턴 진화</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">엄밀함은 사라지지 않고 이동한다</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">하네스 엔지니어링 전환</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">KV-cache hit rate, 태스크 완료율</td>
+      </tr>
+      <tr style="background:#ffffff">
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155;font-weight:600">AX팀 역설</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">AI 변혁은 기술이 아닌 조직 문제</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">현장 분산형 AI 도입</td>
+        <td style="padding:12px 16px;border:1px solid #e2e8f0;color:#334155">리드타임 단축, 핸드오프 감소</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- /wp:html -->
+
+<!-- ============================================================ -->
+<!-- References -->
+<!-- ============================================================ -->
+<!-- wp:html -->
+<h2 style="font-size:28px;font-weight:700;color:#052e16;border-bottom:3px solid #22c55e;padding-bottom:0.5rem;margin:2.5rem 0 1.25rem">References</h2>
+<!-- /wp:html -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p style="font-size:16px;line-height:1.9;color:#334155">오늘 분석에 활용한 원문 및 관련 자료를 아래에 정리합니다. 각 기사의 원문과 함께, 실무 적용에 참고할 수 있는 공식 문서와 리포지토리를 포함했습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">원문 기사</h3>
+<!-- /wp:html -->
+
+<!-- wp:list {"ordered":true} -->
+<ol style="font-size:16px;line-height:1.9;color:#334155;padding-left:1.5rem">
+  <li>Addy Osmani, <a href="https://github.com/addyosmani/agent-skills" target="_blank" rel="noopener">agent-skills: Production-grade engineering workflows for AI coding agents</a>, GitHub, 2026년 4월 (GeekNews <a href="https://news.hada.io/topic?id=28294" target="_blank" rel="noopener">토론</a>)</li>
+  <li>bits-bytes-nn, <a href="https://bits-bytes-nn.github.io/insights/agentic-ai/2026/04/05/evolution-of-ai-agentic-patterns.html" target="_blank" rel="noopener">프롬프트에서 하네스까지 — AI 에이전틱 패턴 4년의 기록</a>, 2026년 4월 (GeekNews <a href="https://news.hada.io/topic?id=28301" target="_blank" rel="noopener">토론</a>)</li>
+  <li>flowkater, <a href="https://flowkater.io/posts/2026-04-08-ax-team-paradox/" target="_blank" rel="noopener">AX팀을 만드는 순간, 당신의 조직은 AX에 실패한다</a>, 2026년 4월 (GeekNews <a href="https://news.hada.io/topic?id=28341" target="_blank" rel="noopener">토론</a>)</li>
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:html -->
+<h3 style="font-size:20px;font-weight:700;color:#166534;border-left:4px solid #86efac;padding-left:1rem;margin:2rem 0 1rem">관련 공식 문서 및 리포지토리</h3>
+<!-- /wp:html -->
+
+<!-- wp:list {"ordered":true,"start":4} -->
+<ol start="4" style="font-size:16px;line-height:1.9;color:#334155;padding-left:1.5rem">
+  <li>Anthropic, <a href="https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching" target="_blank" rel="noopener">Prompt Caching (KV-cache) 공식 문서</a></li>
+  <li><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">Model Context Protocol (MCP) 공식 사이트</a></li>
+  <li>OWASP, <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">Top 10 Web Application Security Risks</a></li>
+</ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px","lineHeight":"1.7"},"color":{"text":"#64748b"}}} -->
+<p style="font-size:14px;line-height:1.7;color:#64748b">본 글에서 인용한 MIT NANDA 연구의 "생성형 AI 파일럿 95% 실패" 수치와 Lumen Technologies, Bank of America, Walmart의 사례는 원문 저자의 기술을 바탕으로 작성되었으며, 개별 기업의 공식 발표와 차이가 있을 수 있습니다.</p>
+<!-- /wp:paragraph -->
+
+<!-- ============================================================ -->
+<!-- 관련 글 -->
+<!-- ============================================================ -->
+<!-- wp:html -->
+<h2 style="font-size:28px;font-weight:700;color:#052e16;border-bottom:3px solid #22c55e;padding-bottom:0.5rem;margin:2.5rem 0 1.25rem">관련 글</h2>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin:1.5rem 0">
+  <a href="https://aibizinsider.com/2026/04/11/mcp-vs-skills-analysis/" style="display:block;background:#f0fdf4;border:1px solid #22c55e;border-radius:10px;padding:1.25rem 1.5rem;text-decoration:none;transition:box-shadow .2s">
+    <p style="margin:0 0 0.4rem;font-size:13px;font-weight:700;color:#166534;text-transform:uppercase;letter-spacing:0.06em">Tech Digest</p>
+    <p style="margin:0;font-size:15px;font-weight:600;color:#052e16;line-height:1.5">MCP vs Skills: 무엇이 다르고, 왜 중요한가 — 원문 분석</p>
+  </a>
+  <a href="https://aibizinsider.com/2026/04/11/ai-agent-tool-ecosystem-mcp-multica-axios-security-shopify-april-11-2026/" style="display:block;background:#f0fdf4;border:1px solid #22c55e;border-radius:10px;padding:1.25rem 1.5rem;text-decoration:none;transition:box-shadow .2s">
+    <p style="margin:0 0 0.4rem;font-size:13px;font-weight:700;color:#166534;text-transform:uppercase;letter-spacing:0.06em">Tech Digest</p>
+    <p style="margin:0;font-size:15px;font-weight:600;color:#052e16;line-height:1.5">AI 에이전트 도구 생태계 재편 2026-04-11 — MCP 표준화, multica 에이전트 관리</p>
+  </a>
+</div>
+<!-- /wp:html -->
+
+<!-- ============================================================ -->
+<!-- Footer -->
+<!-- ============================================================ -->
+<!-- wp:html -->
+<div style="background:#052e16;border-radius:12px;padding:2rem 2.5rem;margin:3rem 0 1rem;text-align:center">
+  <p style="margin:0 0 0.5rem;color:#86efac;font-size:15px;font-weight:700">aibizinsider.com</p>
+  <p style="margin:0 0 1rem;color:#a7f3d0;font-size:13px;line-height:1.6">AI 비즈니스 인사이트 — 매일 핵심만 전달합니다</p>
+  <div style="display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap">
+    <a href="https://aibizinsider.com/category/tech-digest/" style="color:#4ade80;font-size:13px;text-decoration:none">Tech Digest</a>
+    <a href="https://aibizinsider.com/category/ai-%eb%b9%84%ec%a6%88%eb%8b%88%ec%8a%a4/" style="color:#4ade80;font-size:13px;text-decoration:none">AI 비즈니스</a>
+    <a href="https://aibizinsider.com/category/ai-trend-kr/" style="color:#4ade80;font-size:13px;text-decoration:none">AI 트렌드</a>
+  </div>
+  <p style="margin:1.25rem 0 0;color:#6b7280;font-size:12px">Published 2026-04-11 | Post ID 583 | aibizinsider.com</p>
+</div>
+<!-- /wp:html -->

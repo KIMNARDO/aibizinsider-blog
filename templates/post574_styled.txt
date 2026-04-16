@@ -1,0 +1,462 @@
+<!-- wp:html -->
+<figure style="margin:0 0 28px 0;">
+  <img src="https://iili.io/BGyvgTP.png" alt="AI 에이전트 도구 생태계 재편 — MCP, multica, 보안, Shopify" style="width:100%;height:auto;display:block;border-radius:16px;max-height:420px;object-fit:cover;" />
+  <figcaption style="font-size:12px;color:#64748b;text-align:center;margin-top:8px;font-style:italic;">AI-generated illustration: Interconnected AI neural network nodes forming a global architecture in teal geometric design</figcaption>
+</figure>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- TL;DR BOX -->
+<div style="background:linear-gradient(135deg,#1e1b4b 0%,#312e81 100%);border-radius:16px;padding:32px 36px;margin:0 0 32px 0;box-shadow:0 6px 24px rgba(30,27,75,0.22);">
+  <div style="font-size:12px;color:#a78bfa;letter-spacing:0.12em;text-transform:uppercase;font-weight:700;margin-bottom:14px;">TL;DR</div>
+  <p style="font-weight:800;font-size:22px;color:#ffffff;margin:0 0 14px 0;line-height:1.35;border-left:4px solid #8b5cf6;padding-left:16px;">AI 에이전트 도구 생태계 재편 2026-04-11 — MCP 표준화, multica 에이전트 관리, Axios 공급망 보안, Shopify AI 자동화</p>
+  <p style="font-size:15px;color:#a78bfa;font-weight:600;margin:0 0 16px 0;">AI 에이전트가 도구를 선택하고 연결하는 방식이 근본적으로 바뀌고 있다</p>
+  <ul style="margin:0;padding-left:20px;list-style:none;">
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">MCP(Model Context Protocol)가 Skills 대비 우위를 입증하며 AI 에이전트 도구 연결의 표준 인터페이스로 자리잡고 있다. API 추상화 기반 제로 설치 아키텍처와 OAuth 인증이 핵심 차별점이다.</li>
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">multica는 Claude Code, Codex, OpenClaw, OpenCode 등 복수 AI 에이전트를 하나의 대시보드에서 팀원처럼 관리하는 오픈소스 플랫폼으로, AI 에이전트를 팀 인프라로 격상시킨다.</li>
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">북한 연계 해커 UNC1069가 주당 1억 회 다운로드되는 Axios npm 패키지를 탈취해 RAT를 삽입했다. AI 개발 공급망 보안의 시급성을 보여준 사건이다.</li>
+    <li style="margin-bottom:0;font-size:15px;line-height:1.85;color:#c4b5fd;padding-left:4px;">Shopify AI Toolkit은 AI 에이전트가 자연어 명령으로 상품 관리, 할인 적용, SEO 최적화를 직접 실행하도록 한다. MCP 기반 SaaS 직접 운영의 첫 대규모 사례다.</li>
+  </ul>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">AI 에이전트 도구 — 무엇이 바뀌었는가</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">AI 에이전트 도구 생태계가 전환기에 진입했다. AI 에이전트 도구 연결의 핵심 프로토콜인 MCP가 부상하면서 전체 구조가 재편되고 있다. MCP(Model Context Protocol)가 Skills 대비 우위를 입증하며 표준 인터페이스로 자리잡고 있고, multica는 코딩 에이전트를 팀원처럼 관리하는 새로운 패러다임을 제시했다. 동시에 Axios npm 공급망 공격은 AI 개발 환경의 보안 취약점을 드러냈으며, Shopify AI Toolkit은 AI 에이전트가 전자상거래를 직접 운영하는 시대를 열었다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- AT A GLANCE TABLE -->
+<div style="background:#ede9fe;border:1.5px solid #8b5cf6;border-radius:12px;padding:24px;margin:24px 0 32px 0;">
+  <p style="font-weight:700;font-size:16px;color:#5b21b6;margin:0 0 14px 0;text-transform:uppercase;letter-spacing:0.06em;">한눈에 보기</p>
+  <table style="width:100%;border-collapse:collapse;font-size:14px;">
+    <thead>
+      <tr>
+        <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;border-radius:6px 0 0 0;">주요 뉴스</th>
+        <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;">핵심 내용</th>
+        <th style="padding:12px 14px;text-align:center;background:#1e1b4b;color:#ffffff;font-weight:700;border-radius:0 6px 0 0;">영향도</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #c4b5fd;">
+        <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">MCP vs Skills</td>
+        <td style="padding:12px 14px;color:#334155;">API 추상화 기반 제로 설치 아키텍처, OAuth 인증으로 표준 우위 확보</td>
+        <td style="padding:12px 14px;text-align:center;"><span style="background:#5b21b6;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:4px;">높음</span></td>
+      </tr>
+      <tr style="border-bottom:1px solid #c4b5fd;">
+        <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">multica 플랫폼</td>
+        <td style="padding:12px 14px;color:#334155;">복수 AI 코딩 에이전트를 팀원처럼 관리, Docker Compose 셀프 호스팅</td>
+        <td style="padding:12px 14px;text-align:center;"><span style="background:#7c3aed;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:4px;">보통</span></td>
+      </tr>
+      <tr style="border-bottom:1px solid #c4b5fd;">
+        <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">Axios npm 공급망 공격</td>
+        <td style="padding:12px 14px;color:#334155;">북한 UNC1069, 주 1억 다운로드 패키지에 RAT 삽입. 3시간 노출</td>
+        <td style="padding:12px 14px;text-align:center;"><span style="background:#dc2626;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:4px;">매우 높음</span></td>
+      </tr>
+      <tr>
+        <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">Shopify AI Toolkit</td>
+        <td style="padding:12px 14px;color:#334155;">AI 에이전트가 자연어로 스토어 직접 운영, MCP 기반 5개 플랫폼 지원</td>
+        <td style="padding:12px 14px;text-align:center;"><span style="background:#7c3aed;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:4px;">보통</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">심층 분석: 4대 핵심 이슈</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">1. MCP가 Skills보다 우선되는 이유 — AI 에이전트 도구 아키텍처의 구조적 전환</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<figure style="margin:0 0 16px 0;">
+  <img src="https://iili.io/BGy8d6G.png" alt="MCP architecture" style="width:100%;height:auto;display:block;border-radius:12px;max-height:240px;object-fit:cover;" />
+  <figcaption style="font-size:11px;color:#64748b;text-align:center;padding:6px 0 0;font-style:italic;">AI-generated: Multimodal data streams converging into a central protocol hub</figcaption>
+</figure>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026년 4월 11일</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">MCP(Model Context Protocol)는 LLM(Large Language Model, 대규모 언어 모델)이 내부 도구 구조를 알 필요 없이 외부 시스템에 작업을 요청할 수 있는 API 추상화 기반 표준 인터페이스다. URL 지정만으로 원격 MCP 서버에 접근하는 제로 설치 아키텍처를 채택했으며, 서버 업데이트 시 모든 클라이언트가 즉시 최신 버전의 도구에 접근할 수 있다. OAuth 기반 인증으로 .env 파일에 평문 토큰을 저장하는 Skills의 보안 취약점을 해결했다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">반면 Skills는 CLI(Command Line Interface, 명령줄 인터페이스) 설치 전제 조건을 요구하기 때문에 ChatGPT, Claude 웹, Perplexity 같은 웹 기반 LLM 인터페이스에서 작동하지 않는다. 배포 복잡성, 시크릿 관리 문제, 플랫폼별 호환성 오류 등이 누적되어 확장성에 한계를 보인다. 결론적으로 MCP는 외부 시스템 연결에 적합하고, Skills는 기존 도구 사용법을 문서화하는 지식 전달 계층으로 역할이 분리된다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- TREND INSIGHT BOX -->
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">MCP의 핵심 우위는 연결 계층과 지식 계층의 명확한 분리에 있다. Skills가 '이 도구를 이렇게 쓰라'는 절차적 지식을 전달한다면, MCP는 '이 시스템에 이 작업을 요청하라'는 선언적 인터페이스를 제공한다. 이 구분은 마이크로서비스 아키텍처에서 API 게이트웨이와 내부 문서의 역할 분리와 정확히 대응한다. 장기적으로 MCP 생태계가 성숙하면 AI 에이전트 개발에서 도구 통합 비용이 급격히 감소할 것으로 예상된다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<p style="margin:0 0 32px 0;"><a href="https://news.hada.io/topic?id=28404" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews 원문 보기</a></p>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">2. multica — AI 코딩 에이전트를 팀원처럼 관리하는 관리형 플랫폼</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<figure style="margin:0 0 16px 0;">
+  <img src="https://iili.io/BGy8MKJ.png" alt="Agent management dashboard" style="width:100%;height:auto;display:block;border-radius:12px;max-height:240px;object-fit:cover;" />
+  <figcaption style="font-size:11px;color:#64748b;text-align:center;padding:6px 0 0;font-style:italic;">AI-generated: Interactive holographic 3D simulations and wireframe data models</figcaption>
+</figure>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026년 4월 11일</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">multica는 Claude Code, Codex, OpenClaw, OpenCode 등 다양한 AI 코딩 에이전트를 하나의 통합 대시보드에서 관리하는 오픈소스 플랫폼이다. 사용자가 동료에게 이슈를 할당하듯 에이전트에게 작업을 배정하면, 에이전트는 자율적으로 코드를 작성하고 블로커를 보고하며 상태 업데이트를 제공한다. WebSocket 기반 실시간 스트리밍으로 태스크의 전체 생명주기를 관리한다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">배포, 마이그레이션, 코드 리뷰 등의 솔루션은 재사용 가능한 스킬로 축적되어 팀 간 공유할 수 있다. TypeScript와 Go로 구축되었으며 Apache 2.0 라이선스로 공개되어 Docker Compose를 통한 셀프 호스팅이 가능하다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- TREND INSIGHT BOX -->
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">multica의 등장은 AI 코딩 에이전트가 '개인 도구'에서 '팀 인프라'로 전환하는 시점을 알린다. 벤더 중립 아키텍처를 채택했으므로 특정 LLM에 종속되지 않으며, 태스크별로 최적의 에이전트를 선택할 수 있다. 이는 향후 기업 내 AI 에이전트 운영 표준이 될 가능성이 높다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<p style="margin:0 0 32px 0;"><a href="https://news.hada.io/topic?id=28399" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews 원문 보기</a></p>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">3. Axios npm 공급망 공격과 OpenAI의 보안 대응 — AI 개발 생태계 보안 경고</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<figure style="margin:0 0 16px 0;">
+  <img src="https://iili.io/BGyS2x1.png" alt="Security threat visualization" style="width:100%;height:auto;display:block;border-radius:12px;max-height:240px;object-fit:cover;" />
+  <figcaption style="font-size:11px;color:#64748b;text-align:center;padding:6px 0 0;font-style:italic;">AI-generated: Abstract brain advising worker nodes in teal enterprise setting</figcaption>
+</figure>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="display:inline-block;background:#dc2626;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">OpenAI · 2026년 4월 10일 / Axios 사건: 2026년 3월 31일</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">북한 연계 위협 행위자 UNC1069가 Axios 프로젝트의 리드 메인테이너 npm 계정을 탈취하여 두 개의 악성 버전(axios@1.14.1, axios@0.30.4)을 배포했다. 악성 코드는 postinstall 스크립트를 통해 macOS, Windows, Linux를 대상으로 하는 크로스 플랫폼 RAT를 배포했다. 악성 버전은 2026년 3월 31일 약 3시간 동안 노출되었으나, Axios의 주간 다운로드가 1억 회이고 클라우드 환경 80%에 존재하는 만큼 파급 영향은 광범위했다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">OpenAI는 macOS 코드 서명 인증서를 즉시 교체하고 앱을 업데이트했으며, 사용자 데이터 유출이 없었음을 확인했다. Google GTIG는 2026년 4월 1일 이 공격을 UNC1069로 공식 귀속시켰다. 영향을 받은 개발자는 node_modules 내 plain-crypto-js 디렉토리를 확인하고, 안전한 버전으로 다운그레이드하며, 모든 자격 증명을 즉시 교체해야 한다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- TREND INSIGHT BOX -->
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">AI 에이전트가 npm install을 자동 실행하는 환경에서 공급망 공격은 AI 시스템 전체의 무결성을 위협한다. AI 딥페이크로 npm 메인테이너를 표적으로 삼은 점은 AI가 공격 도구로도 진화하고 있음을 보여준다. lockfile 엄격 관리와 의존성 감사 자동화가 시급하다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<p style="margin:0 0 32px 0;">
+  <a href="https://openai.com/index/axios-developer-tool-compromise" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">OpenAI 공식 대응 원문 보기</a>
+  &nbsp;|&nbsp;
+  <a href="https://unit42.paloaltonetworks.com/axios-supply-chain-attack/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">Palo Alto Unit42 분석 보기</a>
+</p>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3} -->
+<h3 style="font-size:20px;font-weight:700;color:#5b21b6;border-left:4px solid #a78bfa;padding-left:14px;margin:28px 0 14px 0;">4. Shopify AI Toolkit — AI 에이전트가 전자상거래를 직접 운영한다</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="display:inline-block;background:#5b21b6;color:#fff;font-size:12px;font-weight:700;padding:4px 10px;border-radius:4px;margin-bottom:12px;">GeekNews · 2026년 4월 10일</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">Shopify AI Toolkit은 AI 에이전트가 Shopify 문서와 API 스키마에 접근하여 자연어 명령으로 스토어를 관리할 수 있게 하는 도구 모음이다. Claude Code, Codex, Cursor, Gemini CLI, VS Code 등 5개 플랫폼을 지원하며 Node.js 18 이상이 필요하다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">플러그인 방식(권장)은 Claude Code에서 두 개의 명령어로 설정이 완료된다. Store Execute 함수는 CLI를 통해 에이전트가 스토어를 직접 관리할 수 있게 하며, 실행 가능한 자동화를 구현한다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- TREND INSIGHT BOX -->
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight</p>
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">Shopify AI Toolkit은 AI 에이전트가 SaaS 플랫폼을 직접 조작하는 첫 대규모 사례다. MCP 서버를 통한 통합은 MCP 표준화 흐름과 정확히 맞물린다. 중소 사업자가 개발팀 없이 AI 에이전트로 스토어를 운영하는 시나리오가 현실화되고 있다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<p style="margin:0 0 32px 0;"><a href="https://news.hada.io/topic?id=28378" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;font-size:14px;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews 원문 보기</a></p>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">AI 에이전트 도구 생태계 핵심 수치</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<table style="width:100%;border-collapse:collapse;margin:0 0 32px 0;font-size:14px;">
+  <thead>
+    <tr>
+      <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;">항목</th>
+      <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;">수치</th>
+      <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;">맥락</th>
+      <th style="padding:12px 14px;text-align:center;background:#1e1b4b;color:#ffffff;font-weight:700;">영향도</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;color:#334155;">Axios 주간 다운로드</td>
+      <td style="padding:12px 14px;color:#334155;font-weight:600;">1억 회</td>
+      <td style="padding:12px 14px;color:#334155;">클라우드 환경 80%에 존재</td>
+      <td style="padding:12px 14px;text-align:center;"><span style="background:#dc2626;color:#fff;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:700;">높음</span></td>
+    </tr>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;color:#334155;">악성 코드 노출 시간</td>
+      <td style="padding:12px 14px;color:#334155;font-weight:600;">약 3시간</td>
+      <td style="padding:12px 14px;color:#334155;">npm 게시 후 발견까지</td>
+      <td style="padding:12px 14px;text-align:center;"><span style="background:#dc2626;color:#fff;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:700;">높음</span></td>
+    </tr>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;color:#334155;">multica 지원 에이전트</td>
+      <td style="padding:12px 14px;color:#334155;font-weight:600;">4종</td>
+      <td style="padding:12px 14px;color:#334155;">Claude Code, Codex, OpenClaw, OpenCode</td>
+      <td style="padding:12px 14px;text-align:center;"><span style="background:#7c3aed;color:#fff;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:700;">보통</span></td>
+    </tr>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;color:#334155;">Shopify AI Toolkit 지원</td>
+      <td style="padding:12px 14px;color:#334155;font-weight:600;">5개 플랫폼</td>
+      <td style="padding:12px 14px;color:#334155;">Claude Code, Codex, Cursor, Gemini CLI, VS Code</td>
+      <td style="padding:12px 14px;text-align:center;"><span style="background:#7c3aed;color:#fff;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:700;">보통</span></td>
+    </tr>
+    <tr>
+      <td style="padding:12px 14px;color:#334155;">MCP vs Skills 보안</td>
+      <td style="padding:12px 14px;color:#334155;font-weight:600;">OAuth vs 평문 토큰</td>
+      <td style="padding:12px 14px;color:#334155;">Skills 인증 토큰 소실 문제 해결</td>
+      <td style="padding:12px 14px;text-align:center;"><span style="background:#dc2626;color:#fff;padding:3px 10px;border-radius:4px;font-size:11px;font-weight:700;">높음</span></td>
+    </tr>
+  </tbody>
+</table>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">AI 에이전트 도구 표준: MCP와 Skills 상세 비교</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<table style="width:100%;border-collapse:collapse;margin:0 0 32px 0;font-size:14px;">
+  <thead>
+    <tr>
+      <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;">비교 항목</th>
+      <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;">MCP</th>
+      <th style="padding:12px 14px;text-align:left;background:#1e1b4b;color:#ffffff;font-weight:700;">Skills</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">설치 방식</td>
+      <td style="padding:12px 14px;color:#334155;">URL 지정만으로 접근</td>
+      <td style="padding:12px 14px;color:#334155;">CLI 설치 필수</td>
+    </tr>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">업데이트</td>
+      <td style="padding:12px 14px;color:#334155;">자동 반영</td>
+      <td style="padding:12px 14px;color:#334155;">수동 재배포</td>
+    </tr>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">인증</td>
+      <td style="padding:12px 14px;color:#334155;">OAuth 기반</td>
+      <td style="padding:12px 14px;color:#334155;">.env 평문 토큰</td>
+    </tr>
+    <tr style="border-bottom:1px solid #e2e8f0;">
+      <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">플랫폼 호환성</td>
+      <td style="padding:12px 14px;color:#334155;">웹, 모바일, 데스크톱</td>
+      <td style="padding:12px 14px;color:#334155;">CLI 환경만</td>
+    </tr>
+    <tr>
+      <td style="padding:12px 14px;font-weight:600;color:#1e1b4b;">적합한 용도</td>
+      <td style="padding:12px 14px;color:#334155;">외부 시스템 연결</td>
+      <td style="padding:12px 14px;color:#334155;">도구 사용법 문서화</td>
+    </tr>
+  </tbody>
+</table>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">AI 에이전트 도구 기술 시사점</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="background:#ede9fe;border:1.5px solid #8b5cf6;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+  <ul style="margin:0;padding-left:18px;">
+    <li style="margin-bottom:12px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">도구 통합의 표준화 가속</strong> — MCP가 사실상의 표준으로 자리잡으면서 도구 통합 비용이 크게 줄어든다.</li>
+    <li style="margin-bottom:12px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">에이전트 관리의 기업화</strong> — AI 에이전트는 개인 도구에서 팀 인프라로 진화하고 있다.</li>
+    <li style="margin-bottom:12px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">AI 공급망 보안의 시급성</strong> — 의존성 감사와 제로 트러스트 파이프라인이 필수다.</li>
+    <li style="margin-bottom:0;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">AI 에이전트의 SaaS 직접 운영</strong> — 이 패턴은 다른 SaaS 플랫폼으로 빠르게 확산될 전망이다.</li>
+  </ul>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">업계 연결 분석</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">오늘 다룬 네 가지 뉴스는 하나의 큰 흐름으로 수렴한다. AI 에이전트가 독립적으로 작업을 수행하려면 외부 도구에 안전하게 접근하고(MCP), 여러 에이전트를 체계적으로 관리하며(multica), 보안을 확보해야(Axios 교훈) 한다는 것이다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">MCP 표준화는 Shopify AI Toolkit 같은 실전 도구의 등장을 가속화한다. multica는 다수 에이전트 환경의 관리 계층을 제공하며, Axios 사건은 생태계 전체의 보안 기반이 아직 취약하다는 경종을 울린다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p style="font-size:16px;line-height:1.9;color:#334155;">경쟁 구도 측면에서 Anthropic(Claude Code + MCP), OpenAI(Codex + Frontier), Google(Gemini CLI)은 각각 에이전트 도구 생태계의 주도권을 확보하기 위해 움직이고 있다. multica 같은 벤더 중립 플랫폼의 등장은 개방형 표준 기반으로 전개될 가능성을 시사한다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- TREND INSIGHT BOX -->
+<div style="background:#ede9fe;border-left:4px solid #8b5cf6;border-radius:0 12px 12px 0;padding:20px 24px;margin:20px 0 28px 0;">
+  <p style="font-weight:700;color:#5b21b6;margin:0 0 10px 0;font-size:15px;">Trend Insight: AI 에이전트 도구 생태계의 방향</p>
+  <p style="font-size:15px;line-height:1.8;color:#5b21b6;margin:0;">오늘의 뉴스를 종합하면, AI 에이전트 생태계는 '개인 도구 → 팀 인프라 → 기업 운영 시스템'으로 진화하는 궤적 위에 있다. MCP 표준화가 연결 비용을 낮추고, multica가 관리 복잡성을 해결하며, Shopify AI Toolkit이 실제 비즈니스 실행을 보여준다. 보안은 선택이 아닌 필수 투자 영역이다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">바로 써먹는 방법</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="background:#ede9fe;border:1.5px solid #8b5cf6;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+  <ul style="margin:0;padding-left:18px;">
+    <li style="margin-bottom:12px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">Axios 의존성 즉시 점검</strong> — <code style="background:#f8fafc;padding:2px 6px;border-radius:3px;font-size:14px;color:#5b21b6;">npm ls axios</code>로 버전 확인, 악성 버전 설치 시 <code style="background:#f8fafc;padding:2px 6px;border-radius:3px;font-size:14px;color:#5b21b6;">npm install axios@1.14.0</code>으로 다운그레이드</li>
+    <li style="margin-bottom:12px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">multica로 에이전트 통합 관리</strong> — <a href="https://github.com/multica-io/multica" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">GitHub 저장소</a>에서 Docker Compose로 셀프 호스팅</li>
+    <li style="margin-bottom:12px;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">Shopify AI Toolkit 연동</strong> — Claude Code에서 플러그인 방식으로 설치, "상품 리스팅 최적화"부터 시작</li>
+    <li style="margin-bottom:0;font-size:16px;line-height:1.9;color:#334155;"><strong style="color:#1e1b4b;">MCP 서버 구축</strong> — <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">MCP 공식 문서</a>에서 자사 서비스용 MCP 서버 구축 시작</li>
+  </ul>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">실무 체크리스트</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+  <ul style="margin:0;padding-left:0;list-style:none;">
+    <li style="margin-bottom:10px;font-size:16px;line-height:1.9;color:#334155;">&#9744; Axios 버전 확인 및 안전한 버전으로 고정</li>
+    <li style="margin-bottom:10px;font-size:16px;line-height:1.9;color:#334155;">&#9744; package-lock.json 무결성 검증 자동화</li>
+    <li style="margin-bottom:10px;font-size:16px;line-height:1.9;color:#334155;">&#9744; AI 에이전트 npm install 시 의존성 감사 추가</li>
+    <li style="margin-bottom:10px;font-size:16px;line-height:1.9;color:#334155;">&#9744; Skills 기반 통합을 MCP 서버로 마이그레이션 검토</li>
+    <li style="margin-bottom:0;font-size:16px;line-height:1.9;color:#334155;">&#9744; 에이전트 중앙 관리 도입 계획 수립</li>
+  </ul>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">주의할 점</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="background:#fff8e1;border-left:4px solid #f59e0b;padding:18px 24px;margin:0 0 28px 0;border-radius:0 12px 12px 0;">
+  <p style="font-weight:700;color:#92400e;margin:0 0 10px 0;font-size:15px;">분석 시 유의사항</p>
+  <p style="font-size:15px;line-height:1.8;color:#78350f;margin:0 0 10px 0;">MCP가 Skills보다 우월하다는 주장은 '외부 시스템 연결' 관점에서만 유효하다. 두 방식을 용도에 맞게 병행하는 것이 현실적이다.</p>
+  <p style="font-size:15px;line-height:1.8;color:#78350f;margin:0;">Axios 공급망 공격은 3시간 노출에도 주간 1억 회 다운로드 규모로 영향이 광범위했다. 의존성 고정과 감사를 반드시 자동화해야 한다.</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">출처</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 28px 0;">
+  <ul style="margin:0;padding-left:18px;">
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28404" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews — MCP가 Skills보다 우선되는 이유</a></li>
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28399" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews — multica 관리형 에이전트 플랫폼</a></li>
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://openai.com/index/axios-developer-tool-compromise" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">OpenAI — Axios 공급망 공격 대응</a></li>
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://unit42.paloaltonetworks.com/axios-supply-chain-attack/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">Palo Alto Unit42 — Axios 위협 분석</a></li>
+    <li style="margin-bottom:0;font-size:15px;line-height:1.7;"><a href="https://news.hada.io/topic?id=28378" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">GeekNews — Shopify AI Toolkit</a></li>
+  </ul>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+<h2 style="font-size:28px;font-weight:700;color:#1e1b4b;border-bottom:3px solid #8b5cf6;padding-bottom:10px;margin:36px 0 20px 0;">관련 글</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="background:#f8fafc;border:1px solid #c4b5fd;border-radius:12px;padding:24px;margin:0 0 40px 0;">
+  <ul style="margin:0;padding-left:18px;">
+    <li style="margin-bottom:10px;font-size:15px;line-height:1.7;"><a href="https://aibizinsider.com/2026/04/10/ai-agent-architecture-advisor-gemini-openai-meta-april-10-2026/" target="_blank" rel="noopener noreferrer" style="color:#7c3aed;text-decoration:none;border-bottom:1px solid #a78bfa;">AI Biz Insider — 전일 AI 에이전트 아키텍처 분석 (2026-04-10)</a></li>
+  </ul>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}}} -->
+<hr class="wp-block-separator has-text-color has-background" style="background-color:#e2e8f0;border-color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:html -->
+<!-- FOOTER -->
+<div style="background:#1e1b4b;border-radius:12px;padding:24px 28px;margin:32px 0 0 0;text-align:center;">
+  <p style="font-size:13px;color:#a78bfa;margin:0;letter-spacing:0.04em;">AI Biz Insider · AI 트렌드 · aibizinsider.com</p>
+  <p style="font-size:12px;color:#6d6aaa;margin:8px 0 0 0;">2026년 4월 11일 발행 · 매일 오전 AI 업계 핵심 뉴스를 전합니다.</p>
+</div>
+<!-- /wp:html -->

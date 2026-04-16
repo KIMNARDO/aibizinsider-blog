@@ -1,0 +1,180 @@
+<!-- wp:group {"style":{"color":{"gradient":"linear-gradient(135deg,#0a1628 0%,#1e3a5f 100%)"},"border":{"radius":"16px"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"bottom":"32px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-background" style="border-radius:16px;background:linear-gradient(135deg,#0a1628 0%,#1e3a5f 100%);padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px;margin-bottom:32px">
+<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"24px","fontWeight":"800"},"color":{"text":"#60a5fa"},"spacing":{"margin":{"bottom":"16px"}}}} -->
+<h2 class="wp-block-heading has-text-color" style="color:#60a5fa;font-size:24px;font-weight:800;margin-bottom:16px">📌 핵심 요약 (TL;DR)</h2>
+<!-- /wp:heading -->
+<!-- wp:list {"style":{"typography":{"fontSize":"15px","lineHeight":"2"},"color":{"text":"#e2e8f0"}}} -->
+<ul class="wp-block-list has-text-color" style="color:#e2e8f0;font-size:15px;line-height:2">
+<li>과기정통부가 2026년 4월 1일 <strong style="color:#fbbf24">에이전틱 AI 얼라이언스</strong> 공식 출범, <strong style="color:#fbbf24">250여 개 기관</strong> 참여</li>
+<li>산업·기술·생태계·안전-신뢰 <strong style="color:#fbbf24">4개 분과</strong> 체계, 민간 전문가 분과장 + 정부 기관 운영 지원</li>
+<li>인공지능 기본법 → AI 행동계획(99개 과제) → 얼라이언스로 <strong style="color:#fbbf24">법률-전략-실행 3단 체계</strong> 완성</li>
+<li>글로벌 AI 에이전트 시장 2030년 <strong style="color:#fbbf24">503억 달러(약 73조 원)</strong> 전망</li>
+<li>기업은 얼라이언스 참여, A2A·MCP 프로토콜 검토를 <strong style="color:#fbbf24">지금 즉시</strong> 시작해야</li>
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"28px","fontWeight":"800","lineHeight":"1.3"},"color":{"text":"#0f172a"},"border":{"bottom":{"color":"#3b82f6","width":"3px"}},"spacing":{"padding":{"bottom":"12px"},"margin":{"top":"40px","bottom":"20px"}}}} -->
+<h2 class="wp-block-heading has-text-color" style="color:#0f172a;font-size:28px;font-weight:800;line-height:1.3;border-bottom:3px solid #3b82f6;padding-bottom:12px;margin-top:40px;margin-bottom:20px">에이전틱 AI 얼라이언스 개요</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"style":{"color":{"background":"#f0f9ff"},"border":{"radius":"8px","left":{"color":"#3b82f6","width":"4px"}},"spacing":{"padding":{"top":"16px","bottom":"16px","left":"20px","right":"20px"},"margin":{"bottom":"20px"}}}} -->
+<div class="wp-block-group has-background" style="background-color:#f0f9ff;border-radius:8px;border-left:4px solid #3b82f6;padding:16px 20px;margin-bottom:20px">
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"14px","fontWeight":"600"},"color":{"text":"#1e40af"}}} -->
+<p class="has-text-color" style="color:#1e40af;font-size:14px;font-weight:600">📋 과학기술정보통신부 | 2026년 4월 1일 발표</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p class="has-text-color" style="color:#334155;font-size:16px;line-height:1.9">과기정통부가 산업-기술-생태계-안전 4개 분과로 구성된 민관 협력체를 공식 출범했다. 250여 개 기업과 기관이 참여하며, AI 에이전트 기술의 산업 적용과 안전성 확보를 동시에 추진한다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700"},"color":{"text":"#1e40af"},"border":{"left":{"color":"#60a5fa","width":"4px"}},"spacing":{"padding":{"left":"12px"},"margin":{"top":"28px","bottom":"16px"}}}} -->
+<h3 class="wp-block-heading has-text-color" style="color:#1e40af;font-size:20px;font-weight:700;border-left:4px solid #60a5fa;padding-left:12px;margin-top:28px;margin-bottom:16px">정책 기본 정보</h3>
+<!-- /wp:heading -->
+
+<!-- wp:group {"style":{"color":{"background":"#f8fafc"},"border":{"radius":"12px","width":"1px","color":"#e2e8f0"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"24px","right":"24px"},"margin":{"bottom":"24px"}}}} -->
+<div class="wp-block-group has-border-color has-background" style="background-color:#f8fafc;border-color:#e2e8f0;border-width:1px;border-radius:12px;padding:20px 24px;margin-bottom:24px">
+<!-- wp:list {"style":{"typography":{"fontSize":"15px","lineHeight":"2.2"},"color":{"text":"#475569"}}} -->
+<ul class="wp-block-list has-text-color" style="color:#475569;font-size:15px;line-height:2.2">
+<li><strong style="color:#0f172a">정책명:</strong> 능동형 인공지능 협력체(에이전틱 AI 얼라이언스) 출범</li>
+<li><strong style="color:#0f172a">발표 기관:</strong> 과학기술정보통신부</li>
+<li><strong style="color:#0f172a">참여 규모:</strong> 250여 개 기업 및 기관 (산-학-연-관)</li>
+<li><strong style="color:#0f172a">조직 구성:</strong> 4개 분과 — 산업, 기술, 생태계, 안전-신뢰</li>
+<li><strong style="color:#0f172a">글로벌 시장:</strong> 2030년 503억 달러(약 73조 원) 전망</li>
+</ul>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#e2e8f0;color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"28px","fontWeight":"800","lineHeight":"1.3"},"color":{"text":"#0f172a"},"border":{"bottom":{"color":"#3b82f6","width":"3px"}},"spacing":{"padding":{"bottom":"12px"},"margin":{"top":"40px","bottom":"20px"}}}} -->
+<h2 class="wp-block-heading has-text-color" style="color:#0f172a;font-size:28px;font-weight:800;line-height:1.3;border-bottom:3px solid #3b82f6;padding-bottom:12px;margin-top:40px;margin-bottom:20px">추진 배경과 정책 경위</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p class="has-text-color" style="color:#334155;font-size:16px;line-height:1.9">에이전틱 AI는 기존 생성형 AI와 근본적으로 다른 패러다임이다. 생성형 AI가 사용자의 명시적 지시에 따라 텍스트나 이미지를 생성하는 데 머물렀다면, 에이전틱 AI는 스스로 목표를 설정하고 판단하며, 외부 도구를 활용해 복잡한 작업을 자율적으로 수행한다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p class="has-text-color" style="color:#334155;font-size:16px;line-height:1.9">글로벌 기술 기업들은 이미 대규모 투자를 진행하고 있다. 구글은 A2A(Agent-to-Agent) 프로토콜을, 앤스로픽은 MCP(Model Context Protocol)를 발표하며 에이전트 간 상호운용성 표준 경쟁이 본격화되었다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"color":{"background":"#eff6ff"},"border":{"radius":"12px","left":{"color":"#3b82f6","width":"5px"}},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"24px","right":"24px"},"margin":{"top":"24px","bottom":"24px"}}}} -->
+<div class="wp-block-group has-background" style="background-color:#eff6ff;border-radius:12px;border-left:5px solid #3b82f6;padding:20px 24px;margin-top:24px;margin-bottom:24px">
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","lineHeight":"1.8","fontStyle":"italic"},"color":{"text":"#1e40af"}}} -->
+<p class="has-text-color" style="color:#1e40af;font-size:15px;line-height:1.8;font-style:italic"><strong>💡 분석:</strong> 이번 협력체는 단순한 산업 협의체를 넘어, 인공지능 기본법과 AI 행동계획의 실행 도구로서 기능한다. 정부가 법률-전략-실행 체계를 3단 구조로 완성하려는 의도가 명확하다.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#e2e8f0;color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"28px","fontWeight":"800","lineHeight":"1.3"},"color":{"text":"#0f172a"},"border":{"bottom":{"color":"#3b82f6","width":"3px"}},"spacing":{"padding":{"bottom":"12px"},"margin":{"top":"40px","bottom":"20px"}}}} -->
+<h2 class="wp-block-heading has-text-color" style="color:#0f172a;font-size:28px;font-weight:800;line-height:1.3;border-bottom:3px solid #3b82f6;padding-bottom:12px;margin-top:40px;margin-bottom:20px">4개 분과별 상세 분석</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700"},"color":{"text":"#1e40af"},"border":{"left":{"color":"#60a5fa","width":"4px"}},"spacing":{"padding":{"left":"12px"},"margin":{"top":"28px","bottom":"16px"}}}} -->
+<h3 class="wp-block-heading has-text-color" style="color:#1e40af;font-size:20px;font-weight:700;border-left:4px solid #60a5fa;padding-left:12px;margin-top:28px;margin-bottom:16px">1. 산업 분과: 수요-공급 매칭과 법제도 개선</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p class="has-text-color" style="color:#334155;font-size:16px;line-height:1.9">산업 분과는 신동훈 NC AI AX 테크센터장이 분과장을 맡고, 정보통신산업진흥원(NIPA)이 운영을 지원한다. 핵심 임무는 에이전틱 AI를 실제 산업 현장에 적용하기 위한 수요-공급 매칭 체계를 구축하는 것이다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700"},"color":{"text":"#1e40af"},"border":{"left":{"color":"#60a5fa","width":"4px"}},"spacing":{"padding":{"left":"12px"},"margin":{"top":"28px","bottom":"16px"}}}} -->
+<h3 class="wp-block-heading has-text-color" style="color:#1e40af;font-size:20px;font-weight:700;border-left:4px solid #60a5fa;padding-left:12px;margin-top:28px;margin-bottom:16px">2. 기술 분과: 아키텍처 최적화와 표준 프로토콜</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p class="has-text-color" style="color:#334155;font-size:16px;line-height:1.9">기술 분과는 전기정 LG AI연구원 서비스개발 부문장이 이끌며, 정보통신기획평가원(IITP)이 운영을 지원한다. 글로벌 표준 동향 분석과 한국 산업 환경 최적화 아키텍처 설계가 목표다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700"},"color":{"text":"#1e40af"},"border":{"left":{"color":"#60a5fa","width":"4px"}},"spacing":{"padding":{"left":"12px"},"margin":{"top":"28px","bottom":"16px"}}}} -->
+<h3 class="wp-block-heading has-text-color" style="color:#1e40af;font-size:20px;font-weight:700;border-left:4px solid #60a5fa;padding-left:12px;margin-top:28px;margin-bottom:16px">3. 생태계 분과: 도구 확보와 책임 구조</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p class="has-text-color" style="color:#334155;font-size:16px;line-height:1.9">김세웅 카카오 AI 부사장이 분과장, 한국지능정보사회진흥원(NIA)이 운영 지원. AI 에이전트 도구 연계 체계 구축과 서비스별 법적 책임 구조 정립이 핵심이다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"20px","fontWeight":"700"},"color":{"text":"#1e40af"},"border":{"left":{"color":"#60a5fa","width":"4px"}},"spacing":{"padding":{"left":"12px"},"margin":{"top":"28px","bottom":"16px"}}}} -->
+<h3 class="wp-block-heading has-text-color" style="color:#1e40af;font-size:20px;font-weight:700;border-left:4px solid #60a5fa;padding-left:12px;margin-top:28px;margin-bottom:16px">4. 안전-신뢰 분과: 평가와 검증 프레임워크</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#334155"}}} -->
+<p class="has-text-color" style="color:#334155;font-size:16px;line-height:1.9">최대선 숭실대 AI안전성연구센터장이 분과장, TTA와 AISI가 공동 운영 지원. AI 에이전트의 안전성 평가 기준과 신뢰성 검증 체계 구축이 시급하다.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#e2e8f0;color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"28px","fontWeight":"800","lineHeight":"1.3"},"color":{"text":"#0f172a"},"border":{"bottom":{"color":"#3b82f6","width":"3px"}},"spacing":{"padding":{"bottom":"12px"},"margin":{"top":"40px","bottom":"20px"}}}} -->
+<h2 class="wp-block-heading has-text-color" style="color:#0f172a;font-size:28px;font-weight:800;line-height:1.3;border-bottom:3px solid #3b82f6;padding-bottom:12px;margin-top:40px;margin-bottom:20px">분과별 조직 구성 비교</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"hasFixedLayout":true,"style":{"border":{"width":"1px","color":"#e2e8f0"}}} -->
+<figure class="wp-block-table has-fixed-layout"><table style="border:1px solid #e2e8f0"><thead><tr style="background-color:#0f172a;color:#ffffff"><th style="padding:12px 16px;font-size:14px">분과</th><th style="padding:12px 16px;font-size:14px">분과장</th><th style="padding:12px 16px;font-size:14px">운영 지원</th><th style="padding:12px 16px;font-size:14px">핵심 역할</th></tr></thead><tbody><tr style="background-color:#f8fafc"><td style="padding:12px 16px;font-size:14px;color:#334155"><strong style="color:#1e40af">🏭 산업</strong></td><td style="padding:12px 16px;font-size:14px;color:#334155">신동훈 (NC AI AX)</td><td style="padding:12px 16px;font-size:14px;color:#334155">NIPA</td><td style="padding:12px 16px;font-size:14px;color:#334155">수요-공급 매칭, 실증 확산</td></tr><tr><td style="padding:12px 16px;font-size:14px;color:#334155"><strong style="color:#1e40af">⚙️ 기술</strong></td><td style="padding:12px 16px;font-size:14px;color:#334155">전기정 (LG AI연구원)</td><td style="padding:12px 16px;font-size:14px;color:#334155">IITP</td><td style="padding:12px 16px;font-size:14px;color:#334155">기술 동향, 아키텍처 최적화</td></tr><tr style="background-color:#f8fafc"><td style="padding:12px 16px;font-size:14px;color:#334155"><strong style="color:#1e40af">🌐 생태계</strong></td><td style="padding:12px 16px;font-size:14px;color:#334155">김세웅 (카카오)</td><td style="padding:12px 16px;font-size:14px;color:#334155">NIA</td><td style="padding:12px 16px;font-size:14px;color:#334155">도구 확보, 책임 구조</td></tr><tr><td style="padding:12px 16px;font-size:14px;color:#334155"><strong style="color:#1e40af">🛡️ 안전-신뢰</strong></td><td style="padding:12px 16px;font-size:14px;color:#334155">최대선 (숭실대)</td><td style="padding:12px 16px;font-size:14px;color:#334155">TTA + AISI</td><td style="padding:12px 16px;font-size:14px;color:#334155">안전성 평가, 검증</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#e2e8f0;color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"28px","fontWeight":"800","lineHeight":"1.3"},"color":{"text":"#0f172a"},"border":{"bottom":{"color":"#3b82f6","width":"3px"}},"spacing":{"padding":{"bottom":"12px"},"margin":{"top":"40px","bottom":"20px"}}}} -->
+<h2 class="wp-block-heading has-text-color" style="color:#0f172a;font-size:28px;font-weight:800;line-height:1.3;border-bottom:3px solid #3b82f6;padding-bottom:12px;margin-top:40px;margin-bottom:20px">기업 대응 체크리스트</h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"style":{"color":{"background":"#fef3c7"},"border":{"radius":"12px","left":{"color":"#f59e0b","width":"5px"}},"spacing":{"padding":{"top":"24px","bottom":"24px","left":"28px","right":"28px"},"margin":{"bottom":"24px"}}}} -->
+<div class="wp-block-group has-background" style="background-color:#fef3c7;border-radius:12px;border-left:5px solid #f59e0b;padding:24px 28px;margin-bottom:24px">
+<!-- wp:list {"ordered":true,"style":{"typography":{"fontSize":"15px","lineHeight":"2.2"},"color":{"text":"#78350f"}}} -->
+<ol class="wp-block-list has-text-color" style="color:#78350f;font-size:15px;line-height:2.2">
+<li><strong style="color:#dc2626">🔴 [긴급]</strong> 민관 협력체 참여 가능 분과 파악 및 참여 신청</li>
+<li><strong style="color:#dc2626">🔴 [긴급]</strong> 자사 AI 전략에서 AI 에이전트 적용 가능 영역 식별</li>
+<li><strong style="color:#ea580c">🟠 [중요]</strong> A2A, MCP 등 에이전트 통신 프로토콜 기술 검토 착수</li>
+<li><strong style="color:#ea580c">🟠 [중요]</strong> 인공지능 기본법상 고영향 AI 해당 여부 점검</li>
+<li><strong style="color:#2563eb">🔵 [권장]</strong> AI 에이전트 도입 시 내부 보안 정책 점검</li>
+</ol>
+<!-- /wp:list -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#e2e8f0;color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":2,"style":{"typography":{"fontSize":"28px","fontWeight":"800","lineHeight":"1.3"},"color":{"text":"#0f172a"},"border":{"bottom":{"color":"#3b82f6","width":"3px"}},"spacing":{"padding":{"bottom":"12px"},"margin":{"top":"40px","bottom":"20px"}}}} -->
+<h2 class="wp-block-heading has-text-color" style="color:#0f172a;font-size:28px;font-weight:800;line-height:1.3;border-bottom:3px solid #3b82f6;padding-bottom:12px;margin-top:40px;margin-bottom:20px">산업별 AI 에이전트 영향도</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table {"hasFixedLayout":true,"style":{"border":{"width":"1px","color":"#e2e8f0"}}} -->
+<figure class="wp-block-table has-fixed-layout"><table style="border:1px solid #e2e8f0"><thead><tr style="background-color:#0f172a;color:#ffffff"><th style="padding:12px 16px;font-size:14px">산업</th><th style="padding:12px 16px;font-size:14px">영향도</th><th style="padding:12px 16px;font-size:14px">주요 적용</th><th style="padding:12px 16px;font-size:14px">도입 시기</th><th style="padding:12px 16px;font-size:14px">긴급도</th></tr></thead><tbody><tr style="background-color:#f8fafc"><td style="padding:12px 16px;font-size:14px"><strong>💰 금융-보험</strong></td><td style="padding:12px 16px"><span style="color:#dc2626;font-weight:700">●●● 높음</span></td><td style="padding:12px 16px;font-size:14px">자산 운용, 리스크</td><td style="padding:12px 16px;font-size:14px">2026H2</td><td style="padding:12px 16px"><span style="background:#fee2e2;color:#dc2626;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:700">긴급</span></td></tr><tr><td style="padding:12px 16px;font-size:14px"><strong>🏭 제조</strong></td><td style="padding:12px 16px"><span style="color:#dc2626;font-weight:700">●●● 높음</span></td><td style="padding:12px 16px;font-size:14px">설비 감지, 품질</td><td style="padding:12px 16px;font-size:14px">2026~27</td><td style="padding:12px 16px"><span style="background:#fee2e2;color:#dc2626;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:700">긴급</span></td></tr><tr style="background-color:#f8fafc"><td style="padding:12px 16px;font-size:14px"><strong>🏥 의료</strong></td><td style="padding:12px 16px"><span style="color:#ea580c;font-weight:700">●●○ 높음</span></td><td style="padding:12px 16px;font-size:14px">진단 보조, 신약</td><td style="padding:12px 16px;font-size:14px">2027~28</td><td style="padding:12px 16px"><span style="background:#fef3c7;color:#92400e;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:700">중요</span></td></tr><tr><td style="padding:12px 16px;font-size:14px"><strong>🚚 물류-유통</strong></td><td style="padding:12px 16px"><span style="color:#2563eb;font-weight:700">●○○ 보통</span></td><td style="padding:12px 16px;font-size:14px">재고 최적화</td><td style="padding:12px 16px;font-size:14px">2026~27</td><td style="padding:12px 16px"><span style="background:#fef3c7;color:#92400e;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:700">중요</span></td></tr><tr style="background-color:#f8fafc"><td style="padding:12px 16px;font-size:14px"><strong>🏛️ 공공-행정</strong></td><td style="padding:12px 16px"><span style="color:#2563eb;font-weight:700">●○○ 보통</span></td><td style="padding:12px 16px;font-size:14px">민원, 문서 분류</td><td style="padding:12px 16px;font-size:14px">2027~28</td><td style="padding:12px 16px"><span style="background:#e0f2fe;color:#0369a1;padding:2px 8px;border-radius:4px;font-size:12px;font-weight:700">관찰</span></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:group {"style":{"color":{"background":"#eff6ff"},"border":{"radius":"12px","left":{"color":"#3b82f6","width":"5px"}},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"24px","right":"24px"},"margin":{"top":"24px","bottom":"24px"}}}} -->
+<div class="wp-block-group has-background" style="background-color:#eff6ff;border-radius:12px;border-left:5px solid #3b82f6;padding:20px 24px;margin-top:24px;margin-bottom:24px">
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"15px","lineHeight":"1.8","fontStyle":"italic"},"color":{"text":"#1e40af"}}} -->
+<p class="has-text-color" style="color:#1e40af;font-size:15px;line-height:1.8;font-style:italic"><strong>🔍 AI Biz Insider 분석:</strong> 한국이 AI 에이전트 생태계의 글로벌 주도권 경쟁에 본격 참여하겠다는 신호탄이다. 법률(기본법), 전략(행동계획), 실행(얼라이언스)의 3단 체계가 갖춰진 만큼, 이제 속도와 실행력이 관건이다.</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"style":{"color":{"background":"#e2e8f0"}},"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-wide" style="background-color:#e2e8f0;color:#e2e8f0"/>
+<!-- /wp:separator -->
+
+<!-- wp:group {"style":{"color":{"background":"#0f172a"},"border":{"radius":"12px"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"28px","right":"28px"},"margin":{"top":"32px"}}}} -->
+<div class="wp-block-group has-background" style="background-color:#0f172a;border-radius:12px;padding:20px 28px;margin-top:32px">
+<!-- wp:paragraph {"align":"center","style":{"color":{"text":"#64748b"},"typography":{"fontSize":"13px"}}} -->
+<p class="has-text-align-center has-text-color" style="color:#64748b;font-size:13px">AI Biz Insider · 정부 AI 정책 분석 시리즈 · 2026.04.11</p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
